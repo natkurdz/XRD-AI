@@ -1,0 +1,24 @@
+#VESTA_FORMAT_VERSION 3.1.9
+ 
+ 
+CRYSTAL
+TITLE
+  
+ 
+IMPORT_STRUCTURE
+nacl+kcl_9min_800rpm.cif
+ 
+IMPORT_DENSITY 1
++1.000000E+000 nacl+kcl_9min_800rpm.pgrid
+ 
+BOUND
+    -0.1      1.1      -0.1      1.1      -0.1     1.1 
+  0   0   0   0  0
+SBOND
+  0 0 0 0
+ 
+STYLE
+MODEL   2  1  0
+SURFS   0  1  1
+SECTS  96  0
+POLYS  0

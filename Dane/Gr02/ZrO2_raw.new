@@ -1,0 +1,74 @@
+ZrO2 monoclinic
+! Current global Chi2 (Bragg contrib.) =      3.300    
+NPATT      1       1 <- Flags for patterns (1:refined, 0: excluded)
+W_PAT   1.000
+!Nph Dum Ias Nre Cry Opt Aut
+   1   0   0   0   0   0   1
+!Job Npr Nba Nex Nsc Nor Iwg Ilo Res Ste Uni Cor Anm Int
+   0   7   0   1   0   1   0   0   0   0   0   0   0   0  !-> Patt#: 1
+!
+!File names of data(patterns) files
+zro2_raw.xrdml
+!
+!Mat Pcr NLI Rpa Sym Sho
+   1   2   0   0   1   0
+!Ipr Ppl Ioc Ls1 Ls2 Ls3 Prf Ins Hkl Fou Ana
+   0   2   0   0   4   0   3  13   2   0   0  !-> Patt#: 1
+!
+! Lambda1  Lambda2    Ratio    Bkpos    Wdt    Cthm     muR   AsyLim   Rpolarz  2nd-muR -> Patt# 1
+ 1.540600 1.544390  0.50000   90.000 25.0000  0.9000  0.0000   90.00    0.0000  0.0000
+!
+!NCY  Eps  R_at  R_an  R_pr  R_gl
+ 20  0.30  0.90  0.90  0.90  0.90
+!     Thmin       Step       Thmax    PSD    Sent0  -> Patt#: 1
+    10.0299   0.033423    79.9833   0.000   0.000
+!
+! Excluded regions (LowT  HighT) for Pattern#  1
+        0.00       15.00
+! 
+!
+      14    !Number of refined parameters
+!
+!  Zero    Code    SyCos    Code   SySin    Code  Lambda     Code MORE ->Patt# 1
+  0.00000    0.0  0.09431   20.2  0.00000    0.0 0.000000    0.00   0
+!   Background coefficients/codes  for Pattern#  1  (Polynomial of 6th degree)
+     269.985    -121.426    -242.576    -157.862       0.457       0.000
+       41.00       70.50       80.20       90.20      100.20        0.00
+!-------------------------------------------------------------------------------
+!  Data for PHASE number:   1  ==> Current R_Bragg for Pattern#  1:   8.8283
+!-------------------------------------------------------------------------------
+ZrO2 mono
+!
+!Nat Dis Ang Jbt Isy Str Furth        ATZ     Nvk More
+   3   0   0   0   0   0   0        492.8752   0   0
+!Contributions (0/1) of this phase to the  1 patterns
+ 1
+!Irf Npr Jtyp  Nsp_Ref Ph_Shift for Pattern#  1
+   0   7    0      0      0
+! Pr1    Pr2    Pr3   Brind.   Rmua   Rmub   Rmuc     for Pattern#  1
+  1.000  0.000  0.000  1.000  0.000  0.000  0.000
+!
+!
+P 1 21/c 1               <--Space group symbol
+!Atom   Typ       X        Y        Z     Biso       Occ     In Fin N_t Spc /Codes
+Zr     Zr      0.27530  0.03650  0.21010  0.25402   1.00000   0   0   0    0  
+                  0.00     0.00     0.00   100.00      0.00
+O1     O       0.08270  0.35850  0.31760  0.25402   1.00000   0   0   0    0  
+                  0.00     0.00     0.00   100.00      0.00
+O2     O       0.44360  0.75950  0.49030  0.37140   1.00000   0   0   0    0  
+                  0.00     0.00     0.00   120.00      0.00
+!-------> Profile Parameters for Pattern #   1  ----> Phase #   1
+!  Scale          Shape1      Bov      Str1      Str2      Str3   Strain-Model
+ 0.1890903E-02   0.00000   0.00000   0.00000   0.00000   0.00000       0
+      11.00000     0.000     0.000     0.000     0.000     0.000
+!       U            V            W             X            Y         GauSiz      LorSiz    Size-Model
+     0.004391    -0.000389     0.009813     0.153998     0.092994     0.000040     0.000000       0
+         0.00         0.00         0.00       131.00       141.00         0.00         0.00
+!     a          b         c        alpha      beta       gamma      #Cell Info
+   5.147152   5.202559   5.320061  90.000000  99.190521  90.000000   
+   31.00000  111.00000   61.00000    0.00000   50.05000    0.00000
+!  Pref1    Pref2      Asy1     Asy2     Asy3     Asy4      S_L      D_L
+  1.00000  0.50000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00
+!  2Th1/TOF1    2Th2/TOF2  Pattern to plot
+      15.000      79.983       1

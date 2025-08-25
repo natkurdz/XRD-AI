@@ -1,0 +1,47 @@
+ FILE with lines for soft distance and angle constraints (restraints).
+ It is intended to help editing PCR files with restraints by pasting, 
+ after correcting the values as wished, to the appropriate lines.  
+ Lines with repeated identical distances have been excluded because symmetry 
+ already force a hard constraint.
+ Accidental coincidences have also been excluded, check that in list of distances! 
+
+ Warning! 
+ Symmetry constrained angles have not been eliminated,
+ this has to be performed by hand!
+
+
+=> Total number of independent distances:    11
+   List of possible restraints: 
+
+ At1   At2  ITnum     T1        T2        T3          DIST   SIGMA
+  Fe1   Fe1     4   0.00000   1.25000   1.25000      2.9685 0.0000
+  Fe1   Fe2     1   0.50000   0.50000   0.00000      3.4809 0.0000
+  Fe1   O       1   0.00000   0.00000   0.00000      3.5673 0.0050
+  Fe1   O       1   0.50000   0.50000   0.00000      3.6591 0.0050
+  Fe1   O       2   0.75000   0.75000   0.00000      2.0604 0.0050
+  Fe2   Fe2    -1   0.00000   0.00000   0.00000      3.6357 0.0000
+  Fe2   O       1   0.00000   0.00000   0.00000      1.8862 0.0050
+  Fe2   O      -4   0.00000  -0.25000  -0.25000      3.4935 0.0050
+  O     O       4   0.00000   0.25000   0.25000      3.0802 0.0071
+  O     O       2   0.75000   0.75000   0.00000      2.8569 0.0071
+  O     O      -4   0.50000   0.25000  -0.25000      2.9696 0.0071
+
+   ========================================= 
+   List of possible restraints in CFL format 
+   ========================================= 
+
+
+=> Total number of independent distance restraints:    11
+DFIX   2.96854  0.00000  Fe1  Fe1_2.566
+DFIX   3.48092  0.00000  Fe1  Fe2_49
+DFIX   3.56735  0.00504  Fe1  O
+DFIX   3.65905  0.00504  Fe1  O_49
+DFIX   2.06037  0.00504  Fe1  O_52
+DFIX   3.63570  0.00000  Fe2  Fe2_25
+DFIX   1.88620  0.00504  Fe2  O
+DFIX   3.49346  0.00504  Fe2  O_26.544
+DFIX   3.08015  0.00712  O  O_2
+DFIX   2.85692  0.00712  O  O_52
+DFIX   2.96959  0.00712  O  O_74.554
+
+=> Total number of possible angle restraints:     0

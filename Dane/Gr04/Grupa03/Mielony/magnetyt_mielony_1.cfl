@@ -1,0 +1,17 @@
+!
+Title  CFL-file generated from FullProf for phase: Fe3O4
+!
+Cell    8.3992(5)  8.3992(5)  8.3992(5)  90.0000  90.0000  90.0000
+!
+SpGR  F d -3 m:1
+!
+!  Atom-strings in the order: Label, Species, x, y, z, Biso, Occ [,2*Spin, charge]
+Atom Fe1  FE     0.50000       0.50000       0.50000       1.35(6)       0.04167
+Atom Fe2  FE     0.12500       0.12500       0.12500       1.35(6)       0.08333
+Atom O    O      0.3727(7)     0.3727(7)     0.3727(7)     0.36(13)      0.16667
+!
+!   Bond_STR instructions 
+DISTANCE 
+RESTRAINTS 
+DMAX   4.0000  0.0000
+TOL    0.0000

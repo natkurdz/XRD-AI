@@ -1,0 +1,31 @@
+  ! Template file to be used with the program FOURIER
+  ! Title of the job
+Titl  LaB6
+
+  ! Cell parameters
+Cell      5.6412    5.6412    5.6412   90.0000   90.0000   90.0000
+
+
+  ! Space group symbol
+Spgr 225                 
+
+  ! Type of Fourier synthesis 
+Fourier Patt FOSQ
+
+  ! Name of the Fourier-reflection file
+File  fou nacl+kcl_raw.fou
+
+  ! Format of the Fourier-reflection file
+Form    h k l fo fc phase
+
+  ! List distances
+List   dist  0.6  2.6
+
+  ! Standard output binary file
+File   bin
+
+  ! Peak search 
+Scan   5
+
+  ! End of file
+End 

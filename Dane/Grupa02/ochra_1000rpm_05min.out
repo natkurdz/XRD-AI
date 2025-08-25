@@ -1,0 +1,2950 @@
+
+
+        **********************************************************
+        ** PROGRAM FullProf.2k (Version 7.20 - Oct2019-ILL JRC) **
+        **********************************************************
+                       M U L T I -- P A T T E R N                 
+            Rietveld, Profile Matching & Integrated Intensity     
+                 Refinement of X-ray and/or Neutron Data
+
+
+    Date: 19/10/2021  Time: 16:17:53.740                              
+
+ => PCR file code: ochra_1000rpm_05min
+ => DAT file code: ochra_1000rpm_05min. -> Relative contribution: 1.0000                                                            
+
+ ==> CONDITIONS OF THIS RUN FOR PATTERN No.:  1
+
+ => Global Refinement of X-ray powder diffraction data                                                                              
+ => Global Refinement of X-ray powder diffraction data                                                                              
+    Bragg-Brentano(X-rays) or Debye-Scherrer geometry(Neutrons)
+ => Title:Ochra
+
+ => Number of phases:    3
+ => Number of excluded regions:    1
+ => Number of scattering factors supplied:    0
+ => March-Dollase model for preferred orientation
+ => Conventional weights: w=1.0/Variance(yobs)
+ => Asymmetry correction as in J.Appl.Cryst. 26,128(1993)
+ => Background refined by polynomial function
+ => The    7th default profile function was selected
+ => T-C-H Pseudo-Voigt function 
+    This function is convoluted with asymmetry due to axial 
+    divergence as formulated by: 
+    van Laar and Yelon, J. Appl. Cryst. 17, 47(1984).
+    and using the method of:
+    Finger, Cox and Jephcoat, J. Appl. Cryst. 27, 892 (1994).
+    Fortran 90 module adapted from function PROFVAL (in F77) : 
+    L.W. Finger, J. Appl. Cryst. 31, 111 (1998).
+
+
+ ==> INPUT/OUTPUT OPTIONS:
+
+ => Generate bacground file *.bac
+ => Generate file *.PRF for plot
+ => Output Correlation Matrix
+ => Generate new input file *.PCR
+ => Plot pattern at each cycle
+ => Wavelengths:  1.54060 1.54439
+ => Alpha2/Alpha1 ratio:   0.5000
+ => Cos(Monochromator angle)=   0.9000
+ => Asymmetry correction for angles lower than   90.000 degrees
+ => Absorption correction (AC), muR-eff =   0.0000  0.0000
+ => Base of peaks: 2.0*HW*   25.00
+
+ => Number of cycles:   10
+ => Relaxation factors ==>    for coordinates:  0.90
+ => for anisotropic temperature factors:  0.90
+ => for halfwidth/strain/size parameters:  0.90
+ => for lattice constants and propagation vectors:  0.90
+ => EPS-value for convergence:    0.3
+
+ => Excluded regions for Pattern#  1
+    From     to
+      0.0000     10.0000
+
+ => Number of Least-Squares parameters varied:    41
+
+ =>--------------------------->
+ =>------->  PATTERN number:  1
+ =>--------------------------->
+ => Global parameters and codes ==>
+ => Zero-point:     0.0000    0.0000
+ => Background parameters and codes ==>
+ => Origin of polynomial at 2theta/TOF/E(KeV):   90.000  
+  10.435     -36.085     -116.28     -207.94      0.0000      0.0000    
+       31.00       41.00       51.00      371.00        0.00        0.00
+ => Displacement peak-shift parameter and code:     0.06   21.00
+ => Transparency peak-shift parameter and code:     0.00    0.00
+
+ => Reading Intensity data  =>>
+
+      Data from PANalytical formats
+      Extension:  .xrdml
+ ==> Angular range, step and number of points:
+     2Thmin:      10.016711  2Thmax:      99.990181  Step:       0.033423  No. of points:   2693
+ --------------------------------------------------------------------------------
+ => Phase  No. 1
+      SiO2 hexagonal (No 152)                                               
+ --------------------------------------------------------------------------------
+ =>-------> Pattern#  1
+ => Crystal Structure Refinement
+ => Preferred orientation vector:   1.0000  0.0000  1.0000
+
+ =>-------> Data for PHASE: 1
+ => Number of atoms:    2
+ => Number of distance  constraints:    0
+ => Number of angle     constraints:    0
+
+ => Symmetry information on space group: P 31 2 1            
+ -> The multiplicity of the general position is:   6
+ -> The space group is Acentric                 
+ -> Lattice type  P: { 000 }                                       
+ -> Reduced set of symmetry operators:
+
+  No.  IT   Symmetry symbol    Rotation part     Associated Translation
+   1: ( 1)   1            --> ( x  ,   y, z) + {  0.0000  0.0000  0.0000}
+   2: ( 2)  3+ ( 0, 0, z) --> (  -y, x-y, z) + {  0.0000  0.0000  0.3333}
+   3: ( 3)  3- ( 0, 0, z) --> (-x+y,-x  , z) + {  0.0000  0.0000  0.6667}
+   4: ( 7)   2 ( x, x, 0) --> (   y, x  ,-z) + {  0.0000  0.0000  0.0000}
+   5: ( 8)   2 ( x, 0, 0) --> ( x-y,  -y,-z) + {  0.0000  0.0000  0.6667}
+   6: ( 9)   2 ( 0, y, 0) --> (-x  ,-x+y,-z) + {  0.0000  0.0000  0.3333}
+
+
+        Information on Space Group: 
+        --------------------------- 
+
+ =>   Number of Space group: 152
+ =>  Hermann-Mauguin Symbol: P 31 2 1
+ =>             Hall Symbol: P 31 2"
+ =>            Setting Type: IT (Generated from Hermann-Mauguin symbol)
+ =>          Crystal System: Trigonal
+ =>              Laue Class: -3m1
+ =>             Point Group: 32
+ =>         Bravais Lattice: P
+ =>          Lattice Symbol: hP
+ =>  Reduced Number of S.O.:   6
+ =>    General multiplicity:   6
+ =>          Centrosymmetry: Acentric
+ =>  Generators (exc. -1&L):   2
+ =>         Asymmetric unit:  0.000 <= x <=  1.000
+                              0.000 <= y <=  1.000
+                              0.000 <= z <=  0.167
+
+ => List of S.O. without inversion and lattice centring translations
+ => SYMM(  1): x,y,z                               => SYMM(  2): -y,x-y,z+1/3
+ => SYMM(  3): -x+y,-x,z+2/3                       => SYMM(  4): y,x,-z
+ => SYMM(  5): x-y,-y,-z+2/3                       => SYMM(  6): -x,-x+y,-z+1/3
+
+
+ => Initial parameters ==>
+ Atom    Ntyp                  X         Y         Z         B         occ.         in  fin  Spc  Mult
+                             B11       B22       B33       B12       B13       B23
+ Si     SI                 0.47530   0.00000   0.33333   0.16667   0.50000           0    0    0    3
+                 Codes:  381.00000   0.00000   0.00000   0.00000   0.00000
+ O      O                  0.42197   0.27252   0.21308   0.20000   1.00000           0    0    0    6
+                 Codes:  391.00000 401.00000 411.00000   0.00000   0.00000
+
+ => IT IS ASSUMED THAT THE FIRST GIVEN SITE IS FULLY OCCUPIED 
+    OR THE FIRST AND SECOND ATOMS ARE IN THE SAME SITE WITH TOTAL FULL OCCUPATION
+  (If this is not the case, change the order of atoms to obtain correct values for the content of the unit cell)
+    The given occupation factors have been obtained mutiplying m/M by   1.0000
+      -> Atom: SI  ,  Chemical element: SI  Atomic Mass:    28.0860
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+ => The given value of ATZ is        180.25 the program has calculated:         180.25
+    The value of ATZ given in the input PCR file will be used for quantitative analysis
+ => The chemical content of the unit cell is: 
+       3.0000 SI   +   6.0000 O      
+ => The normalized site occupation numbers in % are: 
+     100.0000 Si     :      100.0000 O        
+ => The density (volumic mass) of the compound is:    2.646 g/cm3
+
+ =>-------> PROFILE PARAMETERS FOR PATTERN:  1
+
+ => Overall scale factor:   0.113050E-02
+ => ETA (p-Voigt) OR M (Pearson VII):   0.0000
+ => Overall temperature factor:      0.00000
+ => Halfwidth U,V,W:      0.00439    -0.00039     0.00981
+ => X and Y parameters:       0.0786      0.0527
+ => Direct cell parameters:    4.9157   4.9157   5.4056  90.0000  90.0000 120.0000
+ => Preferred orientation parameters:   1.0000  0.0000
+ => Asymmetry parameters     :      0.00000     0.00000     0.00000     0.00000
+ => Strain parameters        :      0.00000     0.00000     0.00000
+ => Size   parameters        :      0.00000     0.00000
+ => Further shape parameters (S_L and D_L):   0.00000   0.00000
+    S_L is source width/detector distance
+    D_L is detector width/detector distance
+
+ ==> CODEWORDS FOR PROFILE PARAMETERS of PATTERN#  1
+
+ => Overall scale factor:   11.000
+ => ETA (p-Voigt) OR M (Pearson VII):    0.000
+ => Overall temperature factor:    0.000
+ => Halfwidth U,V,W:    0.000   0.000   0.000
+ => X and Y parameters:  351.000 361.000
+ => Direct cell parameters:   61.000  61.000  71.000   0.000   0.000  61.000
+ => Preferred orientation parameters:    0.000   0.000
+ => Asymmetry parameters     :    0.000   0.000   0.000   0.000
+ => Strain parameters        :    0.000   0.000   0.000
+ => Size   parameters        :    0.000   0.000
+
+ => Cell constraints according to Laue symmetry: -3m1 
+
+        Metric information:
+        -------------------
+
+ => Direct cell parameters:
+
+         a =       4.9157      b =       4.9157      c =       5.4056
+     alpha =       90.000   beta =       90.000  gamma =      120.000
+                        Direct Cell Volume =     113.1209
+
+ => Reciprocal cell parameters:
+
+         a*=     0.234902      b*=     0.234902      c*=     0.184992
+     alpha*=       90.000   beta*=       90.000  gamma*=       60.000
+                    Reciprocal Cell Volume =   0.00884010
+
+ => Direct and Reciprocal Metric Tensors:
+
+                   GD                                       GR
+     24.1638    -12.0819      0.0000          0.055179    0.027590    0.000000
+    -12.0819     24.1638      0.0000          0.027590    0.055179    0.000000
+      0.0000      0.0000     29.2210          0.000000    0.000000    0.034222
+
+ =>  Cartesian frame: z // c; y is in the bc-plane; x is y ^ z = a*  
+
+     Crystal_to_Orthonormal_Matrix              Orthonormal_to_Crystal Matrix
+              Cr_Orth_cel                               Orth_Cr_cel  
+      4.9157     -2.4578      0.0000          0.203431    0.117451   -0.000000
+      0.0000      4.2571      0.0000          0.000000    0.234902   -0.000000
+      0.0000      0.0000      5.4056          0.000000    0.000000    0.184992
+
+     Busing-Levy B-matrix: Hc=B.H            Inverse of the Busing-Levy B-matrix
+                BL_M                                      BL_Minv  
+    0.234902    0.117451    0.000000            4.2571     -2.4578     -0.0000
+    0.000000    0.203431   -0.000000            0.0000      4.9157      0.0000
+    0.000000    0.000000    0.184992            0.0000      0.0000      5.4056
+
+ => Laue symmetry -3m1  will be used to generate HKL for pattern#   1
+ => Reflections generated between S(1/d)min:  0.1131 A-1 and S(1/d)max:  1.0773 A-1
+ =>                                    dmax:  8.8452 A   and      dmin:  0.9283 A
+ => The number of reflections generated is:     67
+ => The max. scatt. variable (gen.ref.) is:       112.1607
+ => Scattering coefficients from internal table
+
+
+ => X-ray scattering coeff. (A1, B1, A2,...C, f(0), Z, Dfp,Dfpp)
+
+ SI      6.2915   2.4386   3.0353  32.3337   1.9891   0.6785   1.5410  81.6937   1.1407  13.9976  14.0000   0.2440   0.3300
+ O       3.0485  13.2771   2.2868   5.7011   1.5463   0.3239   0.8670  32.9089   0.2508   7.9994   8.0000   0.0470   0.0320
+ --------------------------------------------------------------------------------
+ => Phase  No. 2
+      Al2Si2O5(OH)4 monoclinic (No 9)                                       
+ --------------------------------------------------------------------------------
+ =>-------> Pattern#  1
+ => Crystal Structure Refinement
+ => Preferred orientation vector:   1.0000  0.0000  1.0000
+
+ =>-------> Data for PHASE: 2
+ => Number of atoms:   13
+ => Number of distance  constraints:    0
+ => Number of angle     constraints:    0
+
+ => Symmetry information on space group: C 1 c 1             
+ -> The multiplicity of the general position is:   4
+ -> The space group is Acentric                 
+ -> Lattice type  C: { 000; 1/2 1/2  0  }+                         
+ -> Reduced set of symmetry operators:
+
+  No.  IT   Symmetry symbol    Rotation part     Associated Translation
+   1: ( 1)   1            -->     ( x, y, z) + {  0.0000  0.0000  0.0000}
+   2: (27)   m ( x, 0, z) -->     ( x,-y, z) + {  0.0000  0.0000  0.5000}
+
+
+        Information on Space Group: 
+        --------------------------- 
+
+ =>   Number of Space group:   9
+ =>  Hermann-Mauguin Symbol: C 1 c 1
+ =>             Hall Symbol: C -2yc
+ =>    Table Setting Choice: b1
+ =>            Setting Type: IT (Generated from Hermann-Mauguin symbol)
+ =>          Crystal System: Monoclinic
+ =>              Laue Class: 2/m
+ =>             Point Group: m
+ =>         Bravais Lattice: C
+ =>          Lattice Symbol: mC
+ =>  Reduced Number of S.O.:   2
+ =>    General multiplicity:   4
+ =>          Centrosymmetry: Acentric
+ =>  Generators (exc. -1&L):   1
+ =>         Asymmetric unit:  0.000 <= x <=  1.000
+                              0.000 <= y <=  0.250
+                              0.000 <= z <=  1.000
+
+ => List of S.O. without inversion and lattice centring translations
+ => SYMM(  1): x,y,z                               => SYMM(  2): x,-y,z+1/2
+
+
+ => Initial parameters ==>
+ Atom    Ntyp                  X         Y         Z         B         occ.         in  fin  Spc  Mult
+                             B11       B22       B33       B12       B13       B23
+ Al1    AL                 0.25000  -0.11351   0.00000   0.16667   1.00000           0    0    0    4
+                 Codes:    0.00000-121.00000   0.00000   0.00000   0.00000
+ Al2    AL                 0.25000   0.11351   0.00000   0.16667   1.00000           0    0    0    4
+                 Codes:    0.00000 121.00000   0.00000   0.00000   0.00000
+ Si1    SI                -0.05706   0.50000   0.21632   0.16667   1.00000           0    0    0    4
+                 Codes:  201.00000   0.00000 131.00000   0.00000   0.00000
+ Si2    SI                -0.05706   0.06045   0.21632   0.16667   1.00000           0    0    0    4
+                 Codes:  201.00000 141.00000 131.00000   0.00000   0.00000
+ O1     O                 -0.07754   0.50000   0.05932   0.20000   1.00000           0    0    0    4
+                 Codes:  211.00000   0.00000 221.00000   0.00000   0.00000
+ O2     O                 -0.07754   0.13640   0.05932   0.20000   1.00000           0    0    0    4
+                 Codes:  211.00000 231.00000 221.00000   0.00000   0.00000
+ O3     O                 -0.07754  -0.13640   0.05932   0.20000   1.00000           0    0    0    4
+                 Codes:  211.00000-231.00000 221.00000   0.00000   0.00000
+ O4     O                  0.00240   0.26947   0.23910   0.20000   1.00000           0    0    0    4
+                 Codes:  231.00000 241.00000 251.00000   0.00000   0.00000
+ O5     O                  0.61954  -0.38419   0.24191   0.20000   1.00000           0    0    0    4
+                 Codes:  261.00000 271.00000 281.00000   0.00000   0.00000
+ O6     O                  0.61954   0.20924   0.19716   0.20000   1.00000           0    0    0    4
+                 Codes:  261.00000 291.00000 301.00000   0.00000   0.00000
+ O7     O                 -0.07880   0.00000   0.50509   0.20000   1.00000           0    0    0    4
+                 Codes:  311.00000   0.00000 321.00000   0.00000   0.00000
+ O8     O                 -0.34014   0.01353   0.50509   0.20000   1.00000           0    0    0    4
+                 Codes:  341.00000 331.00000 321.00000   0.00000   0.00000
+ O9     O                 -0.07880   0.26947   0.50509   0.20000   1.00000           0    0    0    4
+                 Codes:  311.00000 241.00000 321.00000   0.00000   0.00000
+
+ => IT IS ASSUMED THAT THE FIRST GIVEN SITE IS FULLY OCCUPIED 
+    OR THE FIRST AND SECOND ATOMS ARE IN THE SAME SITE WITH TOTAL FULL OCCUPATION
+  (If this is not the case, change the order of atoms to obtain correct values for the content of the unit cell)
+    The given occupation factors have been obtained mutiplying m/M by   1.0000
+      -> Atom: AL  ,  Chemical element: AL  Atomic Mass:    26.9815
+      -> Atom: AL  ,  Chemical element: AL  Atomic Mass:    26.9815
+      -> Atom: SI  ,  Chemical element: SI  Atomic Mass:    28.0860
+      -> Atom: SI  ,  Chemical element: SI  Atomic Mass:    28.0860
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+ => The given value of ATZ is       1016.52 the program has calculated:        1016.52
+    The value of ATZ given in the input PCR file will be used for quantitative analysis
+ => The chemical content of the unit cell is: 
+       4.0000 AL   +   4.0000 AL   +   4.0000 SI   +   4.0000 SI   +   4.0000 O    +   4.0000 O    +   4.0000 O    +   4.0000 O    +   4.0000 O    +   4.0000 O    + 
+       4.0000 O    +   4.0000 O    +   4.0000 O      
+ => The normalized site occupation numbers in % are: 
+     100.0000 Al1    :      100.0000 Al2    :      100.0000 Si1    :      100.0000 Si2    :      100.0000 O1     :      100.0000 O2     :      100.0000 O3     :      100.0000 O4     :      100.0000 O5     :      100.0000 O6     : 
+     100.0000 O7     :      100.0000 O8     :      100.0000 O9       
+ => The density (volumic mass) of the compound is:    2.598 g/cm3
+
+ =>-------> PROFILE PARAMETERS FOR PATTERN:  1
+
+ => Overall scale factor:   0.211270E-04
+ => ETA (p-Voigt) OR M (Pearson VII):   0.0000
+ => Overall temperature factor:      0.00000
+ => Halfwidth U,V,W:      0.00439    -0.00039     0.00981
+ => X and Y parameters:       0.0786      0.0527
+ => Direct cell parameters:    5.0844   8.9299  14.5360  90.0000 100.0811  90.0000
+ => Preferred orientation parameters:   1.0000  0.0000
+ => Asymmetry parameters     :      0.00000     0.00000     0.00000     0.00000
+ => Strain parameters        :      0.00000     0.00000     0.00000
+ => Size   parameters        :      0.00000     0.00000
+ => Further shape parameters (S_L and D_L):   0.00000   0.00000
+    S_L is source width/detector distance
+    D_L is detector width/detector distance
+
+ ==> CODEWORDS FOR PROFILE PARAMETERS of PATTERN#  1
+
+ => Overall scale factor:   81.000
+ => ETA (p-Voigt) OR M (Pearson VII):    0.000
+ => Overall temperature factor:    0.000
+ => Halfwidth U,V,W:    0.000   0.000   0.000
+ => X and Y parameters:  351.000 361.000
+ => Direct cell parameters:   91.000 101.000 111.000   0.000   0.000   0.000
+ => Preferred orientation parameters:    0.000   0.000
+ => Asymmetry parameters     :    0.000   0.000   0.000   0.000
+ => Strain parameters        :    0.000   0.000   0.000
+ => Size   parameters        :    0.000   0.000
+
+ => Cell constraints according to Laue symmetry: 2/m  
+
+        Metric information:
+        -------------------
+
+ => Direct cell parameters:
+
+         a =       5.0844      b =       8.9299      c =      14.5360
+     alpha =       90.000   beta =      100.081  gamma =       90.000
+                        Direct Cell Volume =     649.7960
+
+ => Reciprocal cell parameters:
+
+         a*=     0.199762      b*=     0.111984      c*=     0.069873
+     alpha*=       90.000   beta*=       79.919  gamma*=       90.000
+                    Reciprocal Cell Volume =   0.00153894
+
+ => Direct and Reciprocal Metric Tensors:
+
+                   GD                                       GR
+     25.8516      0.0000    -12.9369          0.039905    0.000000    0.002443
+      0.0000     79.7423      0.0000          0.000000    0.012540    0.000000
+    -12.9369      0.0000    211.2965          0.002443    0.000000    0.004882
+
+ =>  Cartesian frame: z // c; y is in the bc-plane; x is y ^ z = a*  
+
+     Crystal_to_Orthonormal_Matrix              Orthonormal_to_Crystal Matrix
+              Cr_Orth_cel                               Orth_Cr_cel  
+      5.0844      0.0000     -2.5444          0.196678   -0.000000    0.034967
+      0.0000      8.9299      0.0000          0.000000    0.111984   -0.000000
+      0.0000      0.0000     14.3116          0.000000    0.000000    0.069873
+
+     Busing-Levy B-matrix: Hc=B.H            Inverse of the Busing-Levy B-matrix
+                BL_M                                      BL_Minv  
+    0.199762    0.000000    0.012231            5.0060     -0.0000     -0.8900
+    0.000000    0.111984   -0.000000            0.0000      8.9299      0.0000
+    0.000000    0.000000    0.068795            0.0000      0.0000     14.5360
+
+ => Laue symmetry 2/m   will be used to generate HKL for pattern#   1
+ => Reflections generated between S(1/d)min:  0.1131 A-1 and S(1/d)max:  1.0773 A-1
+ =>                                    dmax:  8.8452 A   and      dmin:  0.9283 A
+ => The number of reflections generated is:    434
+ => The max. scatt. variable (gen.ref.) is:       112.1607
+ => Scattering coefficients from internal table
+
+
+ => X-ray scattering coeff. (A1, B1, A2,...C, f(0), Z, Dfp,Dfpp)
+
+ AL      6.4202   3.0387   1.9002   0.7426   1.5936  31.5472   1.9646  85.0886   1.1151  12.9937  13.0000   0.2040   0.2460
+ --------------------------------------------------------------------------------
+ => Phase  No. 3
+      Fe2O3 hexagonal                                                       
+ --------------------------------------------------------------------------------
+ =>-------> Pattern#  1
+ => Crystal Structure Refinement
+ => Preferred orientation vector:   0.0000  0.0000  1.0000
+
+ =>-------> Data for PHASE: 3
+ => Number of atoms:    3
+ => Number of distance  constraints:    0
+ => Number of angle     constraints:    0
+
+ => Symmetry information on space group: R -3 C              
+ -> The multiplicity of the general position is:  36
+ -> The space group is Centric (-1 at origin)   
+ -> Lattice type  R: { 000; 2/3 1/3 1/3; 1/3 2/3 2/3   }+          
+ -> Reduced set of symmetry operators:
+
+  No.  IT   Symmetry symbol    Rotation part     Associated Translation
+   1: ( 1)   1            --> ( x  ,   y, z) + {  0.0000  0.0000  0.0000}
+   2: ( 2)  3+ ( 0, 0, z) --> (  -y, x-y, z) + {  0.0000  0.0000  0.0000}
+   3: ( 3)  3- ( 0, 0, z) --> (-x+y,-x  , z) + {  0.0000  0.0000  0.0000}
+   4: ( 7)   2 ( x, x, 0) --> (   y, x  ,-z) + {  0.0000  0.0000  0.5000}
+   5: ( 8)   2 ( x, 0, 0) --> ( x-y,  -y,-z) + {  0.0000  0.0000  0.5000}
+   6: ( 9)   2 ( 0, y, 0) --> (-x  ,-x+y,-z) + {  0.0000  0.0000  0.5000}
+
+
+        Information on Space Group: 
+        --------------------------- 
+
+ =>   Number of Space group: 167
+ =>  Hermann-Mauguin Symbol: R -3 c
+ =>             Hall Symbol: -R 3 2"c
+ =>            Setting Type: IT (Generated from Hermann-Mauguin symbol)
+ =>          Crystal System: Trigonal
+ =>              Laue Class: -3m1
+ =>             Point Group: -3m
+ =>         Bravais Lattice: R
+ =>          Lattice Symbol: hR
+ =>  Reduced Number of S.O.:   6
+ =>    General multiplicity:  36
+ =>          Centrosymmetry: Centric (-1 at origin)
+ =>  Generators (exc. -1&L):   2
+ =>         Asymmetric unit:  0.000 <= x <=  0.667
+                              0.000 <= y <=  0.667
+                              0.000 <= z <=  0.083
+
+ => List of S.O. without inversion and lattice centring translations
+ => SYMM(  1): x,y,z                               => SYMM(  2): -y,x-y,z
+ => SYMM(  3): -x+y,-x,z                           => SYMM(  4): -y,-x,z+1/2
+ => SYMM(  5): -x+y,y,z+1/2                        => SYMM(  6): x,x-y,z+1/2
+
+
+ => Initial parameters ==>
+ Atom    Ntyp                  X         Y         Z         B         occ.         in  fin  Spc  Mult
+                             B11       B22       B33       B12       B13       B23
+ Feh    FE                 0.00000   0.00000   0.35240   0.22305   0.16667           0    0    0   12
+                 Codes:    0.00000   0.00000 181.00000 130.00000   0.00000
+ Feh    FE                 0.00000   0.00000   0.35240   0.22305   0.16667           0    0    0   12
+                 Codes:    0.00000   0.00000 181.00000 130.00000   0.00000
+ Oh     O                 -1.70245   0.00000   0.25000   0.39757   0.50000           0    0    0   18
+                 Codes:  191.00000   0.00000   0.00000 140.00000   0.00000
+
+ => IT IS ASSUMED THAT THE FIRST GIVEN SITE IS FULLY OCCUPIED 
+    OR THE FIRST AND SECOND ATOMS ARE IN THE SAME SITE WITH TOTAL FULL OCCUPATION
+  (If this is not the case, change the order of atoms to obtain correct values for the content of the unit cell)
+    The phase contains sites partially occupied
+      -> Atom: FE  ,  Chemical element: FE  Atomic Mass:    55.8470
+      -> Atom: FE  ,  Chemical element: FE  Atomic Mass:    55.8470
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+ => The given value of ATZ is        958.19 the program has calculated:         958.19
+    The value of ATZ given in the input PCR file will be used for quantitative analysis
+ => The chemical content of the unit cell is: 
+       6.0000 FE   +   6.0000 FE   +  17.9996 O      
+ => The normalized site occupation numbers in % are: 
+      50.0000 Feh    :       50.0000 Feh    :       99.9980 Oh       
+ => The density (volumic mass) of the compound is:    5.353 g/cm3
+
+ =>-------> PROFILE PARAMETERS FOR PATTERN:  1
+
+ => Overall scale factor:   0.551140E-04
+ => ETA (p-Voigt) OR M (Pearson VII):   0.0000
+ => Overall temperature factor:      0.00000
+ => Halfwidth U,V,W:      0.00439    -0.00039     0.00981
+ => X and Y parameters:       0.0786      0.5797
+ => Direct cell parameters:    5.0066   5.0066  13.6927  90.0000  90.0000 120.0000
+ => Preferred orientation parameters:   1.0000  0.0000
+ => Asymmetry parameters     :      0.00000     0.00000     0.00000     0.00000
+ => Strain parameters        :      0.00000     0.00000     0.00000
+ => Size   parameters        :      0.00004     0.00000
+ => Further shape parameters (S_L and D_L):   0.00000   0.00000
+    S_L is source width/detector distance
+    D_L is detector width/detector distance
+
+ ==> CODEWORDS FOR PROFILE PARAMETERS of PATTERN#  1
+
+ => Overall scale factor:  151.000
+ => ETA (p-Voigt) OR M (Pearson VII):    0.000
+ => Overall temperature factor:    0.000
+ => Halfwidth U,V,W:    0.000   0.000   0.000
+ => X and Y parameters:  351.000 120.100
+ => Direct cell parameters:  171.000 171.000 161.000   0.000   0.000 171.000
+ => Preferred orientation parameters:    0.000   0.000
+ => Asymmetry parameters     :    0.000   0.000   0.000   0.000
+ => Strain parameters        :    0.000   0.000   0.000
+ => Size   parameters        :    0.000   0.000
+
+ => Cell constraints according to Laue symmetry: -3m1 
+
+        Metric information:
+        -------------------
+
+ => Direct cell parameters:
+
+         a =       5.0066      b =       5.0066      c =      13.6927
+     alpha =       90.000   beta =       90.000  gamma =      120.000
+                        Direct Cell Volume =     297.2353
+
+ => Reciprocal cell parameters:
+
+         a*=     0.230637      b*=     0.230637      c*=     0.073031
+     alpha*=       90.000   beta*=       90.000  gamma*=       60.000
+                    Reciprocal Cell Volume =   0.00336434
+
+ => Direct and Reciprocal Metric Tensors:
+
+                   GD                                       GR
+     25.0657    -12.5329      0.0000          0.053194    0.026597    0.000000
+    -12.5329     25.0657      0.0000          0.026597    0.053194    0.000000
+      0.0000      0.0000    187.4907          0.000000    0.000000    0.005334
+
+ =>  Cartesian frame: z // c; y is in the bc-plane; x is y ^ z = a*  
+
+     Crystal_to_Orthonormal_Matrix              Orthonormal_to_Crystal Matrix
+              Cr_Orth_cel                               Orth_Cr_cel  
+      5.0066     -2.5033      0.0000          0.199738    0.115319   -0.000000
+      0.0000      4.3358      0.0000          0.000000    0.230637   -0.000000
+      0.0000      0.0000     13.6927          0.000000    0.000000    0.073031
+
+     Busing-Levy B-matrix: Hc=B.H            Inverse of the Busing-Levy B-matrix
+                BL_M                                      BL_Minv  
+    0.230637    0.115319    0.000000            4.3358     -2.5033     -0.0000
+    0.000000    0.199738   -0.000000            0.0000      5.0066      0.0000
+    0.000000    0.000000    0.073031            0.0000      0.0000     13.6927
+
+ => Laue symmetry -3m1  will be used to generate HKL for pattern#   1
+ => Reflections generated between S(1/d)min:  0.1131 A-1 and S(1/d)max:  1.2594 A-1
+ =>                                    dmax:  8.8452 A   and      dmin:  0.7940 A
+ => The number of reflections generated is:     73
+ => The max. scatt. variable (gen.ref.) is:       151.9322
+ => Scattering coefficients from internal table
+
+
+ => X-ray scattering coeff. (A1, B1, A2,...C, f(0), Z, Dfp,Dfpp)
+
+ FE     11.7695   4.7611   7.3573   0.3072   3.5222  15.3535   2.3045  76.8805   1.0369  25.9904  26.0000  -1.1790   3.2040
+
+     --------------------------------------------------------------
+      SYMBOLIC NAMES AND INITIAL VALUES OF PARAMETERS TO BE VARIED:
+     --------------------------------------------------------------
+
+      ->  Parameter number    1   -> Symbolic Name:                                     Scale_ph1_pat1    0.11305000E-02
+      ->  Parameter number    2   -> Symbolic Name:                                         SyCos_pat1    0.62940001E-01
+      ->  Parameter number    3   -> Symbolic Name:                                         Bck_0_pat1     10.435000    
+      ->  Parameter number    4   -> Symbolic Name:                                         Bck_1_pat1    -36.084999    
+      ->  Parameter number    5   -> Symbolic Name:                                         Bck_2_pat1    -116.27600    
+      ->  Parameter number    6   -> Symbolic Name:                                    Cell_A_ph1_pat1     4.9156671    
+      ->  Parameter number    7   -> Symbolic Name:                                    Cell_C_ph1_pat1     5.4056420    
+      ->  Parameter number    8   -> Symbolic Name:                                     Scale_ph2_pat1    0.21127000E-04
+      ->  Parameter number    9   -> Symbolic Name:                                    Cell_A_ph2_pat1     5.0844488    
+      ->  Parameter number   10   -> Symbolic Name:                                    Cell_B_ph2_pat1     8.9298534    
+      ->  Parameter number   11   -> Symbolic Name:                                    Cell_C_ph2_pat1     14.536041    
+      ->  Parameter number   12   -> Symbolic Name:                                          Y_Al1_ph2    0.11351000    
+      ->  Parameter number   13   -> Symbolic Name:                                          Z_Si1_ph2    0.21631999    
+      ->  Parameter number   14   -> Symbolic Name:                                          Y_Si2_ph2    0.60449999E-01
+      ->  Parameter number   15   -> Symbolic Name:                                     Scale_ph3_pat1    0.55114000E-04
+      ->  Parameter number   16   -> Symbolic Name:                                    Cell_C_ph3_pat1     13.692724    
+      ->  Parameter number   17   -> Symbolic Name:                                    Cell_A_ph3_pat1     5.0065660    
+      ->  Parameter number   18   -> Symbolic Name:                                          Z_Feh_ph3    0.35240000    
+      ->  Parameter number   19   -> Symbolic Name:                                           X_Oh_ph3    -1.7024500    
+      ->  Parameter number   20   -> Symbolic Name:                                          X_Si1_ph2   -0.57060000E-01
+      ->  Parameter number   21   -> Symbolic Name:                                           X_O1_ph2   -0.77540003E-01
+      ->  Parameter number   22   -> Symbolic Name:                                           Z_O1_ph2    0.59319999E-01
+      ->  Parameter number   23   -> Symbolic Name:                                           Y_O2_ph2    0.13640000    
+      ->  Parameter number   24   -> Symbolic Name:                                           Y_O4_ph2    0.26947001    
+      ->  Parameter number   25   -> Symbolic Name:                                           Z_O4_ph2    0.23909999    
+      ->  Parameter number   26   -> Symbolic Name:                                           X_O5_ph2    0.61953998    
+      ->  Parameter number   27   -> Symbolic Name:                                           Y_O5_ph2   -0.38418999    
+      ->  Parameter number   28   -> Symbolic Name:                                           Z_O5_ph2    0.24191000    
+      ->  Parameter number   29   -> Symbolic Name:                                           Y_O6_ph2    0.20924000    
+      ->  Parameter number   30   -> Symbolic Name:                                           Z_O6_ph2    0.19716001    
+      ->  Parameter number   31   -> Symbolic Name:                                           X_O7_ph2   -0.78800000E-01
+      ->  Parameter number   32   -> Symbolic Name:                                           Z_O7_ph2    0.50509000    
+      ->  Parameter number   33   -> Symbolic Name:                                           Y_O8_ph2    0.13530000E-01
+      ->  Parameter number   34   -> Symbolic Name:                                           X_O8_ph2   -0.34014001    
+      ->  Parameter number   35   -> Symbolic Name:                                     X-tan_ph1_pat1    0.78597002E-01
+      ->  Parameter number   36   -> Symbolic Name:                                     Y-cos_ph1_pat1    0.52696999E-01
+      ->  Parameter number   37   -> Symbolic Name:                                         Bck_3_pat1    -207.94299    
+      ->  Parameter number   38   -> Symbolic Name:                                           X_Si_ph1    0.47530001    
+      ->  Parameter number   39   -> Symbolic Name:                                            X_O_ph1    0.42197001    
+      ->  Parameter number   40   -> Symbolic Name:                                            Y_O_ph1    0.27252001    
+      ->  Parameter number   41   -> Symbolic Name:                                            Z_O_ph1    0.21308000    
+  
+ 
+ => No optimization for routine tasks
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    1
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: SiO2 hexagonal (No 152)                                               
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Si       0.47586 0.00056 0.00439  0.00000 0.00000 0.00000  0.33333 0.00000 0.00000  0.16667 0.00000 0.00000  0.50000 0.00000 0.00000
+ O        0.42090-0.00107 0.00421  0.27054-0.00198 0.00477  0.21235-0.00073 0.00478  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000936776    -0.000193724     0.000036664
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        4.915866    0.000199    0.000424
+        4.915866    0.000199    0.000424
+        5.405525   -0.000117    0.000693
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.102617    0.024020    0.034706
+         0.111707    0.059010    0.009569
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  2 Name: Al2Si2O5(OH)4 monoclinic (No 9)                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Al1      0.25000 0.00000 0.00000 -0.11165 0.00186 0.00866  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Al2      0.25000 0.00000 0.00000  0.11165-0.00186 0.00866  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si1     -0.05848-0.00142 0.03101  0.50000 0.00000 0.00000  0.21667 0.00035 0.01151  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si2     -0.05848-0.00142 0.03101  0.06486 0.00441 0.01274  0.21667 0.00035 0.01151  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ O1      -0.07563 0.00191 0.03752  0.50000 0.00000 0.00000  0.05606-0.00326 0.01206  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O2      -0.07563 0.00191 0.03752  0.13709 0.00069 0.01645  0.05606-0.00326 0.01206  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O3      -0.07563 0.00191 0.03752 -0.13709-0.00069 0.01645  0.05606-0.00326 0.01206  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O4       0.00309 0.00069 0.01645  0.29070 0.02123 0.02384  0.23199-0.00711 0.02084  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O5       0.62920 0.00966 0.04740 -0.37450 0.00969 0.02788  0.24064-0.00127 0.01985  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O6       0.62920 0.00966 0.04740  0.21269 0.00345 0.02533  0.19320-0.00396 0.01998  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O7      -0.08405-0.00525 0.03676  0.00000 0.00000 0.00000  0.49939-0.00570 0.02014  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O8      -0.34988-0.00974 0.06197  0.03491 0.02138 0.03490  0.49939-0.00570 0.02014  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O9      -0.08405-0.00525 0.03676  0.29070 0.02123 0.02384  0.49939-0.00570 0.02014  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000017961    -0.000003166     0.000001286
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.084461    0.000012    0.001375
+        8.927042   -0.002811    0.002465
+       14.535847   -0.000195    0.002274
+       90.000000    0.000000    0.000000
+      100.080971   -0.000099    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.102617    0.024020    0.034706
+         0.111707    0.059010    0.009569
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  3 Name: Fe2O3 hexagonal                                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35337 0.00097 0.00116  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35337 0.00097 0.00116  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Oh      -1.70453-0.00208 0.01016  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.39757 0.00000 0.00000  0.50000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000048349    -0.000006765     0.000002653
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.008103    0.001537    0.001554
+        5.008103    0.001537    0.001554
+       13.695142    0.002418    0.006747
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.102617    0.024020    0.034706
+         0.579555   -0.000186    0.000866
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000040    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000    0.0000
+ => Background Polynomial Parameters ==>
+       10.061    -0.37364     0.70685    
+      -23.166      12.919      7.7688    
+      -75.664      40.612      29.842    
+      -177.70      30.243      27.927    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :   0.0498 -0.0131  0.0045
+ => Sin(2theta)-shift parameter :   0.0000  0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   36.3      62.8     Chi2:  19.7     DW-Stat.:  0.2968   Patt#:  1
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.306E+05     Dev*:   11.50    
+ => GoF-index:  4.4         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.4822E+05    0.1327E+06    0.1517E+06    0.1327E+06    0.5237E+05    0.4481E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   91.0      125.      28.0      19.75    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5299E+05    0.3378E+05
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   36.3      62.8     Chi2:  19.7     DW-Stat.:  0.2968   Patt#:
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.306E+05     Dev*:   11.50    
+ => GoF-index:  4.4         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.4822E+05    0.1327E+06    0.1517E+06    0.1327E+06    0.5237E+05    0.4481E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   91.0      125.      28.0      19.75    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5299E+05    0.3378E+05
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   19.7    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  44.2    
+ =>    RF-factor     :  31.7    
+ => Phase:  2
+ =>    Bragg R-factor:  36.6    
+ =>    RF-factor     :  26.4    
+ => Phase:  3
+ =>    Bragg R-factor:  23.5    
+ =>    RF-factor     :  15.0    
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    2
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: SiO2 hexagonal (No 152)                                               
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Si       0.47679 0.00093 0.00407  0.00000 0.00000 0.00000  0.33333 0.00000 0.00000  0.16667 0.00000 0.00000  0.50000 0.00000 0.00000
+ O        0.41875-0.00215 0.00385  0.26692-0.00362 0.00442  0.21101-0.00134 0.00441  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000889193    -0.000047583     0.000027072
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        4.916148    0.000282    0.000541
+        4.916148    0.000282    0.000541
+        5.404943   -0.000582    0.000904
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.157432    0.054815    0.042693
+         0.185100    0.073393    0.011487
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  2 Name: Al2Si2O5(OH)4 monoclinic (No 9)                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Al1      0.25000 0.00000 0.00000 -0.10983 0.00181 0.00782  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Al2      0.25000 0.00000 0.00000  0.10983-0.00181 0.00782  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si1     -0.04992 0.00856 0.02826  0.50000 0.00000 0.00000  0.22684 0.01016 0.01077  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si2     -0.04992 0.00856 0.02826  0.06351-0.00135 0.01165  0.22684 0.01016 0.01077  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ O1      -0.06100 0.01463 0.03408  0.50000 0.00000 0.00000  0.05478-0.00127 0.01155  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O2      -0.06100 0.01463 0.03408  0.13724 0.00015 0.01490  0.05478-0.00127 0.01155  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O3      -0.06100 0.01463 0.03408 -0.13724-0.00015 0.01490  0.05478-0.00127 0.01155  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O4       0.00324 0.00015 0.01490  0.29784 0.00714 0.02470  0.22264-0.00935 0.02074  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O5       0.64002 0.01082 0.04620 -0.35814 0.01636 0.02706  0.24404 0.00341 0.01924  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O6       0.64002 0.01082 0.04620  0.20695-0.00574 0.02280  0.19816 0.00496 0.01770  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O7      -0.08604-0.00199 0.03953  0.00000 0.00000 0.00000  0.50415 0.00476 0.01988  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O8      -0.34752 0.00236 0.06251  0.04547 0.01056 0.02700  0.50415 0.00476 0.01988  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O9      -0.08604-0.00199 0.03953  0.29784 0.00714 0.02470  0.50415 0.00476 0.01988  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000017506    -0.000000455     0.000000999
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.083523   -0.000938    0.001743
+        8.921882   -0.005160    0.003155
+       14.535828   -0.000019    0.002802
+       90.000000    0.000000    0.000000
+      100.079185   -0.001785    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.157432    0.054815    0.042693
+         0.185100    0.073393    0.011487
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  3 Name: Fe2O3 hexagonal                                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35362 0.00025 0.00084  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35362 0.00025 0.00084  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Oh      -1.69769 0.00684 0.00756  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.39757 0.00000 0.00000  0.50000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000044759    -0.000003590     0.000001830
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.008836    0.000732    0.001197
+        5.008836    0.000732    0.001197
+       13.695639    0.000497    0.005113
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.157432    0.054815    0.042693
+         0.579373   -0.000181    0.000782
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000040    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000    0.0000
+ => Background Polynomial Parameters ==>
+       9.4529    -0.60847     0.46119    
+      -21.597      1.5689      5.0309    
+      -77.015     -1.3508      19.345    
+      -180.23     -2.5260      18.131    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :   0.0198 -0.0299  0.0057
+ => Sin(2theta)-shift parameter :   0.0000  0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   26.8      39.9     Chi2:  7.96     DW-Stat.:  0.4526   Patt#:  1
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.170E+05     Dev*:   6.369    
+ => GoF-index:  2.8         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.3556E+05    0.1327E+06    0.1391E+06    0.1327E+06    0.2110E+05    0.3034E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   65.2      77.8      27.6      7.955    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5458E+05    0.3488E+05
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   26.8      39.9     Chi2:  7.96     DW-Stat.:  0.4526   Patt#:
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.170E+05     Dev*:   6.369    
+ => GoF-index:  2.8         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.3556E+05    0.1327E+06    0.1391E+06    0.1327E+06    0.2110E+05    0.3034E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   65.2      77.8      27.6      7.955    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5458E+05    0.3488E+05
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   7.96    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  25.7    
+ =>    RF-factor     :  15.0    
+ => Phase:  2
+ =>    Bragg R-factor:  26.1    
+ =>    RF-factor     :  15.2    
+ => Phase:  3
+ =>    Bragg R-factor:  11.0    
+ =>    RF-factor     :  7.71    
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    3
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: SiO2 hexagonal (No 152)                                               
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Si       0.47803 0.00124 0.00396  0.00000 0.00000 0.00000  0.33333 0.00000 0.00000  0.16667 0.00000 0.00000  0.50000 0.00000 0.00000
+ O        0.41584-0.00290 0.00365  0.26240-0.00452 0.00427  0.20916-0.00185 0.00416  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000864667    -0.000024526     0.000021862
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        4.916064   -0.000084    0.000662
+        4.916064   -0.000084    0.000662
+        5.403322   -0.001621    0.001140
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.219866    0.062435    0.047811
+         0.179463   -0.005638    0.013502
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  2 Name: Al2Si2O5(OH)4 monoclinic (No 9)                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Al1      0.25000 0.00000 0.00000 -0.10561 0.00422 0.00718  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Al2      0.25000 0.00000 0.00000  0.10561-0.00422 0.00718  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si1     -0.05171-0.00179 0.02735  0.50000 0.00000 0.00000  0.21914-0.00769 0.01019  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si2     -0.05171-0.00179 0.02735  0.05734-0.00617 0.01145  0.21914-0.00769 0.01019  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ O1      -0.06809-0.00709 0.03094  0.50000 0.00000 0.00000  0.04186-0.01292 0.01072  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O2      -0.06809-0.00709 0.03094  0.13990 0.00266 0.01416  0.04186-0.01292 0.01072  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O3      -0.06809-0.00709 0.03094 -0.13990-0.00266 0.01416  0.04186-0.01292 0.01072  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O4       0.00590 0.00266 0.01416  0.28530-0.01255 0.02175  0.22329 0.00065 0.02035  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O5       0.63896-0.00106 0.04163 -0.34068 0.01746 0.02394  0.23333-0.01071 0.01870  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O6       0.63896-0.00106 0.04163  0.19653-0.01043 0.02194  0.18435-0.01380 0.01844  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O7      -0.09722-0.01118 0.03870  0.00000 0.00000 0.00000  0.49072-0.01344 0.01914  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O8      -0.34914-0.00162 0.05938  0.04309-0.00239 0.02455  0.49072-0.01344 0.01914  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O9      -0.09722-0.01118 0.03870  0.28530-0.01255 0.02175  0.49072-0.01344 0.01914  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000017429    -0.000000077     0.000000916
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.081374   -0.002149    0.002135
+        8.917894   -0.003987    0.004027
+       14.536447    0.000619    0.003244
+       90.000000    0.000000    0.000000
+      100.075546   -0.003639    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.219866    0.062435    0.047811
+         0.179463   -0.005638    0.013502
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  3 Name: Fe2O3 hexagonal                                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35421 0.00058 0.00068  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35421 0.00058 0.00068  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Oh      -1.69239 0.00530 0.00657  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.39757 0.00000 0.00000  0.50000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000042894    -0.000001864     0.000001451
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.007826   -0.001009    0.001027
+        5.007826   -0.001009    0.001027
+       13.691345   -0.004293    0.004266
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.219866    0.062435    0.047811
+         0.578951   -0.000422    0.000718
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000040    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000    0.0000
+ => Background Polynomial Parameters ==>
+       9.0017    -0.45121     0.34775    
+      -20.071      1.5256      3.7662    
+      -73.826      3.1887      14.742    
+      -177.47      2.7573      13.845    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :  -0.0266 -0.0465  0.0069
+ => Sin(2theta)-shift parameter :   0.0000  0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   21.5      29.1     Chi2:  4.23     DW-Stat.:  0.6950   Patt#:  1
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.108E+05     Dev*:   4.048    
+ => GoF-index:  2.0         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2854E+05    0.1327E+06    0.1325E+06    0.1327E+06    0.1123E+05    0.2251E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   49.5      55.1      26.8      4.234    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5765E+05    0.3694E+05
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   21.5      29.1     Chi2:  4.23     DW-Stat.:  0.6950   Patt#:
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.108E+05     Dev*:   4.048    
+ => GoF-index:  2.0         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2854E+05    0.1327E+06    0.1325E+06    0.1327E+06    0.1123E+05    0.2251E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   49.5      55.1      26.8      4.234    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5765E+05    0.3694E+05
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   4.23    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  18.4    
+ =>    RF-factor     :  8.35    
+ => Phase:  2
+ =>    Bragg R-factor:  23.8    
+ =>    RF-factor     :  10.9    
+ => Phase:  3
+ =>    Bragg R-factor:  6.78    
+ =>    RF-factor     :  5.42    
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    4
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: SiO2 hexagonal (No 152)                                               
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Si       0.47721-0.00082 0.00356  0.00000 0.00000 0.00000  0.33333 0.00000 0.00000  0.16667 0.00000 0.00000  0.50000 0.00000 0.00000
+ O        0.41513-0.00072 0.00332  0.25896-0.00344 0.00393  0.20828-0.00088 0.00378  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000823410    -0.000041258     0.000017983
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        4.915574   -0.000490    0.000612
+        4.915574   -0.000490    0.000612
+        5.402943   -0.000379    0.001051
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.298618    0.078752    0.044095
+         0.084861   -0.094602    0.012492
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  2 Name: Al2Si2O5(OH)4 monoclinic (No 9)                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Al1      0.25000 0.00000 0.00000 -0.10259 0.00302 0.00660  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Al2      0.25000 0.00000 0.00000  0.10259-0.00302 0.00660  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si1     -0.04849 0.00322 0.02394  0.50000 0.00000 0.00000  0.23789 0.01875 0.00765  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si2     -0.04849 0.00322 0.02394  0.06247 0.00513 0.00981  0.23789 0.01875 0.00765  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ O1      -0.03863 0.02946 0.02762  0.50000 0.00000 0.00000  0.05503 0.01316 0.00905  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O2      -0.03863 0.02946 0.02762  0.13576-0.00414 0.01169  0.05503 0.01316 0.00905  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O3      -0.03863 0.02946 0.02762 -0.13576 0.00414 0.01169  0.05503 0.01316 0.00905  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O4       0.00176-0.00414 0.01169  0.27816-0.00713 0.01764  0.21735-0.00594 0.01886  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O5       0.65594 0.01698 0.03886 -0.35375-0.01308 0.02218  0.26752 0.03419 0.01419  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O6       0.65594 0.01698 0.03886  0.20857 0.01204 0.02029  0.21105 0.02669 0.01293  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O7      -0.10120-0.00398 0.03124  0.00000 0.00000 0.00000  0.53120 0.04048 0.01311  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O8      -0.32594 0.02321 0.05301  0.06639 0.02331 0.02349  0.53120 0.04048 0.01311  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O9      -0.10120-0.00398 0.03124  0.27816-0.00713 0.01764  0.53120 0.04048 0.01311  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000016600    -0.000000829     0.000000806
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.081464    0.000090    0.001873
+        8.917074   -0.000820    0.003750
+       14.535458   -0.000989    0.002754
+       90.000000    0.000000    0.000000
+      100.075058   -0.000488    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.298618    0.078752    0.044095
+         0.084861   -0.094602    0.012492
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  3 Name: Fe2O3 hexagonal                                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35397-0.00024 0.00060  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35397-0.00024 0.00060  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Oh      -1.69339-0.00100 0.00584  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.39757 0.00000 0.00000  0.50000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000042132    -0.000000763     0.000001199
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.006834   -0.000992    0.000924
+        5.006834   -0.000992    0.000924
+       13.688821   -0.002524    0.003864
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.298618    0.078752    0.044095
+         0.578649   -0.000302    0.000660
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000040    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000    0.0000
+ => Background Polynomial Parameters ==>
+       8.9238    -0.77922E-01 0.28913    
+      -21.210     -1.1385      3.1316    
+      -72.519      1.3078      12.122    
+      -176.40      1.0712      11.420    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :  -0.0538 -0.0272  0.0061
+ => Sin(2theta)-shift parameter :   0.0000  0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   18.6      24.0     Chi2:  2.87     DW-Stat.:  0.9434   Patt#:  1
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.785E+04     Dev*:   2.944    
+ => GoF-index:  1.7         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2467E+05    0.1327E+06    0.1291E+06    0.1327E+06     7621.        0.2007E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   41.4      44.6      26.3      2.874    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5961E+05    0.3832E+05
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   18.6      24.0     Chi2:  2.87     DW-Stat.:  0.9434   Patt#:
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.785E+04     Dev*:   2.944    
+ => GoF-index:  1.7         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2467E+05    0.1327E+06    0.1291E+06    0.1327E+06     7621.        0.2007E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   41.4      44.6      26.3      2.874    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5961E+05    0.3832E+05
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   2.87    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  13.7    
+ =>    RF-factor     :  6.04    
+ => Phase:  2
+ =>    Bragg R-factor:  19.8    
+ =>    RF-factor     :  9.47    
+ => Phase:  3
+ =>    Bragg R-factor:  6.96    
+ =>    RF-factor     :  5.24    
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    5
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: SiO2 hexagonal (No 152)                                               
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Si       0.47587-0.00134 0.00304  0.00000 0.00000 0.00000  0.33333 0.00000 0.00000  0.16667 0.00000 0.00000  0.50000 0.00000 0.00000
+ O        0.41714 0.00201 0.00286  0.25772-0.00124 0.00347  0.20830 0.00002 0.00325  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000806560    -0.000016850     0.000014911
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        4.915438   -0.000136    0.000461
+        4.915438   -0.000136    0.000461
+        5.403304    0.000361    0.000771
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.287037   -0.011581    0.035312
+         0.065635   -0.019226    0.009141
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  2 Name: Al2Si2O5(OH)4 monoclinic (No 9)                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Al1      0.25000 0.00000 0.00000 -0.10298-0.00039 0.00528  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Al2      0.25000 0.00000 0.00000  0.10298 0.00039 0.00528  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si1     -0.04595 0.00254 0.01968  0.50000 0.00000 0.00000  0.22662-0.01128 0.00447  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si2     -0.04595 0.00254 0.01968  0.06177-0.00069 0.00785  0.22662-0.01128 0.00447  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ O1      -0.05983-0.02119 0.02563  0.50000 0.00000 0.00000  0.04297-0.01206 0.00572  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O2      -0.05983-0.02119 0.02563  0.13275-0.00300 0.00987  0.04297-0.01206 0.00572  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O3      -0.05983-0.02119 0.02563 -0.13275 0.00300 0.00987  0.04297-0.01206 0.00572  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O4      -0.00125-0.00300 0.00987  0.27541-0.00276 0.01305  0.21260-0.00475 0.01169  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O5       0.66547 0.00953 0.03040 -0.34384 0.00992 0.01565  0.24661-0.02090 0.01328  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O6       0.66547 0.00953 0.03040  0.20799-0.00058 0.01579  0.19149-0.01956 0.01097  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O7      -0.11994-0.01874 0.02459  0.00000 0.00000 0.00000  0.50718-0.02402 0.00817  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O8      -0.30953 0.01640 0.04043  0.05903-0.00736 0.01656  0.50718-0.02402 0.00817  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O9      -0.11994-0.01874 0.02459  0.27541-0.00276 0.01305  0.50718-0.02402 0.00817  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000015169    -0.000001432     0.000000647
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.081788    0.000324    0.001254
+        8.917852    0.000778    0.002587
+       14.534705   -0.000752    0.001926
+       90.000000    0.000000    0.000000
+      100.075172    0.000114    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.287037   -0.011581    0.035312
+         0.065635   -0.019226    0.009141
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  3 Name: Fe2O3 hexagonal                                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35412 0.00015 0.00054  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35412 0.00015 0.00054  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Oh      -1.70030-0.00691 0.00522  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.39757 0.00000 0.00000  0.50000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000041869    -0.000000263     0.000001038
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.006673   -0.000161    0.000875
+        5.006673   -0.000161    0.000875
+       13.690485    0.001664    0.003599
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.287037   -0.011581    0.035312
+         0.578688    0.000039    0.000528
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000040    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000    0.0000
+ => Background Polynomial Parameters ==>
+       8.9076    -0.16198E-01 0.24910    
+      -22.429     -1.2197      2.8131    
+      -72.037     0.48166      10.717    
+      -175.73     0.66879      10.020    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :  -0.0608 -0.0070  0.0043
+ => Sin(2theta)-shift parameter :   0.0000  0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   16.7      21.3     Chi2:  2.27     DW-Stat.:  1.1347   Patt#:  1
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.620E+04     Dev*:   2.322    
+ => GoF-index:  1.5         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2223E+05    0.1327E+06    0.1285E+06    0.1327E+06     6026.        0.2140E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   38.2      40.1      26.6      2.272    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5825E+05    0.3750E+05
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   16.7      21.3     Chi2:  2.27     DW-Stat.:  1.1347   Patt#:
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.620E+04     Dev*:   2.322    
+ => GoF-index:  1.5         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2223E+05    0.1327E+06    0.1285E+06    0.1327E+06     6026.        0.2140E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   38.2      40.1      26.6      2.272    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5825E+05    0.3750E+05
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   2.27    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  12.1    
+ =>    RF-factor     :  6.13    
+ => Phase:  2
+ =>    Bragg R-factor:  21.4    
+ =>    RF-factor     :  11.2    
+ => Phase:  3
+ =>    Bragg R-factor:  7.25    
+ =>    RF-factor     :  5.65    
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    6
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: SiO2 hexagonal (No 152)                                               
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Si       0.47574-0.00014 0.00292  0.00000 0.00000 0.00000  0.33333 0.00000 0.00000  0.16667 0.00000 0.00000  0.50000 0.00000 0.00000
+ O        0.41595-0.00119 0.00272  0.25640-0.00132 0.00340  0.20772-0.00058 0.00309  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000795422    -0.000011137     0.000014130
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        4.915250   -0.000188    0.000418
+        4.915250   -0.000188    0.000418
+        5.403678    0.000374    0.000682
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.278916   -0.008121    0.032667
+         0.061570   -0.004065    0.008281
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  2 Name: Al2Si2O5(OH)4 monoclinic (No 9)                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Al1      0.25000 0.00000 0.00000 -0.10312-0.00013 0.00552  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Al2      0.25000 0.00000 0.00000  0.10312 0.00013 0.00552  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si1     -0.04326 0.00269 0.02126  0.50000 0.00000 0.00000  0.21678-0.00984 0.00623  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si2     -0.04326 0.00269 0.02126  0.06101-0.00077 0.00831  0.21678-0.00984 0.00623  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ O1      -0.07589-0.01606 0.02217  0.50000 0.00000 0.00000  0.02966-0.01331 0.00724  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O2      -0.07589-0.01606 0.02217  0.14092 0.00816 0.01061  0.02966-0.01331 0.00724  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O3      -0.07589-0.01606 0.02217 -0.14092-0.00816 0.01061  0.02966-0.01331 0.00724  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O4       0.00692 0.00816 0.01061  0.27198-0.00342 0.01334  0.20568-0.00692 0.01223  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O5       0.67592 0.01045 0.03665 -0.34590-0.00206 0.01605  0.24165-0.00496 0.01213  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O6       0.67592 0.01045 0.03665  0.18690-0.02109 0.01710  0.17867-0.01282 0.01222  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O7      -0.11944 0.00050 0.02308  0.00000 0.00000 0.00000  0.49111-0.01607 0.01200  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O8      -0.35195-0.04241 0.04504  0.04995-0.00908 0.01679  0.49111-0.01607 0.01200  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O9      -0.11944 0.00050 0.02308  0.27198-0.00342 0.01334  0.49111-0.01607 0.01200  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000014959    -0.000000210     0.000000564
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.082572    0.000784    0.001142
+        8.918655    0.000803    0.002415
+       14.534249   -0.000456    0.001714
+       90.000000    0.000000    0.000000
+      100.076363    0.001190    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.278916   -0.008121    0.032667
+         0.061570   -0.004065    0.008281
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  3 Name: Fe2O3 hexagonal                                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35411-0.00001 0.00052  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35411-0.00001 0.00052  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Oh      -1.70229-0.00199 0.00489  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.39757 0.00000 0.00000  0.50000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000041902     0.000000034     0.000000992
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.006596   -0.000077    0.000836
+        5.006596   -0.000077    0.000836
+       13.692664    0.002179    0.003549
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.278916   -0.008121    0.032667
+         0.578701    0.000013    0.000552
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000040    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000    0.0000
+ => Background Polynomial Parameters ==>
+       8.9190     0.11404E-01 0.24341    
+      -21.465     0.96428      2.6686    
+      -69.743      2.2938      10.275    
+      -175.92    -0.19519      9.6352    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :  -0.0638 -0.0030  0.0039
+ => Sin(2theta)-shift parameter :   0.0000  0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   16.2      20.7     Chi2:  2.15     DW-Stat.:  1.1845   Patt#:  1
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.587E+04     Dev*:   2.200    
+ => GoF-index:  1.5         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2152E+05    0.1327E+06    0.1284E+06    0.1327E+06     5694.        0.2374E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   37.8      39.4      26.9      2.147    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5700E+05    0.3674E+05
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   16.2      20.7     Chi2:  2.15     DW-Stat.:  1.1845   Patt#:
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.587E+04     Dev*:   2.200    
+ => GoF-index:  1.5         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2152E+05    0.1327E+06    0.1284E+06    0.1327E+06     5694.        0.2374E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   37.8      39.4      26.9      2.147    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5700E+05    0.3674E+05
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   2.15    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  11.7    
+ =>    RF-factor     :  6.06    
+ => Phase:  2
+ =>    Bragg R-factor:  21.1    
+ =>    RF-factor     :  11.0    
+ => Phase:  3
+ =>    Bragg R-factor:  8.01    
+ =>    RF-factor     :  6.27    
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    7
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: SiO2 hexagonal (No 152)                                               
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Si       0.47603 0.00029 0.00288  0.00000 0.00000 0.00000  0.33333 0.00000 0.00000  0.16667 0.00000 0.00000  0.50000 0.00000 0.00000
+ O        0.41626 0.00031 0.00272  0.25554-0.00087 0.00337  0.20765-0.00008 0.00311  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000789521    -0.000005901     0.000013935
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        4.915080   -0.000170    0.000408
+        4.915080   -0.000170    0.000408
+        5.404012    0.000334    0.000663
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.284522    0.005606    0.032169
+         0.058438   -0.003132    0.008105
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  2 Name: Al2Si2O5(OH)4 monoclinic (No 9)                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Al1      0.25000 0.00000 0.00000 -0.10558-0.00247 0.00563  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Al2      0.25000 0.00000 0.00000  0.10558 0.00247 0.00563  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si1     -0.03598 0.00727 0.02140  0.50000 0.00000 0.00000  0.22829 0.01151 0.00588  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si2     -0.03598 0.00727 0.02140  0.06306 0.00205 0.00785  0.22829 0.01151 0.00588  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ O1      -0.05528 0.02061 0.02198  0.50000 0.00000 0.00000  0.04127 0.01161 0.00861  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O2      -0.05528 0.02061 0.02198  0.13539-0.00552 0.00963  0.04127 0.01161 0.00861  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O3      -0.05528 0.02061 0.02198 -0.13539 0.00552 0.00963  0.04127 0.01161 0.00861  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O4       0.00139-0.00552 0.00963  0.27579 0.00381 0.01231  0.21071 0.00502 0.01278  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O5       0.70155 0.02563 0.03690 -0.38429-0.03839 0.01859  0.24709 0.00544 0.01185  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O6       0.70155 0.02563 0.03690  0.21251 0.02562 0.01814  0.20123 0.02256 0.01090  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O7      -0.11991-0.00047 0.02561  0.00000 0.00000 0.00000  0.51365 0.02255 0.01045  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O8      -0.30786 0.04409 0.04491  0.05998 0.01003 0.01870  0.51365 0.02255 0.01045  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O9      -0.11991-0.00047 0.02561  0.27579 0.00381 0.01231  0.51365 0.02255 0.01045  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000014940    -0.000000019     0.000000539
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.083173    0.000601    0.001185
+        8.919044    0.000388    0.002346
+       14.533902   -0.000347    0.001660
+       90.000000    0.000000    0.000000
+      100.077263    0.000900    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.284522    0.005606    0.032169
+         0.058438   -0.003132    0.008105
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  3 Name: Fe2O3 hexagonal                                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35399-0.00011 0.00051  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35399-0.00011 0.00051  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Oh      -1.70294-0.00065 0.00476  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.39757 0.00000 0.00000  0.50000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000041906     0.000000004     0.000000972
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.006122   -0.000474    0.000820
+        5.006122   -0.000474    0.000820
+       13.694233    0.001569    0.003520
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.284522    0.005606    0.032169
+         0.578948    0.000247    0.000563
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000040    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000    0.0000
+ => Background Polynomial Parameters ==>
+       8.9137    -0.52875E-02 0.24222    
+      -20.743     0.72158      2.6139    
+      -71.183     -1.4404      10.018    
+      -177.70     -1.7785      9.4171    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :  -0.0654 -0.0016  0.0038
+ => Sin(2theta)-shift parameter :   0.0000  0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   16.1      20.6     Chi2:  2.13     DW-Stat.:  1.1922   Patt#:  1
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.582E+04     Dev*:   2.182    
+ => GoF-index:  1.4         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2139E+05    0.1327E+06    0.1286E+06    0.1327E+06     5636.        0.2340E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   37.9      39.3      26.9      2.125    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5644E+05    0.3656E+05
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   16.1      20.6     Chi2:  2.13     DW-Stat.:  1.1922   Patt#:
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.582E+04     Dev*:   2.182    
+ => GoF-index:  1.4         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2139E+05    0.1327E+06    0.1286E+06    0.1327E+06     5636.        0.2340E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   37.9      39.3      26.9      2.125    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5644E+05    0.3656E+05
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   2.13    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  11.6    
+ =>    RF-factor     :  5.92    
+ => Phase:  2
+ =>    Bragg R-factor:  21.1    
+ =>    RF-factor     :  11.4    
+ => Phase:  3
+ =>    Bragg R-factor:  8.48    
+ =>    RF-factor     :  6.65    
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    8
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: SiO2 hexagonal (No 152)                                               
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Si       0.47616 0.00014 0.00295  0.00000 0.00000 0.00000  0.33333 0.00000 0.00000  0.16667 0.00000 0.00000  0.50000 0.00000 0.00000
+ O        0.41573-0.00052 0.00269  0.25551-0.00003 0.00343  0.20695-0.00070 0.00309  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000785719    -0.000003802     0.000013892
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        4.914991   -0.000089    0.000408
+        4.914991   -0.000089    0.000408
+        5.404329    0.000317    0.000663
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000002
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.281181   -0.003341    0.032008
+         0.058515    0.000077    0.008051
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  2 Name: Al2Si2O5(OH)4 monoclinic (No 9)                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Al1      0.25000 0.00000 0.00000 -0.10211 0.00347 0.00531  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Al2      0.25000 0.00000 0.00000  0.10211-0.00347 0.00531  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si1     -0.05092-0.01494 0.02145  0.50000 0.00000 0.00000  0.21853-0.00976 0.00540  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si2     -0.05092-0.01494 0.02145  0.05948-0.00358 0.00851  0.21853-0.00976 0.00540  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ O1      -0.08073-0.02545 0.02039  0.50000 0.00000 0.00000  0.03081-0.01047 0.00626  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O2      -0.08073-0.02545 0.02039  0.14279 0.00740 0.01079  0.03081-0.01047 0.00626  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O3      -0.08073-0.02545 0.02039 -0.14279-0.00740 0.01079  0.03081-0.01047 0.00626  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O4       0.00879 0.00740 0.01079  0.27309-0.00271 0.01300  0.21124 0.00054 0.01117  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O5       0.68640-0.01515 0.04083 -0.35997 0.02432 0.01485  0.23131-0.01578 0.01275  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O6       0.68640-0.01515 0.04083  0.20362-0.00890 0.01493  0.18217-0.01905 0.01019  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O7      -0.11715 0.00276 0.02034  0.00000 0.00000 0.00000  0.49498-0.01867 0.00993  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O8      -0.36285-0.05499 0.04666  0.05158-0.00840 0.01655  0.49498-0.01867 0.00993  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O9      -0.11715 0.00276 0.02034  0.27309-0.00271 0.01300  0.49498-0.01867 0.00993  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000014643    -0.000000297     0.000000537
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.082932   -0.000241    0.001191
+        8.920623    0.001579    0.002195
+       14.533576   -0.000326    0.001626
+       90.000000    0.000000    0.000000
+      100.076591   -0.000671    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.281181   -0.003341    0.032008
+         0.058515    0.000077    0.008051
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  3 Name: Fe2O3 hexagonal                                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35402 0.00003 0.00051  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35402 0.00003 0.00051  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Oh      -1.70316-0.00022 0.00471  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.39757 0.00000 0.00000  0.50000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000041919     0.000000013     0.000000982
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.006301    0.000179    0.000830
+        5.006301    0.000179    0.000830
+       13.694586    0.000353    0.003524
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.281181   -0.003341    0.032008
+         0.578601   -0.000347    0.000531
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000040    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000    0.0000
+ => Background Polynomial Parameters ==>
+       8.9144     0.72210E-03 0.24765    
+      -20.412     0.33111      2.6608    
+      -69.722      1.4620      10.335    
+      -176.20      1.5020      9.6840    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :  -0.0659 -0.0005  0.0038
+ => Sin(2theta)-shift parameter :   0.0000  0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   16.2      20.6     Chi2:  2.12     DW-Stat.:  1.1841   Patt#:  1
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.590E+04     Dev*:   2.213    
+ => GoF-index:  1.4         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2148E+05    0.1327E+06    0.1276E+06    0.1327E+06     5622.        0.2528E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   37.4      38.9      26.7      2.120    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5738E+05    0.3714E+05
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   16.2      20.6     Chi2:  2.12     DW-Stat.:  1.1841   Patt#:
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.590E+04     Dev*:   2.213    
+ => GoF-index:  1.4         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2148E+05    0.1327E+06    0.1276E+06    0.1327E+06     5622.        0.2528E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   37.4      38.9      26.7      2.120    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5738E+05    0.3714E+05
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   2.12    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  11.3    
+ =>    RF-factor     :  5.81    
+ => Phase:  2
+ =>    Bragg R-factor:  22.1    
+ =>    RF-factor     :  11.6    
+ => Phase:  3
+ =>    Bragg R-factor:  8.61    
+ =>    RF-factor     :  6.81    
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    9
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: SiO2 hexagonal (No 152)                                               
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Si       0.47599-0.00018 0.00294  0.00000 0.00000 0.00000  0.33333 0.00000 0.00000  0.16667 0.00000 0.00000  0.50000 0.00000 0.00000
+ O        0.41575 0.00001 0.00273  0.25521-0.00030 0.00344  0.20682-0.00013 0.00313  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000784020    -0.000001699     0.000013834
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        4.914893   -0.000098    0.000406
+        4.914893   -0.000098    0.000406
+        5.404577    0.000248    0.000660
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.276231   -0.004950    0.031698
+         0.059728    0.001213    0.007970
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  2 Name: Al2Si2O5(OH)4 monoclinic (No 9)                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Al1      0.25000 0.00000 0.00000 -0.10788-0.00577 0.00579  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Al2      0.25000 0.00000 0.00000  0.10788 0.00577 0.00579  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si1     -0.04255 0.00837 0.02266  0.50000 0.00000 0.00000  0.22661 0.00808 0.00695  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si2     -0.04255 0.00837 0.02266  0.06156 0.00208 0.00813  0.22661 0.00808 0.00695  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ O1      -0.06874 0.01199 0.02058  0.50000 0.00000 0.00000  0.03552 0.00472 0.00920  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O2      -0.06874 0.01199 0.02058  0.13754-0.00526 0.01011  0.03552 0.00472 0.00920  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O3      -0.06874 0.01199 0.02058 -0.13754 0.00526 0.01011  0.03552 0.00472 0.00920  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O4       0.00354-0.00526 0.01011  0.27382 0.00074 0.01277  0.21172 0.00048 0.01399  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O5       0.70139 0.01499 0.04740 -0.36740-0.00743 0.01653  0.24180 0.01049 0.01223  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O6       0.70139 0.01499 0.04740  0.20928 0.00566 0.01680  0.19273 0.01056 0.01144  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O7      -0.10640 0.01075 0.02467  0.00000 0.00000 0.00000  0.51286 0.01787 0.01283  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O8      -0.31458 0.04827 0.05053  0.04373-0.00786 0.01782  0.51286 0.01787 0.01283  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O9      -0.10640 0.01075 0.02467  0.27382 0.00074 0.01277  0.51286 0.01787 0.01283  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000014721     0.000000078     0.000000518
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.083302    0.000370    0.001219
+        8.921217    0.000594    0.002348
+       14.533347   -0.000229    0.001632
+       90.000000    0.000000    0.000000
+      100.077141    0.000549    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.276231   -0.004950    0.031698
+         0.059728    0.001213    0.007970
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  3 Name: Fe2O3 hexagonal                                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35400-0.00002 0.00051  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35400-0.00002 0.00051  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Oh      -1.70301 0.00015 0.00471  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.39757 0.00000 0.00000  0.50000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000041918    -0.000000000     0.000000964
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.006185   -0.000116    0.000817
+        5.006185   -0.000116    0.000817
+       13.695119    0.000533    0.003524
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.276231   -0.004950    0.031698
+         0.579178    0.000577    0.000579
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000040    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000    0.0000
+ => Background Polynomial Parameters ==>
+       8.9384     0.23960E-01 0.24564    
+      -20.569    -0.15710      2.7377    
+      -71.470     -1.7487      10.485    
+      -177.87     -1.6648      9.7402    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :  -0.0663 -0.0004  0.0038
+ => Sin(2theta)-shift parameter :   0.0000  0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   16.2      20.5     Chi2:  2.11     DW-Stat.:  1.1870   Patt#:  1
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.590E+04     Dev*:   2.213    
+ => GoF-index:  1.4         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2147E+05    0.1327E+06    0.1272E+06    0.1327E+06     5591.        0.2662E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   37.4      38.8      26.7      2.108    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5743E+05    0.3715E+05
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   16.2      20.5     Chi2:  2.11     DW-Stat.:  1.1870   Patt#:
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.590E+04     Dev*:   2.213    
+ => GoF-index:  1.4         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2147E+05    0.1327E+06    0.1272E+06    0.1327E+06     5591.        0.2662E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   37.4      38.8      26.7      2.108    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5743E+05    0.3715E+05
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   2.11    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  11.3    
+ =>    RF-factor     :  5.65    
+ => Phase:  2
+ =>    Bragg R-factor:  22.1    
+ =>    RF-factor     :  12.3    
+ => Phase:  3
+ =>    Bragg R-factor:  8.98    
+ =>    RF-factor     :  6.90    
+
+
+   Standard deviations have to be multiplied by: 1.8977
+   (correlated residuals) See references:
+  -J.F.Berar & P.Lelann, J. Appl. Cryst. 24, 1-5 (1991) 
+  -J.F.Berar, Acc. in Pow. Diff. II,NIST Sp.Pub. 846, 63(1992) 
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:   10
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: SiO2 hexagonal (No 152)                                               
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Si       0.47628 0.00029 0.00296  0.00000 0.00000 0.00000  0.33333 0.00000 0.00000  0.16667 0.00000 0.00000  0.50000 0.00000 0.00000
+ O        0.41558-0.00017 0.00272  0.25525 0.00004 0.00347  0.20656-0.00026 0.00312  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000782738    -0.000001282     0.000013828
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        4.914873   -0.000020    0.000405
+        4.914873   -0.000020    0.000405
+        5.404784    0.000207    0.000658
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.277766    0.001535    0.031735
+         0.059417   -0.000311    0.007979
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  2 Name: Al2Si2O5(OH)4 monoclinic (No 9)                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Al1      0.25000 0.00000 0.00000 -0.10342 0.00447 0.00566  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Al2      0.25000 0.00000 0.00000  0.10342-0.00447 0.00566  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si1     -0.05410-0.01155 0.02319  0.50000 0.00000 0.00000  0.21852-0.00809 0.00557  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ Si2     -0.05410-0.01155 0.02319  0.06321 0.00165 0.00869  0.21852-0.00809 0.00557  0.16667 0.00000 0.00000  1.00000 0.00000 0.00000
+ O1      -0.08976-0.02103 0.02022  0.50000 0.00000 0.00000  0.02685-0.00868 0.00668  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O2      -0.08976-0.02103 0.02022  0.14280 0.00526 0.01082  0.02685-0.00868 0.00668  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O3      -0.08976-0.02103 0.02022 -0.14280-0.00526 0.01082  0.02685-0.00868 0.00668  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O4       0.00880 0.00526 0.01082  0.27988 0.00606 0.01307  0.21042-0.00130 0.01179  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O5       0.67414-0.02725 0.04515 -0.35908 0.00832 0.01489  0.23680-0.00500 0.01252  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O6       0.67414-0.02725 0.04515  0.19784-0.01144 0.01607  0.17735-0.01538 0.01069  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O7      -0.11475-0.00834 0.02037  0.00000 0.00000 0.00000  0.49702-0.01584 0.01007  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O8      -0.40208-0.08750 0.04618  0.04716 0.00343 0.01729  0.49702-0.01584 0.01007  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+ O9      -0.11475-0.00834 0.02037  0.27988 0.00606 0.01307  0.49702-0.01584 0.01007  0.20000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000014587    -0.000000134     0.000000507
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.083274   -0.000028    0.001198
+        8.922320    0.001103    0.002306
+       14.533363    0.000016    0.001607
+       90.000000    0.000000    0.000000
+      100.077103   -0.000038    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.277766    0.001535    0.031735
+         0.059417   -0.000311    0.007979
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+ ---------------------------------------------------------------------------------------
+ => Phase  3 Name: Fe2O3 hexagonal                                                       
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35403 0.00002 0.00051  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Feh      0.00000 0.00000 0.00000  0.00000 0.00000 0.00000  0.35403 0.00002 0.00051  0.22305 0.00000 0.00000  0.16667 0.00000 0.00000
+ Oh      -1.70285 0.00016 0.00470  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.39757 0.00000 0.00000  0.50000 0.00000 0.00000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000041879    -0.000000039     0.000000964
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004391    0.000000    0.000000
+        -0.000389    0.000000    0.000000
+         0.009813    0.000000    0.000000
+ => Cell parameters: 
+        5.006374    0.000190    0.000822
+        5.006374    0.000190    0.000822
+       13.694835   -0.000284    0.003496
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+      120.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.277766    0.001535    0.031735
+         0.578732   -0.000447    0.000566
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000040    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000    0.0000
+ => Background Polynomial Parameters ==>
+       9.0114     0.73016E-01 0.24211    
+      -19.875     0.69435      2.7909    
+      -69.706      1.7641      10.756    
+      -176.32      1.5418      9.9661    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :  -0.0663 -0.0000  0.0038
+ => Sin(2theta)-shift parameter :   0.0000  0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   16.2      20.5     Chi2:  2.11     DW-Stat.:  1.1854   Patt#:  1
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.592E+04     Dev*:   2.217    
+ => GoF-index:  1.4         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2146E+05    0.1327E+06    0.1271E+06    0.1327E+06     5592.        0.2844E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   37.2      38.7      26.7      2.109    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5760E+05    0.3726E+05
+
+ => N-sigma of the GoF:       40.368
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   16.2      20.5     Chi2:  2.11     DW-Stat.:  1.1854   Patt#:
+ => Expected :            14.1                                1.9111
+ => Deviance : 0.592E+04     Dev*:   2.217    
+ => GoF-index:  1.4         Sqrt(Residual/N)
+ => N-P+C:  2652
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.2146E+05    0.1327E+06    0.1271E+06    0.1327E+06     5592.        0.2844E+16
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   37.2      38.7      26.7      2.109    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.5760E+05    0.3726E+05
+
+ => N-sigma of the GoF:       40.368
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   2.11    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  11.2    
+ =>    RF-factor     :  5.68    
+ => Phase:  2
+ =>    Bragg R-factor:  22.0    
+ =>    RF-factor     :  12.7    
+ => Phase:  3
+ =>    Bragg R-factor:  9.01    
+ =>    RF-factor     :  6.93    
+
+
+ => Parameters with Correlation greater that 50% ==>
+ -> Correlation of parameter:                                         Bck_1_pat1      with:                                         Bck_2_pat1  ->   90%
+ -> Correlation of parameter:                                         Bck_1_pat1      with:                                         Bck_3_pat1  ->   78%
+ -> Correlation of parameter:                                         Bck_2_pat1      with:                                         Bck_3_pat1  ->   97%
+ -> Correlation of parameter:                                     Scale_ph2_pat1      with:                                           Z_O1_ph2  ->   53%
+ -> Correlation of parameter:                                          Z_Si1_ph2      with:                                           Z_O1_ph2  ->   60%
+ -> Correlation of parameter:                                          Z_Si1_ph2      with:                                           Z_O7_ph2  ->   78%
+ -> Correlation of parameter:                                          X_Si1_ph2      with:                                           X_O8_ph2  ->   57%
+ -> Correlation of parameter:                                           X_O1_ph2      with:                                           X_O8_ph2  ->   57%
+ -> Correlation of parameter:                                           Z_O1_ph2      with:                                           Z_O6_ph2  ->   63%
+ -> Correlation of parameter:                                           Z_O6_ph2      with:                                           Z_O7_ph2  ->   58%
+
+ --------------------------------------------------------------------------------------------------------------
+ Pattern#  1 Phase No.:   1 Phase name: SiO2 hexagonal (No 152)       
+ --------------------------------------------------------------------------------------------------------------
+
+ --------------------------------------------------------------------------------------------------------------
+ Pattern#  1 Phase No.:   2 Phase name: Al2Si2O5(OH)4 monoclinic (No 9
+ --------------------------------------------------------------------------------------------------------------
+
+ --------------------------------------------------------------------------------------------------------------
+ Pattern#  1 Phase No.:   3 Phase name: Fe2O3 hexagonal               
+ --------------------------------------------------------------------------------------------------------------
+
+     -----------------------------------------------------
+     BRAGG R-Factors and weight fractions for Pattern #  1
+     -----------------------------------------------------
+
+ => Phase:  1     SiO2 hexagonal (No 152)
+ => Bragg R-factor:   11.2       Vol:  113.066( 0.019)  Fract(%):   42.54( 0.95)
+ => Rf-factor=  5.37             ATZ:         180.254   Brindley:  1.0000
+
+ => Phase:  2     Al2Si2O5(OH)4 monoclinic (No 9)
+ => Bragg R-factor:   21.9       Vol:  648.986( 0.238)  Fract(%):   25.66( 0.96)
+ => Rf-factor=  12.2             ATZ:        1016.519   Brindley:  1.0000
+
+ => Phase:  3     Fe2O3 hexagonal
+ => Bragg R-factor:   8.95       Vol:  297.258( 0.103)  Fract(%):   31.81( 0.85)
+ => Rf-factor=  6.36             ATZ:         958.186   Brindley:  1.0000
+
+     -----------------------------------------------------------------
+      SYMBOLIC NAMES AND FINAL VALUES AND SIGMA OF REFINED PARAMETERS:
+     -----------------------------------------------------------------
+
+      ->  Parameter number    1 :                                     Scale_ph1_pat1    0.78273827E-03( +/-    0.13827597E-04 )
+      ->  Parameter number    2 :                                         SyCos_pat1   -0.66330276E-01( +/-    0.37515822E-02 )
+      ->  Parameter number    3 :                                         Bck_0_pat1     9.0113783    ( +/-    0.24210964     )
+      ->  Parameter number    4 :                                         Bck_1_pat1    -19.875080    ( +/-     2.7908719     )
+      ->  Parameter number    5 :                                         Bck_2_pat1    -69.706123    ( +/-     10.756057     )
+      ->  Parameter number    6 :                                    Cell_A_ph1_pat1     4.9148731    ( +/-    0.40527672E-03 )
+      ->  Parameter number    7 :                                    Cell_C_ph1_pat1     5.4047842    ( +/-    0.65809139E-03 )
+      ->  Parameter number    8 :                                     Scale_ph2_pat1    0.14586759E-04( +/-    0.50714436E-06 )
+      ->  Parameter number    9 :                                    Cell_A_ph2_pat1     5.0832739    ( +/-    0.11979985E-02 )
+      ->  Parameter number   10 :                                    Cell_B_ph2_pat1     8.9223204    ( +/-    0.23058390E-02 )
+      ->  Parameter number   11 :                                    Cell_C_ph2_pat1     14.533363    ( +/-    0.16067084E-02 )
+      ->  Parameter number   12 :                                          Y_Al1_ph2    0.10341647    ( +/-    0.56609251E-02 )
+      ->  Parameter number   13 :                                          Z_Si1_ph2    0.21852073    ( +/-    0.55732718E-02 )
+      ->  Parameter number   14 :                                          Y_Si2_ph2    0.63209601E-01( +/-    0.86875185E-02 )
+      ->  Parameter number   15 :                                     Scale_ph3_pat1    0.41879244E-04( +/-    0.96438293E-06 )
+      ->  Parameter number   16 :                                    Cell_C_ph3_pat1     13.694835    ( +/-    0.34955854E-02 )
+      ->  Parameter number   17 :                                    Cell_A_ph3_pat1     5.0063744    ( +/-    0.82172395E-03 )
+      ->  Parameter number   18 :                                          Z_Feh_ph3    0.35402647    ( +/-    0.50671917E-03 )
+      ->  Parameter number   19 :                                           X_Oh_ph3    -1.7028468    ( +/-    0.47047571E-02 )
+      ->  Parameter number   20 :                                          X_Si1_ph2   -0.54099143E-01( +/-    0.23190171E-01 )
+      ->  Parameter number   21 :                                           X_O1_ph2   -0.89763924E-01( +/-    0.20217756E-01 )
+      ->  Parameter number   22 :                                           Z_O1_ph2    0.26845183E-01( +/-    0.66806641E-02 )
+      ->  Parameter number   23 :                                           Y_O2_ph2    0.14279895    ( +/-    0.10816838E-01 )
+      ->  Parameter number   24 :                                           Y_O4_ph2    0.27987850    ( +/-    0.13072602E-01 )
+      ->  Parameter number   25 :                                           Z_O4_ph2    0.21041642    ( +/-    0.11788726E-01 )
+      ->  Parameter number   26 :                                           X_O5_ph2    0.67414027    ( +/-    0.45150153E-01 )
+      ->  Parameter number   27 :                                           Y_O5_ph2   -0.35907900    ( +/-    0.14887294E-01 )
+      ->  Parameter number   28 :                                           Z_O5_ph2    0.23679706    ( +/-    0.12516423E-01 )
+      ->  Parameter number   29 :                                           Y_O6_ph2    0.19783849    ( +/-    0.16071083E-01 )
+      ->  Parameter number   30 :                                           Z_O6_ph2    0.17734642    ( +/-    0.10691756E-01 )
+      ->  Parameter number   31 :                                           X_O7_ph2   -0.11474769    ( +/-    0.20368885E-01 )
+      ->  Parameter number   32 :                                           Z_O7_ph2    0.49702230    ( +/-    0.10072866E-01 )
+      ->  Parameter number   33 :                                           Y_O8_ph2    0.47156073E-01( +/-    0.17286813E-01 )
+      ->  Parameter number   34 :                                           X_O8_ph2   -0.40208426    ( +/-    0.46182416E-01 )
+      ->  Parameter number   35 :                                     X-tan_ph1_pat1    0.27776605    ( +/-    0.31735320E-01 )
+      ->  Parameter number   36 :                                     Y-cos_ph1_pat1    0.59416670E-01( +/-    0.79794833E-02 )
+      ->  Parameter number   37 :                                         Bck_3_pat1    -176.32385    ( +/-     9.9661407     )
+      ->  Parameter number   38 :                                           X_Si_ph1    0.47627783    ( +/-    0.29568011E-02 )
+      ->  Parameter number   39 :                                            X_O_ph1    0.41558215    ( +/-    0.27203523E-02 )
+      ->  Parameter number   40 :                                            Y_O_ph1    0.25525209    ( +/-    0.34669915E-02 )
+      ->  Parameter number   41 :                                            Z_O_ph1    0.20656000    ( +/-    0.31179055E-02 )
+
+ ------------------------------------------------------------------
+ => Number of bytes for floating point variables: 4
+ => Dimensions of dynamic allocated arrays in this run of FullProf:
+ ------------------------------------------------------------------
+
+ => Total approximate array memory (dynamic + static): 128415065 bytes
+
+    MaxPOINT=    60000 Max.num. of points(+int. Inten.)/diffraction pattern       
+    MaxREFLT=    20000 Max.num. of reflections/diffraction pattern               
+    MaxPARAM=      300 Max.num. of refinable parameters                          
+    MaxOVERL=    18096 Max.num. of overlapping reflections                       
+
+ ----------------------------------------------------------
+ => Number of bytes for floating point arrays: 4
+ => Dimensions of fixed arrays in this release of FullProf:
+ ----------------------------------------------------------
+
+    NPATT   =       80 Max.num. of powder diffraction patterns                    
+    NATS    =      830 Max.num. of atoms (all kind) in asymmetric unit            
+    MPAR    =     1800 Max.num. of non atomic parameters/phase                    
+    IEXCL   =       30 Max.num. of excluded regions                               
+    IBACP   =      377 Max.num. of background points for interpolation            
+    NPHT    =       16 Max.num. of phases                                         
+    NMAGM   =        8 Max.num. of rotation-matrices sets for magnetic structure  
+    NBASIS  =       12 Max.num. of basis functions associated to a single atom    
+    NIREPS  =        9 Max.num. of irreducible representations to be combined     
+    N_EQ    =      384 Max.num. of user-supplied symmetry operators/propagation vectors
+    NGL     =      400 Max.num. of global parameters/diffraction pattern          
+    N_LINC  =       30 Max.num. of global linear restraints                        
+    NAT_P   =       68 Max.num. of atomic parameters per atom                     
+    NCONST  =      500 Max.num. of slack constraints per phase                    
+    N_SPE   =       30 Max.num. of different chemical species                     
+    N_FORM  =       60 Max.num. of scattering factor values in a table            
+    NPR     =      150 Max.num. of points defining a numerical profile            
+    INPR    =       25 Max.num. of different numerical peak shapes                
+    NPRC    =      150 Max.num. of terms in the table for correcting intensities  
+    NSOL    =       10 Max.num. of solutions to be stored in Montecarlo searchs   
+
+ 
+              CPU Time:    12.141 seconds
+                            0.202 minutes
+
+ => Run finished at:     Date: 19/10/2021  Time: 16:18:05.930                              

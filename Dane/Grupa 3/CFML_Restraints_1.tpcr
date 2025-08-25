@@ -1,0 +1,91 @@
+ FILE with lines for soft distance and angle constraints (restraints).
+ It is intended to help editing PCR files with restraints by pasting, 
+ after correcting the values as wished, to the appropriate lines.  
+ Lines with repeated identical distances have been excluded because symmetry 
+ already force a hard constraint.
+ Accidental coincidences have also been excluded, check that in list of distances! 
+
+ Warning! 
+ Symmetry constrained angles have not been eliminated,
+ this has to be performed by hand!
+
+
+=> Total number of independent distances:    33
+   List of possible restraints: 
+
+ At1   At2  ITnum     T1        T2        T3          DIST   SIGMA
+  Cr    Cr    -25   0.00000   0.00000   1.00000      4.1398 0.0023
+  Cr    Cr     31   0.00000   0.00000   0.50000      2.6579 0.0023
+  Cr    Cr    -31  -0.33333  -0.66667  -0.16667      3.6511 0.0014
+  Cr    Cr     31  -0.33333  -0.66667   0.83333      3.4216 0.0013
+  Cr    Cr    -25  -0.66667  -0.33333   0.66667      2.8896 0.0003
+  Cr    O      25  -1.00000   0.00000   0.00000      3.6890 0.0042
+  Cr    O      25   0.00000   0.00000   0.00000      2.0170 0.0035
+  Cr    O      26   0.00000  -1.00000   0.00000      3.6890 0.0022
+  Cr    O      26   0.00000   0.00000   0.00000      2.0170 0.0020
+  Cr    O      25  -0.33333   0.33333   0.33333      3.6376 0.0019
+  Cr    O      26  -0.33333  -0.66667   0.33333      3.6376 0.0017
+  Cr    O      27   0.66667   0.33333   0.33333      3.6376 0.0026
+  Cr    O     -31  -0.33333   0.33333  -0.16667      3.9871 0.0024
+  Cr    O     -32   0.66667   0.33333  -0.16667      3.9871 0.0018
+  Cr    O     -33  -0.33333  -0.66667  -0.16667      3.9871 0.0017
+  Cr    O     -31  -0.66667  -0.33333   0.16667      3.3729 0.0023
+  Cr    O     -31   0.33333  -0.33333   0.16667      4.3474 0.0033
+  Cr    O     -31   0.33333   0.66667   0.16667      1.9627 0.0019
+  Cr    O     -32  -0.66667  -0.33333   0.16667      4.3474 0.0041
+  Cr    O     -32   0.33333  -0.33333   0.16667      1.9627 0.0023
+  Cr    O     -32   0.33333   0.66667   0.16667      3.3729 0.0021
+  Cr    O     -33  -0.66667  -0.33333   0.16667      1.9627 0.0040
+  Cr    O     -33   0.33333  -0.33333   0.16667      3.3729 0.0043
+  Cr    O     -33   0.33333   0.66667   0.16667      4.3474 0.0009
+  O     O      26   0.00000  -1.00000   0.00000      2.9872 0.0004
+  O     O      26   0.00000   0.00000   0.00000      2.6281 0.0055
+  O     O      26   1.00000   0.00000   0.00000      2.9872 0.0057
+  O     O     -31  -0.33333   0.33333  -0.16667      3.9538 0.0052
+  O     O     -31   0.66667   0.33333  -0.16667      2.8476 0.0038
+  O     O     -32   0.66667  -0.66667  -0.16667      4.1270 0.0029
+  O     O     -32   0.66667   0.33333  -0.16667      2.7371 0.0013
+  O     O     -33  -0.33333  -0.66667  -0.16667      2.8476 0.0017
+  O     O     -33   0.66667   0.33333  -0.16667      3.9538 0.0027
+
+   ========================================= 
+   List of possible restraints in CFL format 
+   ========================================= 
+
+
+=> Total number of independent distance restraints:    33
+DFIX   4.13977  0.00231  Cr  Cr_7.556
+DFIX   2.65788  0.00231  Cr  Cr_10
+DFIX   3.65107  0.00143  Cr  Cr_16.444
+DFIX   3.42162  0.00126  Cr  Cr_22.445
+DFIX   2.88959  0.00031  Cr  Cr_31.445
+DFIX   3.68898  0.00420  Cr  O_1.455
+DFIX   2.01703  0.00353  Cr  O
+DFIX   3.68898  0.00216  Cr  O_2.545
+DFIX   2.01703  0.00199  Cr  O_2
+DFIX   3.63765  0.00186  Cr  O_13.455
+DFIX   3.63765  0.00171  Cr  O_14.445
+DFIX   3.63765  0.00255  Cr  O_15
+DFIX   3.98713  0.00242  Cr  O_16.454
+DFIX   3.98713  0.00182  Cr  O_17.554
+DFIX   3.98713  0.00170  Cr  O_18.444
+DFIX   3.37287  0.00232  Cr  O_28.445
+DFIX   4.34743  0.00334  Cr  O_28.545
+DFIX   1.96272  0.00189  Cr  O_28
+DFIX   4.34744  0.00412  Cr  O_29.445
+DFIX   1.96272  0.00232  Cr  O_29.545
+DFIX   3.37287  0.00206  Cr  O_29
+DFIX   1.96272  0.00399  Cr  O_30.445
+DFIX   3.37287  0.00431  Cr  O_30.545
+DFIX   4.34744  0.00085  Cr  O_30
+DFIX   2.98718  0.00043  O  O_2.545
+DFIX   2.62812  0.00547  O  O_2
+DFIX   2.98718  0.00567  O  O_2.655
+DFIX   3.95381  0.00517  O  O_16.454
+DFIX   2.84757  0.00381  O  O_16.554
+DFIX   4.12697  0.00294  O  O_17.544
+DFIX   2.73709  0.00128  O  O_17.554
+DFIX   2.84757  0.00168  O  O_18.444
+DFIX   3.95381  0.00275  O  O_18.554
+
+=> Total number of possible angle restraints:     0

@@ -1,0 +1,16 @@
+!
+Title  CFL-file generated from FullProf for phase: Cr2O3
+!
+Cell    4.95864(9)  4.95864(9)  13.5953(4)  90.0000  90.0000  120.000
+!
+SpGR  R -3 c
+!
+!  Atom-strings in the order: Label, Species, x, y, z, Biso, Occ [,2*Spin, charge]
+Atom Cr   CR     0.00000       0.00000       0.34775(12)   0.94(3)       0.33333
+Atom O    O      0.3060(9)     0.00000       0.25000       0.94(3)       0.50000
+!
+!   Bond_STR instructions 
+DISTANCE 
+RESTRAINTS 
+DMAX   4.5000  0.0000
+TOL    0.0000

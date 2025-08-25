@@ -1,0 +1,143 @@
+
+
+        **********************************************************
+        ** PROGRAM FullProf.2k (Version 7.70 - Apr2022-ILL JRC) **
+        **********************************************************
+                       M U L T I -- P A T T E R N                 
+            Rietveld, Profile Matching & Integrated Intensity     
+                 Refinement of X-ray and/or Neutron Data
+
+
+    Date: 18/10/2022  Time: 14:55:45.040                              
+
+ => PCR file code: caco3_5m
+ => DAT file code: caco3_5m.xrdml       -> Relative contribution: 1.0000                                                            
+ => Title:CaCO3
+
+ ==> CONDITIONS OF THIS RUN FOR PATTERN No.:  1
+
+ => Global Refinement of X-ray powder diffraction data                                                                              
+ => Global Refinement of X-ray powder diffraction data                                                                              
+    Bragg-Brentano(X-rays) or Debye-Scherrer geometry(Neutrons)
+ => The    7th default profile function was selected
+ => Invalid instr parameter for pattern:  1
+ => Wavelengths:  1.54060 1.54439
+ => Cos(Monochromator angle)=   0.9000
+ => Absorption correction (AC), muR-eff =   0.0000  0.0000
+ => Base of peaks: 2.0*HW*   20.00
+ ==> Angular range, step and number of points:
+     2Thmin:      20.016512  2Thmax:     119.983322  Step:       0.033423  No. of points:   2992
+ =>-------> Pattern#  1
+ => Crystal Structure Refinement for phase: 1
+ => The density (volumic mass) of phase 1 is:    2.712 g/cm3
+ => Scor: 3.3957
+
+ ==> RESULTS OF REFINEMENT:
+
+
+ => No. of fitted parameters:   15
+
+
+------------------------------------------------------------------------------
+ => Phase No.  1 CaCO3: 167                              R -3 C              
+------------------------------------------------------------------------------
+
+ =>  No. of reflections for pattern#:   1:   168/2
+
+
+ ==> ATOM PARAMETERS:
+
+  Name      x     sx       y     sy       z      sz      B   sB   occ. socc.  Mult
+ Ca      0.00000(   0)  0.00000(   0)  0.00000(   0)  1.507(  0)  0.167(  0)    6
+ C       0.00000(   0)  0.00000(   0)  0.25000(   0)  1.947(  0)  0.167(  0)    6
+ O       0.24598( 120)  0.00000(   0)  0.25000(   0)  1.716(  0)  0.500(  0)   18
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Cell parameters      :
+                              4.98828   0.00046
+                              4.98828   0.00046
+                             17.06251   0.00235
+                             90.00000   0.00000
+                             90.00000   0.00000
+                            120.00000   0.00000
+ 
+ => overall scale factor :      0.000231607     0.000004274
+ => Eta(p-v) or m(p-vii) :    0.00000   0.00000
+ => Overall tem. factor  :    0.00000   0.00000
+ => Halfwidth parameters :    0.00439   0.00000
+                             -0.00039   0.00000
+                              0.00981   0.00000
+ => Preferred orientation:    1.00000   0.00000
+                              0.00000   0.00000
+ => Asymmetry parameters :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => X and y parameters   :    0.90179   0.03642
+                              0.00002   0.00002
+ => Strain parameters    :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => Size parameters (G,L):    0.00000   0.00000
+                              0.00000   0.00000
+
+ => Add. shape parameters: 
+                              0.00000   0.00000
+                              0.00000   0.00000
+
+
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000
+ => Background Polynomial Parameters ==>
+                               8.6974     0.31103    
+                               2.0973      1.5088    
+                              -22.911      3.5436    
+                              -24.462      3.4317    
+                               97.850      2.0865    
+                               0.0000      0.0000    
+ 
+ => Cos( theta)-shift parameter :  -0.0765  0.0074
+ => Sin(2theta)-shift parameter :   0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+  => Cycle: 20 => MaxCycle: 20
+ => N-P+C:  2977
+ =>  R-factors (not corrected for background) for Pattern:  1
+ => Rp:  27.2     Rwp:  39.0     Rexp:   19.39 Chi2:  4.05      L.S. refinement
+ => Conventional Rietveld R-factors for Pattern:  1
+ => Rp:  49.1     Rwp:  57.8     Rexp:   28.70 Chi2:  4.05    
+ => Deviance:  0.875E+04     Dev*  :   2.907    
+ => DW-Stat.:    0.8387     DW-exp:     1.8965
+ => N-sigma of the GoF:      117.775
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => N-P+C:  2977
+ =>  R-factors (not corrected for background) for Pattern:  1
+ => Rp:  27.2     Rwp:  39.0     Rexp:   19.39 Chi2:  4.05      L.S. refinement
+ => Conventional Rietveld R-factors for Pattern:  1
+ => Rp:  49.1     Rwp:  57.8     Rexp:   28.70 Chi2:  4.05    
+ => Deviance:  0.875E+04     Dev*  :   2.907    
+ => DW-Stat.:    0.8387     DW-exp:     1.8965
+ => N-sigma of the GoF:      117.775
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   4.05    
+
+     -----------------------------------------------------
+     BRAGG R-Factors and weight fractions for Pattern #  1
+     -----------------------------------------------------
+
+ => Phase:  1     CaCO3: 167
+ => Bragg R-factor:   29.1       Vol:  367.685( 0.070)  Fract(%):  100.00( 2.61)
+ => Rf-factor=  29.6             ATZ:         600.553   Brindley:  1.0000
+
+ 
+              CPU Time:     9.398 seconds
+                            0.157 minutes
+
+ => Run finished at:     Date: 18/10/2022  Time: 14:55:54.492                              

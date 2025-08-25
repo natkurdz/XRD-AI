@@ -1,0 +1,81 @@
+COMM Ni
+! Current global Chi2 (Bragg contrib.) =      2.589    
+! Files => DAT-file: ni_800rpm_280min.xrdml,  PCR-file: ni_800rpm_280min
+!Job Npr Nph Nba Nex Nsc Nor Dum Iwg Ilo Ias Res Ste Nre Cry Uni Cor Opt Aut
+   0   7   1  28   1   0   0   0   0   0   0   0   0   0   0   0   0   0   1
+!
+!Ipr Ppl Ioc Mat Pcr Ls1 Ls2 Ls3 NLI Prf Ins Rpa Sym Hkl Fou Sho Ana
+   0   2   0   1   2   0   4   0   0   3  13   0   1   2   0   0   0
+!
+! Lambda1  Lambda2    Ratio    Bkpos    Wdt    Cthm     muR   AsyLim   Rpolarz  2nd-muR -> Patt# 1
+ 1.540600 1.544390  0.50000   90.000 30.0000  0.9000  0.0000   90.00    0.0000  0.0000
+!
+!NCY  Eps  R_at  R_an  R_pr  R_gl     Thmin       Step       Thmax    PSD    Sent0
+ 20  0.10  0.90  0.90  0.90  0.90     20.0165   0.033423   119.9833   0.000   0.000
+!
+!2Theta/TOF/E(Kev)   Background  for Pattern#  1
+        28.8425       444.9927          0.00
+        30.7874       431.7379          0.00
+        32.6026       422.9014          0.00
+        34.4177       414.0648          0.00
+        36.8812       418.4831          0.00
+        38.8260       422.9014          0.00
+        40.7709       431.7379          0.00
+        42.1971       431.7379          0.00
+        43.8826       427.3196          0.00
+        45.6978       418.4831          0.00
+        47.1240       400.8101          0.00
+        48.6799       389.7644          0.00
+        51.1433       369.8822          0.00
+        53.3475       350.0001          0.00
+        55.4220       341.1635          0.00
+        58.6634       325.6996          0.00
+        62.4234       319.0722          0.00
+        65.4055       312.4448          0.00
+        70.3324       308.0266          0.00
+        73.8331       305.8174          0.00
+        80.1862       294.7718          0.00
+        85.8911       290.3535          0.00
+        90.5587       285.9352          0.00
+        96.7822       279.3078          0.00
+       102.6167       272.6805          0.00
+       108.5809       268.2622          0.00
+       113.8967       266.0530          0.00
+       120.3795       259.4257          0.00
+! 
+! Excluded regions (LowT  HighT) for Pattern#  1
+        0.00       35.00
+! 
+!
+       6    !Number of refined parameters
+!
+!  Zero    Code    SyCos    Code   SySin    Code  Lambda     Code MORE ->Patt# 1
+  0.00000    0.0 -0.01307   51.0  0.00000    0.0 0.000000    0.00   0
+!-------------------------------------------------------------------------------
+!  Data for PHASE number:   1  ==> Current R_Bragg for Pattern#  1:   2.2004
+!-------------------------------------------------------------------------------
+Ni
+!
+!Nat Dis Ang Pr1 Pr2 Pr3 Jbt Irf Isy Str Furth       ATZ    Nvk Npr More
+   1   0   0 0.0 0.0 2.0   0   0   0   0   0        234.725   0   7   0
+!
+!
+225                      <--Space group symbol
+!Atom   Typ       X        Y        Z     Biso       Occ     In Fin N_t Spc /Codes
+NI     Ni      0.00000  0.00000  0.00000  1.35180   0.02083   0   0   0    0  
+                  0.00     0.00     0.00    41.00      0.00
+!-------> Profile Parameters for Pattern #  1
+!  Scale        Shape1      Bov      Str1      Str2      Str3   Strain-Model
+ 0.92760E-02   0.00000   0.00000   0.00000   0.00000   0.00000       0
+    11.00000     0.000     0.000     0.000     0.000     0.000
+!       U         V          W           X          Y        GauSiz   LorSiz Size-Model
+   0.003047  -0.004667   0.005915   0.750890   0.000014   0.000040   0.000000    0
+      0.000      0.000      0.000     21.000     60.001      0.000      0.000
+!     a          b         c        alpha      beta       gamma      #Cell Info
+   3.524823   3.524823   3.524823  90.000000  90.000000  90.000000   
+   31.00000   31.00000   31.00000    0.00000    0.00000    0.00000
+!  Pref1    Pref2      Asy1     Asy2     Asy3     Asy4      S_L      D_L
+  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00
+!  2Th1/TOF1    2Th2/TOF2  Pattern to plot
+      35.000     104.985       1

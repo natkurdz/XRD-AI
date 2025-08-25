@@ -1,0 +1,143 @@
+
+
+        **********************************************************
+        ** PROGRAM FullProf.2k (Version 7.20 - Oct2019-ILL JRC) **
+        **********************************************************
+                       M U L T I -- P A T T E R N                 
+            Rietveld, Profile Matching & Integrated Intensity     
+                 Refinement of X-ray and/or Neutron Data
+
+
+    Date: 12/10/2021  Time: 16:36:55.855                              
+
+ => PCR file code: cr2o3_10min
+ => DAT file code: Cr2O3_1000rpm_10min. -> Relative contribution: 1.0000                                                            
+ => Title: Cr2O3
+
+ ==> CONDITIONS OF THIS RUN FOR PATTERN No.:  1
+
+ => Global Refinement of X-ray powder diffraction data                                                                              
+ => Global Refinement of X-ray powder diffraction data                                                                              
+    Bragg-Brentano(X-rays) or Debye-Scherrer geometry(Neutrons)
+ => The    7th default profile function was selected
+ => Invalid instr parameter for pattern:  1
+ => Wavelengths:  1.54060 1.54439
+ => Cos(Monochromator angle)=   0.9000
+ => Absorption correction (AC), muR-eff =   0.0000  0.0000
+ => Base of peaks: 2.0*HW*   25.00
+ ==> Angular range, step and number of points:
+     2Thmin:      20.016712  2Thmax:      99.996841  Step:       0.033423  No. of points:   2394
+ => Schakal File (*.sch) is output for phase: 1
+ =>-------> Pattern#  1
+ => Crystal Structure Refinement for phase: 1
+ => The density (volumic mass) of phase 1 is:    5.232 g/cm3
+ => Scor: 2.3998
+
+ ==> RESULTS OF REFINEMENT:
+
+
+ => No. of fitted parameters:   13
+
+
+------------------------------------------------------------------------------
+ => Phase No.  1 Cr2O3                                   R -3 c              
+------------------------------------------------------------------------------
+
+ =>  No. of reflections for pattern#:   1:    88/2
+
+
+ ==> ATOM PARAMETERS:
+
+  Name      x     sx       y     sy       z      sz      B   sB   occ. socc.  Mult
+ Cr      0.00000(   0)  0.00000(   0)  0.34779(  22)  0.227( 90)  0.333(  0)   12
+ O       0.30593( 162)  0.00000(   0)  0.25000(   0) -0.137(185)  0.500(  0)   18
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Cell parameters      :
+                              4.95852   0.00014
+                              4.95852   0.00014
+                             13.59593   0.00051
+                             90.00000   0.00000
+                             90.00000   0.00000
+                            120.00000   0.00000
+ 
+ => overall scale factor :      0.000095834     0.000001511
+ => Eta(p-v) or m(p-vii) :    0.00000   0.00000
+ => Overall tem. factor  :    0.00000   0.00000
+ => Halfwidth parameters :    0.00439   0.00000
+                             -0.00039   0.00000
+                              0.00981   0.00000
+ => Preferred orientation:    1.00000   0.00000
+                              1.00000   0.00000
+ => Asymmetry parameters :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => X and y parameters   :    0.19144   0.01854
+                              0.03242   0.00675
+ => Strain parameters    :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => Size parameters (G,L):    0.00004   0.00000
+                              0.00000   0.00000
+
+ => Add. shape parameters: 
+                              0.00000   0.00000
+                              0.00000   0.00000
+
+
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000
+ => Background Polynomial Parameters ==>
+                               6.3369     0.20575    
+                               5.4135      1.3598    
+                               51.120      2.1824    
+                               0.0000      0.0000    
+                               0.0000      0.0000    
+                               0.0000      0.0000    
+ 
+ => Cos( theta)-shift parameter :  -0.0741  0.0024
+ => Sin(2theta)-shift parameter :   0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+  => Cycle:  7 => MaxCycle: 10
+ => N-P+C:  2381
+ =>  R-factors (not corrected for background) for Pattern:  1
+ => Rp:  18.7     Rwp:  26.2     Rexp:   17.34 Chi2:  2.29      L.S. refinement
+ => Conventional Rietveld R-factors for Pattern:  1
+ => Rp:  31.6     Rwp:  37.1     Rexp:   24.48 Chi2:  2.29    
+ => Deviance:  0.606E+04     Dev*  :   2.515    
+ => DW-Stat.:    1.1378     DW-exp:     1.8838
+ => N-sigma of the GoF:       44.582
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => N-P+C:  2265
+ =>  R-factors (not corrected for background) for Pattern:  1
+ => Rp:  18.4     Rwp:  26.1     Rexp:   17.36 Chi2:  2.26      L.S. refinement
+ => Conventional Rietveld R-factors for Pattern:  1
+ => Rp:  30.1     Rwp:  36.1     Rexp:   23.98 Chi2:  2.26    
+ => Deviance:  0.558E+04     Dev*  :   2.435    
+ => DW-Stat.:    1.2114     DW-exp:     1.8812
+ => N-sigma of the GoF:       42.510
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   2.41    
+
+     -----------------------------------------------------
+     BRAGG R-Factors and weight fractions for Pattern #  1
+     -----------------------------------------------------
+
+ => Phase:  1     Cr2O3
+ => Bragg R-factor:   17.2       Vol:  289.497( 0.016)  Fract(%):  100.00( 2.23)
+ => Rf-factor=  12.9             ATZ:         911.926   Brindley:  1.0000
+
+ 
+              CPU Time:     3.346 seconds
+                            0.056 minutes
+
+ => Run finished at:     Date: 12/10/2021  Time: 16:36:59.254                              

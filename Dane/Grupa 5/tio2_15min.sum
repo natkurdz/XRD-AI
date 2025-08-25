@@ -1,0 +1,198 @@
+
+
+        **********************************************************
+        ** PROGRAM FullProf.2k (Version 7.70 - Apr2022-ILL JRC) **
+        **********************************************************
+                       M U L T I -- P A T T E R N                 
+            Rietveld, Profile Matching & Integrated Intensity     
+                 Refinement of X-ray and/or Neutron Data
+
+
+    Date: 15/11/2022  Time: 14:22:10.155                              
+
+ => PCR file code: tio2_15min
+ => DAT file code: tio2_15min.xrdml     -> Relative contribution: 1.0000                                                            
+ => Title: TiO2
+
+ ==> CONDITIONS OF THIS RUN FOR PATTERN No.:  1
+
+ => Global Refinement of X-ray powder diffraction data                                                                              
+ => Global Refinement of X-ray powder diffraction data                                                                              
+    Bragg-Brentano(X-rays) or Debye-Scherrer geometry(Neutrons)
+ => The    7th default profile function was selected
+ => Invalid instr parameter for pattern:  1
+ => Wavelengths:  1.54060 1.54439
+ => Cos(Monochromator angle)=   0.9000
+ => Absorption correction (AC), muR-eff =   0.0000  0.0000
+ => Base of peaks: 2.0*HW*   25.00
+ ==> Angular range, step and number of points:
+     2Thmin:      20.003012  2Thmax:     149.983261  Step:       0.033423  No. of points:   3890
+ =>-------> Pattern#  1
+ => Crystal Structure Refinement for phase: 1
+ => The density (volumic mass) of phase 1 is:    4.247 g/cm3
+ =>-------> Pattern#  1
+ => Crystal Structure Refinement for phase: 2
+ => The density (volumic mass) of phase 2 is:    3.892 g/cm3
+ => Scor: 1.9628
+
+ ==> RESULTS OF REFINEMENT:
+
+
+ => No. of fitted parameters:   16
+
+
+------------------------------------------------------------------------------
+ => Phase No.  1 Rutile                                  P 42/m n m          
+------------------------------------------------------------------------------
+
+ =>  No. of reflections for pattern#:   1:    94/2
+
+
+ ==> ATOM PARAMETERS:
+
+  Name      x     sx       y     sy       z      sz      B   sB   occ. socc.  Mult
+ Ti      0.00000(   0)  0.00000(   0)  0.00000(   0)  0.813( 23)  0.125(  0)    2
+ O       0.30563(  37)  0.30563(  37)  0.00000(   0)  0.445( 48)  0.250(  0)    4
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Cell parameters      :
+                              4.59421   0.00002
+                              4.59421   0.00002
+                              2.95902   0.00002
+                             90.00000   0.00000
+                             90.00000   0.00000
+                             90.00000   0.00000
+ 
+ => overall scale factor :      0.009079769     0.000052006
+ => Eta(p-v) or m(p-vii) :    0.00000   0.00000
+ => Overall tem. factor  :    0.00000   0.00000
+ => Halfwidth parameters :    0.00279   0.00000
+                              0.00107   0.00000
+                              0.00348   0.00000
+ => Preferred orientation:    0.00000   0.00000
+                              0.00000   0.00000
+ => Asymmetry parameters :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => X and y parameters   :    0.00101   0.00068
+                              0.08650   0.00033
+ => Strain parameters    :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => Size parameters (G,L):    0.00004   0.00000
+                              0.00000   0.00000
+
+ => Add. shape parameters: 
+                              0.00000   0.00000
+                              0.00000   0.00000
+
+
+
+------------------------------------------------------------------------------
+ => Phase No.  2 Anatase                                 I 41/a m d          
+------------------------------------------------------------------------------
+
+ =>  No. of reflections for pattern#:   1:   100/2
+
+
+ ==> ATOM PARAMETERS:
+
+  Name      x     sx       y     sy       z      sz      B   sB   occ. socc.  Mult
+ Ti      0.00000(   0)  0.25000(   0)  0.37500(   0)  0.328(  0)  0.125(  0)    4
+ O       0.00000(   0)  0.25000(   0)  0.16682(   0)  0.239(  0)  0.250(  0)    8
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Cell parameters      :
+                              3.78502   0.00024
+                              3.78502   0.00024
+                              9.51489   0.00116
+                             90.00000   0.00000
+                             90.00000   0.00000
+                             90.00000   0.00000
+ 
+ => overall scale factor :      0.000038446     0.000001730
+ => Eta(p-v) or m(p-vii) :    0.00000   0.00000
+ => Overall tem. factor  :    0.00000   0.00000
+ => Halfwidth parameters :    0.00279   0.00000
+                              0.00107   0.00000
+                              0.00348   0.00000
+ => Preferred orientation:    0.00000   0.00000
+                              0.00000   0.00000
+ => Asymmetry parameters :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => X and y parameters   :    0.02388   0.00000
+                              0.06192   0.00000
+ => Strain parameters    :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => Size parameters (G,L):    0.00004   0.00000
+                              0.00000   0.00000
+
+ => Add. shape parameters: 
+                              0.00000   0.00000
+                              0.00000   0.00000
+
+
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000
+ => Background Polynomial Parameters ==>
+                               12.366     0.15225    
+                               4.1107     0.66096    
+                               56.756     0.79869    
+                              -43.342      2.0996    
+                               0.0000      0.0000    
+                               0.0000      0.0000    
+ 
+ => Cos( theta)-shift parameter :  -0.0695  0.0006
+ => Sin(2theta)-shift parameter :   0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+  => Cycle:  4 => MaxCycle: 20
+ => N-P+C:  3874
+ =>  R-factors (not corrected for background) for Pattern:  1
+ => Rp:  11.6     Rwp:  16.6     Rexp:   12.68 Chi2:  1.72      L.S. refinement
+ => Conventional Rietveld R-factors for Pattern:  1
+ => Rp:  18.6     Rwp:  22.7     Rexp:   17.35 Chi2:  1.72    
+ => Deviance:  0.679E+04     Dev*  :   1.742    
+ => DW-Stat.:    1.3331     DW-exp:     1.9087
+ => N-sigma of the GoF:       31.512
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => N-P+C:  3724
+ =>  R-factors (not corrected for background) for Pattern:  1
+ => Rp:  11.4     Rwp:  16.5     Rexp:   12.67 Chi2:  1.70      L.S. refinement
+ => Conventional Rietveld R-factors for Pattern:  1
+ => Rp:  17.8     Rwp:  22.2     Rexp:   17.03 Chi2:  1.70    
+ => Deviance:  0.646E+04     Dev*  :   1.725    
+ => DW-Stat.:    1.3967     DW-exp:     1.9070
+ => N-sigma of the GoF:       30.369
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   1.79    
+
+     -----------------------------------------------------
+     BRAGG R-Factors and weight fractions for Pattern #  1
+     -----------------------------------------------------
+
+ => Phase:  1     Rutile
+ => Bragg R-factor:   6.77       Vol:   62.455( 0.001)  Fract(%):   98.19( 0.79)
+ => Rf-factor=  5.26             ATZ:         159.732   Brindley:  1.0000
+
+ => Phase:  2     Anatase
+ => Bragg R-factor:   37.5       Vol:  136.314( 0.021)  Fract(%):    1.81( 0.08)
+ => Rf-factor=  27.8             ATZ:         319.463   Brindley:  1.0000
+
+ 
+              CPU Time:     1.938 seconds
+                            0.032 minutes
+
+ => Run finished at:     Date: 15/11/2022  Time: 14:22:12.143                              

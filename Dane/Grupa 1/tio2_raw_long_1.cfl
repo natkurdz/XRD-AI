@@ -1,0 +1,16 @@
+!
+Title  CFL-file generated from FullProf for phase: Rutile
+!
+Cell    4.593880(9)  4.593880(9)  2.958823(9)  90.0000  90.0000  90.0000
+!
+SpGR  P 42/m n m
+!
+!  Atom-strings in the order: Label, Species, x, y, z, Biso, Occ [,2*Spin, charge]
+Atom Ti   Ti     0.00000       0.00000       0.00000       0.571(9)      0.12500
+Atom O    O      0.30539(16)   0.30539(16)   0.00000       0.250(20)     0.25000
+!
+!   Bond_STR instructions 
+DISTANCE 
+RESTRAINTS 
+DMAX   4.0000  0.0000
+TOL    0.0000

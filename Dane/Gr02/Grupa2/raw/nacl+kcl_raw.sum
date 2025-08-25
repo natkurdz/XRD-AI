@@ -1,0 +1,199 @@
+
+
+        **********************************************************
+        ** PROGRAM FullProf.2k (Version 7.00 - May2019-ILL JRC) **
+        **********************************************************
+                       M U L T I -- P A T T E R N                 
+            Rietveld, Profile Matching & Integrated Intensity     
+                 Refinement of X-ray and/or Neutron Data
+
+
+    Date: 11/10/2019  Time: 11:02:07.351                              
+
+ => PCR file code: nacl+kcl_raw
+ => DAT file code: nacl+kcl_raw.xrdml   -> Relative contribution: 1.0000                                                            
+ => Title: S01 E17
+
+ ==> CONDITIONS OF THIS RUN FOR PATTERN No.:  1
+
+ => Global Refinement of X-ray powder diffraction data                                                                              
+ => Global Refinement of X-ray powder diffraction data                                                                              
+    Bragg-Brentano(X-rays) or Debye-Scherrer geometry(Neutrons)
+ => The    7th default profile function was selected
+ => Invalid instr parameter for pattern:  1
+ => Wavelengths:  1.54060 1.54439
+ => Cos(Monochromator angle)=   0.9000
+ => Absorption correction (AC), muR-eff =   0.1000  0.1000
+ => AC : Cylinder Debye-Scherrer (Hewat formula)
+ => Base of peaks: 2.0*HW*   40.00
+ ==> Angular range, step and number of points:
+     2Thmin:      20.008156  2Thmax:     119.991676  Step:       0.016711  No. of points:   5984
+ =>-------> Pattern#  1
+ => Crystal Structure Refinement for phase: 1
+ => The density (volumic mass) of phase 1 is:    2.163 g/cm3
+ =>-------> Pattern#  1
+ => Crystal Structure Refinement for phase: 2
+ => The density (volumic mass) of phase 2 is:    1.988 g/cm3
+ => Scor: 2.1706
+
+ ==> RESULTS OF REFINEMENT:
+
+
+ => No. of fitted parameters:   17
+
+
+------------------------------------------------------------------------------
+ => Phase No.  1 NaCl                                    225                 
+------------------------------------------------------------------------------
+
+ =>  No. of reflections for pattern#:   1:    36/2
+
+
+ ==> ATOM PARAMETERS:
+
+  Name      x     sx       y     sy       z      sz      B   sB   occ. socc.  Mult
+ Na      0.00000(   0)  0.00000(   0)  0.00000(   0)  2.404(  0)  0.021(  0)    4
+ Cl      0.50000(   0)  0.50000(   0)  0.50000(   0)  2.404(  0)  0.021(  0)    4
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Cell parameters      :
+                              5.64068   0.00008
+                              5.64068   0.00008
+                              5.64068   0.00008
+                             90.00000   0.00000
+                             90.00000   0.00000
+                             90.00000   0.00000
+ 
+ => overall scale factor :      0.000361768     0.000006399
+ => Eta(p-v) or m(p-vii) :    0.00000   0.00000
+ => Overall tem. factor  :    0.00000   0.00000
+ => Halfwidth parameters :    0.00631   0.00000
+                             -0.00280   0.00000
+                              0.00794   0.00000
+ => Preferred orientation:    0.25304   0.00015
+                              0.70000   0.00000
+ => Asymmetry parameters :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => X and y parameters   :    0.17058   0.00141
+                              0.00001   0.00001
+ => Strain parameters    :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => Size parameters (G,L):    0.00000   0.00000
+                              0.00000   0.00000
+
+ => Add. shape parameters: 
+                              0.00000   0.00000
+                              0.00100   0.00000
+
+
+
+------------------------------------------------------------------------------
+ => Phase No.  2 KCl                                     225                 
+------------------------------------------------------------------------------
+
+ =>  No. of reflections for pattern#:   1:    46/2
+
+
+ ==> ATOM PARAMETERS:
+
+  Name      x     sx       y     sy       z      sz      B   sB   occ. socc.  Mult
+ K       0.00000(   0)  0.00000(   0)  0.00000(   0)  2.038(  0)  0.021(  0)    4
+ Cl      0.50000(   0)  0.50000(   0)  0.50000(   0)  2.038(  0)  0.021(  0)    4
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Cell parameters      :
+                              6.29191   0.00013
+                              6.29191   0.00013
+                              6.29191   0.00013
+                             90.00000   0.00000
+                             90.00000   0.00000
+                             90.00000   0.00000
+ 
+ => overall scale factor :      0.000018666     0.000001059
+ => Eta(p-v) or m(p-vii) :    0.00000   0.00000
+ => Overall tem. factor  :    0.00000   0.00000
+ => Halfwidth parameters :    0.00279   0.00000
+                              0.00107   0.00000
+                              0.00348   0.00000
+ => Preferred orientation:    0.21339   0.00040
+                              0.70000   0.00000
+ => Asymmetry parameters :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => X and y parameters   :    0.17058   0.00141
+                              0.00001   0.00001
+ => Strain parameters    :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => Size parameters (G,L):    0.00000   0.00000
+                              0.00000   0.00000
+
+ => Add. shape parameters: 
+                              0.00000   0.00000
+                              0.00100   0.00000
+
+
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000
+ => Background Polynomial Parameters ==>
+                               1.7166     0.44324E-01
+                               1.7109     0.19076    
+                               8.2107     0.40170    
+                               0.0000      0.0000    
+                               0.0000      0.0000    
+                               0.0000      0.0000    
+ 
+ => Cos( theta)-shift parameter :   0.1303  0.0011
+ => Sin(2theta)-shift parameter :   0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+  => Cycle: 20 => MaxCycle: 20
+ => N-P+C:  5967
+ =>  R-factors (not corrected for background) for Pattern:  1
+ => Rp:  16.9     Rwp:  28.0     Rexp:   20.03 Chi2:  1.96      L.S. refinement
+ => Conventional Rietveld R-factors for Pattern:  1
+ => Rp:  18.8     Rwp:  30.0     Rexp:   21.42 Chi2:  1.96    
+ => Deviance:  0.136E+05     Dev*  :   2.155    
+ => DW-Stat.:    1.1698     DW-exp:     1.9255
+ => N-sigma of the GoF:       52.301
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => N-P+C:  5892
+ =>  R-factors (not corrected for background) for Pattern:  1
+ => Rp:  16.8     Rwp:  27.9     Rexp:   19.95 Chi2:  1.95      L.S. refinement
+ => Conventional Rietveld R-factors for Pattern:  1
+ => Rp:  18.7     Rwp:  29.8     Rexp:   21.30 Chi2:  1.95    
+ => Deviance:  0.133E+05     Dev*  :   2.144    
+ => DW-Stat.:    1.1865     DW-exp:     1.9250
+ => N-sigma of the GoF:       51.812
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   1.98    
+
+     -----------------------------------------------------
+     BRAGG R-Factors and weight fractions for Pattern #  1
+     -----------------------------------------------------
+
+ => Phase:  1     NaCl
+ => Bragg R-factor:   8.59       Vol:  179.471( 0.005)  Fract(%):   91.63( 2.24)
+ => Rf-factor=  14.7             ATZ:         233.696   Brindley:  1.0000
+
+ => Phase:  2     KCl
+ => Bragg R-factor:   9.17       Vol:  249.085( 0.009)  Fract(%):    8.37( 0.50)
+ => Rf-factor=  19.3             ATZ:         298.109   Brindley:  1.0000
+
+ 
+              CPU Time:    17.844 seconds
+                            0.297 minutes
+
+ => Run finished at:     Date: 11/10/2019  Time: 11:02:25.211                              

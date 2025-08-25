@@ -1,0 +1,58 @@
+COMM CaCO3
+! Current global Chi2 (Bragg contrib.) =      1.948    
+! Files => DAT-file: caco3_666rpm_10min.xrdml,  PCR-file: caco3_666rpm_10min
+!Job Npr Nph Nba Nex Nsc Nor Dum Iwg Ilo Ias Res Ste Nre Cry Uni Cor Opt Aut
+   0   7   1   0   1   0   1   1   0   0   1   0   0   0   0   0   0   0   1
+!
+!Ipr Ppl Ioc Mat Pcr Ls1 Ls2 Ls3 NLI Prf Ins Rpa Sym Hkl Fou Sho Ana
+   0   2   0   1   2   0   4   0   0   3  13   0   1   2   0   0   0
+!
+! Lambda1  Lambda2    Ratio    Bkpos    Wdt    Cthm     muR   AsyLim   Rpolarz  2nd-muR -> Patt# 1
+ 1.540600 1.544390  0.50000   90.000 20.0000  0.9000  0.0000   90.00    0.0000  0.0000
+!
+!NCY  Eps  R_at  R_an  R_pr  R_gl     Thmin       Step       Thmax    PSD    Sent0
+ 20  0.05  0.90  0.90  0.90  0.90     19.9948   0.016711    99.9916   0.000   0.000
+!
+! Excluded regions (LowT  HighT) for Pattern#  1
+        0.00       10.00
+! 
+!
+      15    !Number of refined parameters
+!
+!  Zero    Code    SyCos    Code   SySin    Code  Lambda     Code MORE ->Patt# 1
+  0.00000    0.0 -0.02710   11.0  0.00000    0.0 0.000000    0.00   0
+!   Background coefficients/codes  for Pattern#  1  (Polynomial of 6th degree)
+       4.162       3.220      26.919      45.727      65.671       0.000
+       21.00       81.00      120.20      130.20      140.20        0.00
+!-------------------------------------------------------------------------------
+!  Data for PHASE number:   1  ==> Current R_Bragg for Pattern#  1:  16.9883
+!-------------------------------------------------------------------------------
+CaCO3: 167
+!
+!Nat Dis Ang Pr1 Pr2 Pr3 Jbt Irf Isy Str Furth       ATZ    Nvk Npr More
+   3   0   0 1.0 0.0 1.0   0   0   0   0   0        600.553   0   7   0
+!
+!
+R -3 C                   <--Space group symbol
+!Atom   Typ       X        Y        Z     Biso       Occ     In Fin N_t Spc /Codes
+Ca     Ca      0.00000  0.00000  0.00000  3.48603   0.16667   0   0   0    0  
+                  0.00     0.00     0.00    91.00      0.00
+C      C       0.00000  0.00000  0.25000  2.55141   0.16667   0   0   0    0  
+                  0.00     0.00     0.00   101.00      0.00
+O      O       0.25226  0.00000  0.25000  3.57520   0.50000   0   0   0    0  
+                151.00     0.00     0.00   111.00      0.00
+!-------> Profile Parameters for Pattern #   1  ----> Phase #   1
+!  Scale          Shape1      Bov      Str1      Str2      Str3   Strain-Model
+ 0.1759948E-03   0.00000   0.00000   0.00000   0.00000   0.00000       0
+      41.00000     0.000     0.000     0.000     0.000     0.000
+!       U            V            W             X            Y         GauSiz      LorSiz    Size-Model
+     0.004391    -0.000389     0.009813     0.146466     0.090008     0.000000     0.000000       0
+         0.00         0.00         0.00        50.25        31.00         0.00         0.00
+!     a          b         c        alpha      beta       gamma      #Cell Info
+   4.989616   4.989616  17.062832  90.000000  90.000000 120.000000   
+   71.00000   71.00000   61.00000    0.00000    0.00000   71.00000
+!  Pref1    Pref2      Asy1     Asy2     Asy3     Asy4      S_L      D_L
+  1.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00
+!  2Th1/TOF1    2Th2/TOF2  Pattern to plot
+      20.028      99.992       1

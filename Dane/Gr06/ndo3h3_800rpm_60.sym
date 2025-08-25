@@ -1,0 +1,117 @@
+  Nd hydroxide
+
+            --------------------------------
+            SYMMETRY INFORMATION ON PHASE: 1
+            --------------------------------
+
+
+ => Symmetry information on space group: P 63/m              
+ -> The multiplicity of the general position is:  12
+ -> The space group is Centric (-1 at origin)   
+ -> Lattice type  P: { 000 }                                       
+ -> Reduced set of symmetry operators:
+
+  No.  IT   Symmetry symbol    Rotation part     Associated Translation
+   1: ( 1)   1            --> ( x  ,   y, z) + {  0.0000  0.0000  0.0000}
+   2: ( 6)  6+ ( 0, 0, z) --> ( x-y, x  , z) + {  0.0000  0.0000  0.5000}
+   3: ( 2)  3+ ( 0, 0, z) --> (  -y, x-y, z) + {  0.0000  0.0000  0.0000}
+   4: ( 4)   2 ( 0, 0, z) --> (-x  ,  -y, z) + {  0.0000  0.0000  0.5000}
+   5: ( 3)  3- ( 0, 0, z) --> (-x+y,-x  , z) + {  0.0000  0.0000  0.0000}
+   6: ( 5)  6- ( 0, 0, z) --> (   y,-x+y, z) + {  0.0000  0.0000  0.5000}
+
+
+        Information on Space Group: 
+        --------------------------- 
+
+ =>   Number of Space group: 176
+ =>  Hermann-Mauguin Symbol: P 63/m
+ =>             Hall Symbol: -P 6c
+ =>            Setting Type: IT (Generated from Hermann-Mauguin symbol)
+ =>          Crystal System: Hexagonal
+ =>              Laue Class: 6/m
+ =>             Point Group: 6/m
+ =>         Bravais Lattice: P
+ =>          Lattice Symbol: hP
+ =>  Reduced Number of S.O.:   6
+ =>    General multiplicity:  12
+ =>          Centrosymmetry: Centric (-1 at origin)
+ =>  Generators (exc. -1&L):   1
+ =>         Asymmetric unit:  0.000 <= x <=  0.667
+                              0.000 <= y <=  0.667
+                              0.000 <= z <=  0.250
+ => Centring vectors:  0
+                                                                                                    
+
+ => List of all Symmetry Operators and Symmetry Symbols
+
+ => SYMM(  1): x,y,z                             Symbol: 1
+ => SYMM(  2): x-y,x,z+1/2                       Symbol: 6+ (0,0,1/2) 0,0,z
+ => SYMM(  3): -y,x-y,z                          Symbol: 3+ 0,0,z
+ => SYMM(  4): -x,-y,z+1/2                       Symbol: 2 (0,0,1/2) 0,0,z
+ => SYMM(  5): -x+y,-x,z                         Symbol: 3- 0,0,z
+ => SYMM(  6): y,-x+y,z+1/2                      Symbol: 6- (0,0,1/2) 0,0,z
+ => SYMM(  7): -x,-y,-z                          Symbol: -1 0,0,0
+ => SYMM(  8): -x+y,-x,-z+1/2                    Symbol: -6+ 0,0,z; 0,0,1/4
+ => SYMM(  9): y,-x+y,-z                         Symbol: -3+ 0,0,z; 0,0,0
+ => SYMM( 10): x,y,-z+1/2                        Symbol: m x,y,1/4
+ => SYMM( 11): x-y,x,-z                          Symbol: -3- 0,0,z; 0,0,0
+ => SYMM( 12): -y,x-y,-z+1/2                     Symbol: -6- 0,0,z; 0,0,1/4
+
+ => Special Wyckoff Positions for P 63/m
+ 
+    Multp     Site        Representative Coordinates (centring translations excluded)
+      6       h              x,y,1/4             x-y,x,3/4           -y,x-y,1/4                              
+                             -x,-y,3/4           -x+y,-x,1/4         y,-x+y,3/4                              
+ 
+      6       g              1/2,0,0             1/2,1/2,1/2         0,1/2,0                                 
+                             1/2,0,1/2           1/2,1/2,0           0,1/2,1/2                               
+ 
+      4       f              1/3,2/3,z           2/3,1/3,z+1/2       2/3,1/3,-z                              
+                             1/3,2/3,-z+1/2                                                                  
+ 
+      4       e              0,0,z               0,0,z+1/2           0,0,-z                                  
+                             0,0,-z+1/2                                                                      
+ 
+      2       d              2/3,1/3,1/4         1/3,2/3,3/4                                                 
+ 
+      2       c              1/3,2/3,1/4         2/3,1/3,3/4                                                 
+ 
+      2       b              0,0,0               0,0,1/2                                                     
+ 
+      2       a              0,0,1/4             0,0,3/4                                                     
+ 
+
+       -------------------------------------------------
+       INFORMATION ON SITE SYMMETRY OF ATOMS IN PHASE: 1
+       -------------------------------------------------
+
+
+  -> Information on Atom: Nd     at position:    0.33330   0.66670   0.25000  Multiplicity:   2
+     List of symmetry operators and symmetry elements of the site point group:
+     Operator  2:  x,y,-z+1/2                    m x,y,1/4 
+     Operator  3:  -x+y,-x+1,z                   3- 1/3,2/3,z
+     Operator  4:  -x+y,-x+1,-z+1/2              -6+ 1/3,2/3,z; 1/3,2/3,1/4
+     Operator  5:  -y+1,x-y+1,z                  3+ 1/3,2/3,z
+     Operator  6:  -y+1,x-y+1,-z+1/2             -6- 1/3,2/3,z; 1/3,2/3,1/4
+     Codes for atom coordinates  (Automatic Constraints):        0.00        0.00        0.00
+     Codes for anisotropic betas (Automatic Constraints):        0.00        0.00        0.00        0.00        0.00        0.00
+
+     --> Complete orbit of the atom: Nd    
+
+         Nd(  1)     0.33330  0.66670  0.25000    x,y,z
+         Nd(  2)     0.66660  0.33330  0.75000    x-y,x,z+1/2
+
+  -> Information on Atom: O      at position:    0.34368   0.27132   0.25000  Multiplicity:   6
+     List of symmetry operators and symmetry elements of the site point group:
+     Operator  2:  x,y,-z+1/2                    m x,y,1/4 
+     Codes for atom coordinates  (Automatic Constraints):      110.20      120.20        0.00
+     Codes for anisotropic betas (Automatic Constraints):        0.00        0.00        0.00        0.00        0.00        0.00
+
+     --> Complete orbit of the atom: O     
+
+         O(  1)      0.34368  0.27132  0.25000    x,y,z
+         O(  2)      0.07236  0.34368  0.75000    x-y,x,z+1/2
+         O(  3)      0.72868  0.07236  0.25000    -y,x-y,z
+         O(  4)      0.65632  0.72868  0.75000    -x,-y,z+1/2
+         O(  5)      0.92764  0.65632  0.25000    -x+y,-x,z
+         O(  6)      0.27132  0.92764  0.75000    y,-x+y,z+1/2

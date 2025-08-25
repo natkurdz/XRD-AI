@@ -1,0 +1,144 @@
+
+
+        **********************************************************
+        ** PROGRAM FullProf.2k (Version 7.20 - Oct2019-ILL JRC) **
+        **********************************************************
+                       M U L T I -- P A T T E R N                 
+            Rietveld, Profile Matching & Integrated Intensity     
+                 Refinement of X-ray and/or Neutron Data
+
+
+    Date: 27/10/2021  Time: 12:52:15.247                              
+
+ => PCR file code: magnetyt_raw
+ => DAT file code: magnetyt_raw.xrdml   -> Relative contribution: 1.0000                                                            
+ => Title: Fe3O4
+
+ ==> CONDITIONS OF THIS RUN FOR PATTERN No.:  1
+
+ => Global Refinement of X-ray powder diffraction data                                                                              
+ => Global Refinement of X-ray powder diffraction data                                                                              
+    Bragg-Brentano(X-rays) or Debye-Scherrer geometry(Neutrons)
+ => The    7th default profile function was selected
+ => Invalid instr parameter for pattern:  1
+ => Wavelengths:  1.54060 1.54439
+ => Cos(Monochromator angle)=   0.9000
+ => Absorption correction (AC), muR-eff =   0.0000  0.0000
+ => Base of peaks: 2.0*HW*   25.00
+ ==> Angular range, step and number of points:
+     2Thmin:      10.016711  2Thmax:      99.990181  Step:       0.033423  No. of points:   2693
+ => Schakal File (*.sch) is output for phase: 1
+ =>-------> Pattern#  1
+ => Crystal Structure Refinement for phase: 1
+ => The density (volumic mass) of phase 1 is:    5.197 g/cm3
+ => Scor: 1.8514
+
+ ==> RESULTS OF REFINEMENT:
+
+
+ => No. of fitted parameters:   13
+
+
+------------------------------------------------------------------------------
+ => Phase No.  1 Fe3O4                                   227:2               
+------------------------------------------------------------------------------
+
+ =>  No. of reflections for pattern#:   1:    60/2
+
+
+ ==> ATOM PARAMETERS:
+
+  Name      x     sx       y     sy       z      sz      B   sB   occ. socc.  Mult
+ Fe1     0.50000(   0)  0.50000(   0)  0.50000(   0) -0.369( 73)  0.083(  0)   16
+ Fe2     0.12500(   0)  0.12500(   0)  0.12500(   0) -0.369( 73)  0.042(  0)    8
+ O       0.25471(  64)  0.25471(  64)  0.25471(  64) -0.559(179)  0.167(  0)   32
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Cell parameters      :
+                              8.39629   0.00013
+                              8.39629   0.00013
+                              8.39629   0.00013
+                             90.00000   0.00000
+                             90.00000   0.00000
+                             90.00000   0.00000
+ 
+ => overall scale factor :      0.000017613     0.000000249
+ => Eta(p-v) or m(p-vii) :    0.00000   0.00000
+ => Overall tem. factor  :    0.00000   0.00000
+ => Halfwidth parameters :    0.00439   0.00000
+                             -0.00039   0.00000
+                              0.00981   0.00000
+ => Preferred orientation:    1.00000   0.00000
+                              0.00000   0.00000
+ => Asymmetry parameters :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => X and y parameters   :    0.06367   0.01113
+                              0.04031   0.00461
+ => Strain parameters    :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => Size parameters (G,L):    0.00000   0.00000
+                              0.00000   0.00000
+
+ => Add. shape parameters: 
+                              0.00000   0.00000
+                              0.00000   0.00000
+
+
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000
+ => Background Polynomial Parameters ==>
+                               9.6263     0.22064    
+                              -1.2946      2.2261    
+                               159.13      18.622    
+                               624.13      47.521    
+                               695.04      35.475    
+                               0.0000      0.0000    
+ 
+ => Cos( theta)-shift parameter :  -0.0098  0.0018
+ => Sin(2theta)-shift parameter :   0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+  => Cycle:  2 => MaxCycle: 10
+ => N-P+C:  2530
+ =>  R-factors (not corrected for background) for Pattern:  1
+ => Rp:  15.5     Rwp:  21.4     Rexp:   16.03 Chi2:  1.79      L.S. refinement
+ => Conventional Rietveld R-factors for Pattern:  1
+ => Rp:  36.2     Rwp:  35.2     Rexp:   26.35 Chi2:  1.79    
+ => Deviance:  0.513E+04     Dev*  :   2.007    
+ => DW-Stat.:    1.4172     DW-exp:     1.8870
+ => N-sigma of the GoF:       28.093
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => N-P+C:  2358
+ =>  R-factors (not corrected for background) for Pattern:  1
+ => Rp:  15.8     Rwp:  21.9     Rexp:   16.20 Chi2:  1.82      L.S. refinement
+ => Conventional Rietveld R-factors for Pattern:  1
+ => Rp:  33.4     Rwp:  34.5     Rexp:   25.52 Chi2:  1.82    
+ => Deviance:  0.492E+04     Dev*  :   2.066    
+ => DW-Stat.:    1.4923     DW-exp:     1.8833
+ => N-sigma of the GoF:       28.285
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   1.92    
+
+     -----------------------------------------------------
+     BRAGG R-Factors and weight fractions for Pattern #  1
+     -----------------------------------------------------
+
+ => Phase:  1     Fe3O4
+ => Bragg R-factor:   13.4       Vol:  591.920( 0.016)  Fract(%):  100.00( 2.00)
+ => Rf-factor=  10.0             ATZ:        1852.245   Brindley:  1.0000
+
+ 
+              CPU Time:     0.773 seconds
+                            0.013 minutes
+
+ => Run finished at:     Date: 27/10/2021  Time: 12:52:16.041                              

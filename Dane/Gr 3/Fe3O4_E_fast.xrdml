@@ -1,0 +1,114 @@
+﻿<?xml version="1.0"?>
+<xrdMeasurements xmlns="http://www.xrdml.com/XRDMeasurement/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xrdml.com/XRDMeasurement/2.2 http://www.xrdml.com/XRDMeasurement/2.2/XRDMeasurement.xsd" status="Completed" recordIdentifier="{B758C3B3-CE69-4520-8CC5-4C86A9D2C2B7}">
+	<comment>
+		<entry>Configuration=Spinner, Owner=User, Creation date=8/6/2021 9:39:53 AM</entry>
+		<entry>Goniometer=Theta/Theta; Minimum step size 2Theta:0.0001; Minimum step size Omega:0.0001</entry>
+		<entry>Sample stage=Reflection-transmission spinner; Minimum step size Phi:0.1</entry>
+		<entry>Diffractometer system=EMPYREAN</entry>
+		<entry>Measurement program=C:\PANalytical\Data Collector\Programs\!!!!!Spinner.xrdmp, Identifier={B7027B1B-05A7-416C-981A-D588E7F8B750}</entry>
+	</comment>
+	<sample type="To be analyzed">
+		<id></id>
+		<name></name>
+		<preparedBy></preparedBy>
+	</sample>
+	<xrdMeasurement measurementType="Scan" status="Completed" sampleMode="Reflection">
+		<comment>
+			<entry>PHD Lower Level = 5.79 (keV), PHD Upper Level = 12.80 (keV)</entry>
+		</comment>
+		<usedWavelength intended="K-Alpha 1">
+			<kAlpha1 unit="Angstrom">1.5405980</kAlpha1>
+			<kAlpha2 unit="Angstrom">1.5444260</kAlpha2>
+			<kBeta unit="Angstrom">1.3922500</kBeta>
+			<ratioKAlpha2KAlpha1>0.5000</ratioKAlpha2KAlpha1>
+		</usedWavelength>
+		<incidentBeamPath>
+			<radius unit="mm">240.00</radius>
+			<xRayTube id="1010041" name="Empyrean Cu LFF (9430 033 7300x) DK432123">
+				<tension unit="kV">40.0</tension>
+				<current unit="mA">40.0</current>
+				<anodeMaterial>Cu</anodeMaterial>
+				<focus type="Line">
+					<length unit="mm">12.0</length>
+					<width unit="mm">0.4</width>
+					<takeOffAngle unit="deg">6.0</takeOffAngle>
+				</focus>
+			</xRayTube>
+			<filter id="20010004" name="Beta-filter Nickel">
+				<material>Ni</material>
+				<thickness unit="mm">0.020</thickness>
+			</filter>
+			<sollerSlit id="21010002" name="Soller slits 0.04 rad.">
+				<opening unit="rad">0.0400</opening>
+			</sollerSlit>
+			<mask id="22080002" name="Fixed incident beam mask 10 mm">
+				<width unit="mm">6.60</width>
+			</mask>
+			<antiScatterSlit id="22010003" name="Fixed slit 1°" xsi:type="fixedAntiScatterSlitType">
+				<height unit="mm">1.52</height>
+			</antiScatterSlit>
+			<divergenceSlit id="22010012" name="Programmable divergence slit" xsi:type="fixedDivergenceSlitType">
+				<distanceToSample unit="mm">140.00</distanceToSample>
+				<angle unit="deg">1</angle>
+			</divergenceSlit>
+		</incidentBeamPath>
+		<sampleMovement xsi:type="spinningSampleMovementType">
+			<spinnerRevolutionTime unit="seconds">1.0</spinnerRevolutionTime>
+		</sampleMovement>
+		<diffractedBeamPath>
+			<radius unit="mm">240.00</radius>
+			<antiScatterSlit id="22110001" name="AS slit 3.9 mm (X'Celerator)" xsi:type="fixedAntiScatterSlitType">
+				<height unit="mm">3.90</height>
+			</antiScatterSlit>
+			<sollerSlit id="21010008" name="Soller slits 0.0175 rad.">
+				<opening unit="rad">0.0175</opening>
+			</sollerSlit>
+			<monochromator id="23010030" name="Diffracted beam monochr. for X'Celerator and Cu" hybrid="false">
+				<crystal type="Symmetric" shape="Flat">C</crystal>
+				<numberOfReflections>1</numberOfReflections>
+				<hkl>
+					<h>0</h>
+					<k>0</k>
+					<l>2</l>
+				</hkl>
+			</monochromator>
+			<detector id="7010013" name="X'Celerator detector" xsi:type="rtmsDetectorType">
+				<phd unit="%">
+					<lowerLevel>36.0</lowerLevel>
+					<upperLevel>79.5</upperLevel>
+				</phd>
+				<mode>Scanning</mode>
+				<activeLength unit="deg">2.1223</activeLength>
+			</detector>
+		</diffractedBeamPath>
+		<scan appendNumber="0" mode="Continuous" scanAxis="Gonio" status="Completed">
+			<header>
+				<startTimeStamp>2025-01-07T09:35:57+01:00</startTimeStamp>
+				<endTimeStamp>2025-01-07T09:41:28+01:00</endTimeStamp>
+				<author>
+					<name>User</name>
+				</author>
+				<source>
+					<applicationSoftware version="7.1">Data Collector</applicationSoftware>
+					<instrumentControlSoftware version="8.2  20201204">EMPYREAN</instrumentControlSoftware>
+					<instrumentID>0000000011085918</instrumentID>
+				</source>
+			</header>
+			<dataPoints>
+				<positions axis="2Theta" unit="deg">
+					<startPosition>15.01661127</startPosition>
+					<endPosition>39.98324712</endPosition>
+				</positions>
+				<positions axis="Omega" unit="deg">
+					<startPosition>7.50830564</startPosition>
+					<endPosition>19.99162356</endPosition>
+				</positions>
+				<positions axis="Phi" unit="deg">
+					<commonPosition>200.1</commonPosition>
+				</positions>
+				<commonCountingTime unit="seconds">50.165</commonCountingTime>
+				<counts unit="counts">121 126 118 106 106 118 106 97 92 86 96 132 114 85 114 111 112 97 106 110 114 92 102 95 106 98 97 112 103 91 99 106 106 105 98 103 113 108 109 101 102 88 123 106 112 92 96 105 97 89 104 105 74 99 90 95 96 110 102 87 82 100 102 103 97 106 101 89 87 99 79 75 74 88 84 90 79 73 100 94 79 91 78 74 91 102 96 90 64 75 94 94 88 97 81 74 86 91 85 75 85 89 87 75 83 90 82 66 78 89 65 73 79 75 83 62 76 71 83 75 74 73 71 55 83 85 81 65 64 88 76 75 62 71 78 61 52 86 76 77 76 83 74 61 74 72 68 75 59 75 70 76 57 60 68 74 74 70 59 64 54 62 73 71 70 60 59 50 71 82 82 58 58 85 61 77 85 62 74 57 54 76 76 65 78 83 68 61 56 70 63 49 77 54 73 63 62 73 59 60 65 61 58 57 57 48 47 51 60 68 66 60 72 63 71 66 70 59 55 63 68 63 57 58 60 62 73 50 60 56 71 66 57 51 70 65 55 49 51 54 61 75 60 60 37 62 49 60 48 45 47 76 50 59 50 42 50 69 59 60 56 56 61 56 71 55 52 58 54 49 50 62 59 42 47 50 57 54 65 51 52 41 56 63 61 61 48 48 57 56 41 52 63 43 50 59 58 45 49 52 48 56 47 45 59 56 55 37 35 42 49 63 42 55 65 50 58 57 58 52 48 72 52 60 51 46 65 58 45 39 48 45 36 51 45 48 57 43 73 42 50 57 70 44 50 48 60 38 64 55 65 66 51 65 72 66 55 49 55 55 63 47 44 58 54 58 51 62 34 46 60 60 62 52 43 51 58 59 46 44 43 58 46 51 55 46 49 56 60 56 66 54 50 50 48 43 46 59 41 55 54 55 43 38 54 51 56 55 52 50 56 70 55 46 52 47 62 62 46 59 58 51 63 58 58 61 61 38 56 70 56 73 69 57 64 66 64 62 64 58 48 71 77 61 71 56 82 55 64 60 85 70 75 76 74 63 63 48 81 69 70 85 76 74 74 64 69 55 76 57 56 62 82 54 52 59 69 60 68 71 56 58 55 68 65 55 51 47 56 63 64 73 61 64 62 69 61 59 70 71 66 70 54 64 76 57 55 60 62 60 57 60 76 84 72 88 51 60 74 76 73 52 81 49 62 59 77 64 60 76 64 64 60 68 77 59 56 56 65 62 65 88 76 71 68 54 82 69 73 60 77 75 85 66 69 71 69 82 65 85 98 74 78 81 79 82 85 86 92 87 84 95 70 73 96 74 69 98 75 91 87 75 84 84 98 78 87 98 89 89 87 89 87 85 103 78 99 86 96 114 113 98 114 125 121 122 126 131 129 141 156 156 135 132 126 139 131 138 162 139 124 128 127 121 142 106 128 129 113 116 125 109 122 103 97 94 89 81 87 83 84 77 90 78 88 85 81 60 89 76 81 81 81 64 69 70 89 55 72 84 79 64 60 69 64 66 75 65 73 59 70 58 68 56 63 62 82 64 70 71 51 52 47 62 71 78 70 60 77 94 137 142 206 284 322 364 315 298 251 173 124 116 72 68 60 73 62 65 55 52 43 44 46 52 55 70 39 44 56 50 43 38 56 44 58 59 45 52 52 46 57 38 39 49 23 46 47 41 47 50 47 39 35 52 43 48 41 51</counts>
+			</dataPoints>
+		</scan>
+	</xrdMeasurement>
+</xrdMeasurements>

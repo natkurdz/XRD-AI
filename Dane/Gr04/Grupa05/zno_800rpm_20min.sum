@@ -1,0 +1,142 @@
+
+
+        **********************************************************
+        ** PROGRAM FullProf.2k (Version 7.20 - Oct2019-ILL JRC) **
+        **********************************************************
+                       M U L T I -- P A T T E R N                 
+            Rietveld, Profile Matching & Integrated Intensity     
+                 Refinement of X-ray and/or Neutron Data
+
+
+    Date: 26/11/2021  Time: 09:50:06.539                              
+
+ => PCR file code: zno_800rpm_20min
+ => DAT file code: zno_800rpm_20min.xrd -> Relative contribution: 1.0000                                                            
+ => Title: ZnO
+
+ ==> CONDITIONS OF THIS RUN FOR PATTERN No.:  1
+
+ => Global Refinement of X-ray powder diffraction data                                                                              
+ => Global Refinement of X-ray powder diffraction data                                                                              
+    Bragg-Brentano(X-rays) or Debye-Scherrer geometry(Neutrons)
+ => The    7th default profile function was selected
+ => Invalid instr parameter for pattern:  1
+ => Wavelengths:  1.54060 1.54439
+ => Cos(Monochromator angle)=   0.9000
+ => Absorption correction (AC), muR-eff =   0.0000  0.0000
+ => Base of peaks: 2.0*HW*   25.00
+ ==> Angular range, step and number of points:
+     2Thmin:      20.016512  2Thmax:     119.983322  Step:       0.033423  No. of points:   2992
+ =>-------> Pattern#  1
+ => Crystal Structure Refinement for phase: 1
+ => The density (volumic mass) of phase 1 is:    5.674 g/cm3
+ => Scor: 2.1504
+
+ ==> RESULTS OF REFINEMENT:
+
+
+ => No. of fitted parameters:   13
+
+
+------------------------------------------------------------------------------
+ => Phase No.  1 ZnO                                     P 63 m c            
+------------------------------------------------------------------------------
+
+ =>  No. of reflections for pattern#:   1:    50/2
+
+
+ ==> ATOM PARAMETERS:
+
+  Name      x     sx       y     sy       z      sz      B   sB   occ. socc.  Mult
+ Zn      0.33333(   0)  0.66667(   0)  0.00000(   0)  0.223(  0)  0.167(  0)    2
+ O       0.33333(   0)  0.66667(   0)  0.38391( 215)  0.398(  0)  0.167(  0)    2
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Cell parameters      :
+                              3.24994   0.00008
+                              3.24994   0.00008
+                              5.20716   0.00016
+                             90.00000   0.00000
+                             90.00000   0.00000
+                            120.00000   0.00000
+ 
+ => overall scale factor :      0.002649845     0.000034569
+ => Eta(p-v) or m(p-vii) :    0.00000   0.00000
+ => Overall tem. factor  :    0.00000   0.00000
+ => Halfwidth parameters :    0.00877   0.00000
+                             -0.00121   0.00000
+                              0.01202   0.00000
+ => Preferred orientation:    1.00000   0.00000
+                              0.00000   0.00000
+ => Asymmetry parameters :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => X and y parameters   :    0.00010   1.00000
+                              0.15787   0.00784
+ => Strain parameters    :    0.00000   0.00000
+                              0.00000   0.00000
+                              0.00000   0.00000
+ => Size parameters (G,L):    0.00004   0.00000
+                              0.00000   0.00000
+
+ => Add. shape parameters: 
+                              0.00000   0.00000
+                              0.00000   0.00000
+
+
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:     0.0000    0.0000
+ => Background Polynomial Parameters ==>
+                               18.164     0.27313    
+                              -6.8768     0.87955    
+                               0.0000      0.0000    
+                               0.0000      0.0000    
+                               0.0000      0.0000    
+                               0.0000      0.0000    
+ 
+ => Cos( theta)-shift parameter :  -0.0595  0.0025
+ => Sin(2theta)-shift parameter :   0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+  => Cycle: 20 => MaxCycle: 20
+ => N-P+C:  2979
+ =>  R-factors (not corrected for background) for Pattern:  1
+ => Rp:  19.7     Rwp:  26.6     Rexp:   16.59 Chi2:  2.56      L.S. refinement
+ => Conventional Rietveld R-factors for Pattern:  1
+ => Rp:  43.2     Rwp:  44.2     Rexp:   27.60 Chi2:  2.56    
+ => Deviance:  0.667E+04     Dev*  :   2.222    
+ => DW-Stat.:    1.1795     DW-exp:     1.8951
+ => N-sigma of the GoF:       60.280
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => N-P+C:  2712
+ =>  R-factors (not corrected for background) for Pattern:  1
+ => Rp:  19.7     Rwp:  26.6     Rexp:   16.32 Chi2:  2.66      L.S. refinement
+ => Conventional Rietveld R-factors for Pattern:  1
+ => Rp:  40.9     Rwp:  43.2     Rexp:   26.47 Chi2:  2.66    
+ => Deviance:  0.627E+04     Dev*  :   2.294    
+ => DW-Stat.:    1.2458     DW-exp:     1.8905
+ => N-sigma of the GoF:       61.290
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   2.66    
+
+     -----------------------------------------------------
+     BRAGG R-Factors and weight fractions for Pattern #  1
+     -----------------------------------------------------
+
+ => Phase:  1     ZnO
+ => Bragg R-factor:   8.28       Vol:   47.630( 0.002)  Fract(%):  100.00( 1.84)
+ => Rf-factor=  8.01             ATZ:         162.765   Brindley:  1.0000
+
+ 
+              CPU Time:     4.637 seconds
+                            0.077 minutes
+
+ => Run finished at:     Date: 26/11/2021  Time: 09:50:11.214                              

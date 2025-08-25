@@ -1,0 +1,49 @@
+ FILE with lines for soft distance and angle constraints (restraints).
+ It is intended to help editing PCR files with restraints by pasting, 
+ after correcting the values as wished, to the appropriate lines.  
+ Lines with repeated identical distances have been excluded because symmetry 
+ already force a hard constraint.
+ Accidental coincidences have also been excluded, check that in list of distances! 
+
+ Warning! 
+ Symmetry constrained angles have not been eliminated,
+ this has to be performed by hand!
+
+
+=> Total number of independent distances:    12
+   List of possible restraints: 
+
+ At1   At2  ITnum     T1        T2        T3          DIST   SIGMA
+  Fe1   Fe1    16   1.00000   0.25000   0.25000      2.9694 0.0000
+  Fe1   Fe2    16   1.00000   0.25000   0.25000      3.4819 0.0000
+  Fe1   O       1   0.00000   0.00000   0.00000      1.9086 0.0059
+  Fe1   O      16   1.00000   0.25000   0.25000      1.7903 0.0059
+  Fe2   Fe2    16   0.00000   0.25000   0.25000      3.6367 0.0000
+  Fe2   O       1   0.00000   0.00000   0.00000      3.5466 0.0059
+  Fe2   O     -16   0.00000   0.75000   0.75000      3.6678 0.0059
+  O     O      16   1.00000   0.25000   0.25000      3.6978 0.0083
+  O     O      19   1.00000   1.00000   1.00000      3.8171 0.0083
+  O     O     -16   0.00000   0.75000   0.75000      0.1473 0.0083
+  O     O      16   0.50000  -0.25000   0.25000      3.5776 0.0083
+  O     O      19   0.50000   0.50000   1.00000      3.5807 0.0083
+
+   ========================================= 
+   List of possible restraints in CFL format 
+   ========================================= 
+
+
+=> Total number of independent distance restraints:    12
+DFIX   2.96939  0.00000  Fe1  Fe1_2.655
+DFIX   3.48192  0.00000  Fe1  Fe2_2.655
+DFIX   1.90856  0.00588  Fe1  O
+DFIX   1.79033  0.00588  Fe1  O_2.655
+DFIX   3.63674  0.00000  Fe2  Fe2_2
+DFIX   3.54655  0.00588  Fe2  O
+DFIX   3.66779  0.00588  Fe2  O_26
+DFIX   3.69785  0.00831  O  O_2.655
+DFIX   3.81713  0.00831  O  O_15.666
+DFIX   0.14728  0.00831  O  O_26
+DFIX   3.57763  0.00831  O  O_50.545
+DFIX   3.58066  0.00831  O  O_63.556
+
+=> Total number of possible angle restraints:     0

@@ -1,0 +1,77 @@
+COMM Ni
+! Current global Chi2 (Bragg contrib.) =      4.416    
+! Files => DAT-file: ni_800rpm_40min.xrdml,  PCR-file: ni_800rpm_40min
+!Job Npr Nph Nba Nex Nsc Nor Dum Iwg Ilo Ias Res Ste Nre Cry Uni Cor Opt Aut
+   0   7   1  24   1   0   0   0   0   0   0   0   0   0   0   0   0   0   1
+!
+!Ipr Ppl Ioc Mat Pcr Ls1 Ls2 Ls3 NLI Prf Ins Rpa Sym Hkl Fou Sho Ana
+   0   2   0   1   2   0   4   0   0   3  13   0   1   2   0   0   0
+!
+! Lambda1  Lambda2    Ratio    Bkpos    Wdt    Cthm     muR   AsyLim   Rpolarz  2nd-muR -> Patt# 1
+ 1.540600 1.544390  0.50000   90.000 30.0000  0.9000  0.0000   90.00    0.0000  0.0000
+!
+!NCY  Eps  R_at  R_an  R_pr  R_gl     Thmin       Step       Thmax    PSD    Sent0
+ 20  0.10  0.90  0.90  0.90  0.90     20.0231   0.033423   129.9833   0.000   0.000
+!
+!2Theta/TOF/E(Kev)   Background  for Pattern#  1
+        35.8274       563.5984          0.00
+        38.9392       579.7987          0.00
+        41.7680       598.6991          0.00
+        43.8897       601.3992          0.00
+        46.0113       582.4988          0.00
+        47.7086       539.2980          0.00
+        49.2645       514.9976          0.00
+        50.5375       485.2970          0.00
+        52.9420       469.0967          0.00
+        55.2051       452.8964          0.00
+        59.5898       442.0963          0.00
+        62.8430       433.9961          0.00
+        66.0962       428.5960          0.00
+        69.6322       412.3957          0.00
+        74.5827       412.3957          0.00
+        79.3918       412.3957          0.00
+        86.8883       401.5955          0.00
+        94.2433       396.1954          0.00
+       101.8812       393.4954          0.00
+       109.3776       393.4954          0.00
+       115.0354       390.7953          0.00
+       121.8246       396.1954          0.00
+       125.6436       406.9956          0.00
+       130.4526       406.9956          0.00
+! 
+! Excluded regions (LowT  HighT) for Pattern#  1
+        0.00       35.00
+! 
+!
+       6    !Number of refined parameters
+!
+!  Zero    Code    SyCos    Code   SySin    Code  Lambda     Code MORE ->Patt# 1
+  0.00000    0.0 -0.05259   51.0  0.00000    0.0 0.000000    0.00   0
+!-------------------------------------------------------------------------------
+!  Data for PHASE number:   1  ==> Current R_Bragg for Pattern#  1:  15.7367
+!-------------------------------------------------------------------------------
+Ni
+!
+!Nat Dis Ang Pr1 Pr2 Pr3 Jbt Irf Isy Str Furth       ATZ    Nvk Npr More
+   1   0   0 0.0 0.0 2.0   0   0   0   0   0        234.725   0   7   0
+!
+!
+225                      <--Space group symbol
+!Atom   Typ       X        Y        Z     Biso       Occ     In Fin N_t Spc /Codes
+NI     Ni      0.00000  0.00000  0.00000  0.69702   0.02083   0   0   0    0  
+                  0.00     0.00     0.00    41.00      0.00
+!-------> Profile Parameters for Pattern #  1
+!  Scale        Shape1      Bov      Str1      Str2      Str3   Strain-Model
+ 0.87998E-02   0.00000   0.00000   0.00000   0.00000   0.00000       0
+    11.00000     0.000     0.000     0.000     0.000     0.000
+!       U         V          W           X          Y        GauSiz   LorSiz Size-Model
+   0.003047  -0.004667   0.005915   0.439204   0.010021   0.000040   0.000000    0
+      0.000      0.000      0.000     21.000     60.500      0.000      0.000
+!     a          b         c        alpha      beta       gamma      #Cell Info
+   3.524338   3.524338   3.524338  90.000000  90.000000  90.000000   
+   31.00000   31.00000   31.00000    0.00000    0.00000    0.00000
+!  Pref1    Pref2      Asy1     Asy2     Asy3     Asy4      S_L      D_L
+  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00
+!  2Th1/TOF1    2Th2/TOF2  Pattern to plot
+      35.000     104.985       1
