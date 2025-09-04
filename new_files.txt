@@ -1,0 +1,127 @@
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 1
+[FILE]Fe3O4_ref.new
+[FILE]M3_Fe3O4.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 1/testy
+[FILE]Fe3O4_50min_800rpm.new
+[FILE]Fe3O4_ref.new
+[FILE]M3_Fe3O4.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 2
+[FILE]Fe3O4_100micro.new
+[FILE]Fe3O4_800RPM_50min_3mmZrO2.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 3
+[FILE]Fe3O4_50min_800rpm.new
+[FILE]Fe3O4_ref.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr01
+[FILE]FullProf_input.new
+[FILE]WO3_600RPM_10min.new
+[FILE]wo3_600rpm_120min.new
+[FILE]WO3_600RPM_20min.new
+[FILE]WO3_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02
+[FILE]FullProf_input.new
+[FILE]ZrO2_800RPM_005min.new
+[FILE]ZrO2_800RPM_120min.new
+[FILE]ZrO2_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/Grupa2
+[FILE]NaCl+KCl_12min_800rpm.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/Grupa2/9min
+[FILE]NaCl+KCl_9min_800rpm.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/Grupa2/LaB6
+[FILE]LaB6_ASS=05.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/Grupa2/raw
+[FILE]NaCl+KCl_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02 (1)
+[FILE]fe3o4_10micro.new
+[FILE]L.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr03
+[FILE]FullProf_input.new
+[FILE]ZnO_800rpm_10min.new
+[FILE]ZnO_800rpm_120min.new
+[FILE]zno_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr03 (1)
+[FILE]Fe3O4-F.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr03 (1)/Temp
+[FILE]fe3o4-f.new
+[FILE]fe3o4_ref.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04
+[FILE]CaCO3_666RPM_10min.new
+[FILE]CaCO3_666RPM_60min.new
+[FILE]caco3_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa01
+[FILE]cr2o3_15min.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa02
+[FILE]Ochra_1000rpm_10min.new
+[FILE]ochra_15.new
+[FILE]ochra_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa03
+[FILE]Magnetyt_miel.new
+[FILE]Magnetyt_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa03/Mielony
+[FILE]Magnetyt_mielony.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa03/Raw
+[FILE]Magnetyt_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa04
+[FILE]Ni_800rpm_280min.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa04/Temp
+[FILE]Ni_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa05
+[FILE]ZnO_800rpm_120min.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr05
+[FILE]TiO2_800rpm_10min.new
+[FILE]TiO2_800rpm_120.new
+[FILE]TiO2_800rpm_60min.new
+[FILE]tio2_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr06
+[FILE]NdO3H3_800rpm_15.new
+[FILE]NdO3H3_800rpm_5min.new
+[FILE]NdO3H3_800rpm_60.new
+[FILE]NdO3H3_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr06/Temp
+[FILE]NdO3H3_800rpm_60min.new
+[FILE]NdO3H3_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 1
+[FILE]tio2_290min.new
+[FILE]tio2_290min_long.new
+[FILE]TiO2_50min.new
+[FILE]tio2_raw.new
+[FILE]tio2_raw_long.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 2
+[FILE]caco3_15m.new
+[FILE]caco3_30m.new
+[FILE]caco3_5m.new
+[FILE]caco3_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 3
+[FILE]Cr2O3_15min.new
+[FILE]Cr2O3_25min_long.new
+[FILE]Cr2O3_5min.new
+[FILE]cr2o3_raw_long.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 4
+[FILE]nacl_500rpm_120min.new
+[FILE]nacl_500rpm_20min.new
+[FILE]NaCl_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 5
+[FILE]TiO2_175min_long.new
+[FILE]tio2_5min.new
+[FILE]tio2_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa01
+[FILE]cr2o3_15min.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa02
+[FILE]Ochra_1000rpm_10min.new
+[FILE]ochra_15.new
+[FILE]ochra_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa03
+[FILE]Magnetyt_miel.new
+[FILE]Magnetyt_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa03/Mielony
+[FILE]Magnetyt_mielony.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa03/Raw
+[FILE]Magnetyt_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa04
+[FILE]Ni_800rpm_280min.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa04/Temp
+[FILE]Ni_raw.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa05
+[FILE]ZnO_800rpm_120min.new
+[PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/NIST660
+
