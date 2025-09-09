@@ -47,11 +47,6 @@
 [FILE]m3_fe3o4.sym
 [FILE]M3_Fe3O4.xrdml
 [FILE]m3_fe3o41.fst
-[FILE]MagnetiteStructure.PNG
-[FILE]Mielona_M3.PNG
-[FILE]Otoczenia.PNG
-[FILE]Prezentacja1.pptx
-[FILE]Referencja.PNG
 [FILE]Sample_S.xrdml
 [FILE]Sample_S_ZnO.xrdml
 
@@ -107,7 +102,6 @@
 [FILE]fe3o4_800rpm_50min_3mmzro21.fst
 [FILE]fe3o4_800rpm_50min_3mmzro21.hkl
 [FILE]FeCu3O4.xrdml
-[FILE]Prezentacja1.pptx
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Gr 3
 [FILE]aaa.BGR
@@ -134,13 +128,9 @@
 [FILE]fe3o4_ref.sym
 [FILE]Fe3O4_ref.xrdml
 [FILE]fe3o4_ref1.fst
-[FILE]Prezentacja1.pptx
-[FILE]Referencja.PNG
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Gr01
 [FILE]FullProf_input.new
-[FILE]Prezentacja1.pptx
-[FILE]s10765-021-02969-9.pdf
 [FILE]wo3_600rpm_10min.bac
 [FILE]wo3_600rpm_10min.hkl
 [FILE]WO3_600RPM_10min.new
@@ -188,7 +178,6 @@
 [FILE]2108456.cif
 [FILE]fort.33
 [FILE]FullProf_input.new
-[FILE]Prezentacja1.pptx
 [FILE]zro2_800rpm_005min.bac
 [FILE]zro2_800rpm_005min.hkl
 [FILE]ZrO2_800RPM_005min.new
@@ -242,7 +231,6 @@
 [FILE]NaCl+KCl_15min_800rpm.xrdml
 [FILE]NaCl+KCl_9min_800rpm.xrdml
 [FILE]NACL.cel
-[FILE]PECULIAR SURFACE SIZE-EFFECTS IN NaCl.pdf
 [FILE]task.bat
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Gr02\Grupa2\9min
@@ -333,14 +321,10 @@
 [FILE]l.sym
 [FILE]L.xrdml
 [FILE]l1.fst
-[FILE]Prezentacja1.pptx
-[FILE]Referencja_dopasowanie.PNG
-[FILE]Stracane_dopasowanie.PNG
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Gr03
 [FILE]fort.33
 [FILE]FullProf_input.new
-[FILE]Prezentacja1.pptx
 [FILE]zno_800rpm_10min.bac
 [FILE]zno_800rpm_10min.hkl
 [FILE]ZnO_800rpm_10min.new
@@ -376,7 +360,6 @@
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Gr03 (1)
 [DIR]Temp
 [FILE]aaa.BGR
-[FILE]BF00615011.pdf
 [FILE]fe3o4-f.bac
 [FILE]fe3o4-f.hkl
 [FILE]Fe3O4-F.new
@@ -404,7 +387,6 @@
 [FILE]Fe3O4-F.xrdml
 [FILE]fe3o4-f1.fst
 [FILE]Fe3O4-G.xrdml
-[FILE]Fe3O4_F_dopasowania.PNG
 [FILE]fe3o4_ref.bac
 [FILE]fe3o4_ref.hkl
 [FILE]fe3o4_ref.new
@@ -415,8 +397,6 @@
 [FILE]fe3o4_ref.sym
 [FILE]Fe3O4_ref.xrdml
 [FILE]fe3o4_ref1.fst
-[FILE]Fe3O4_ref_dopasowania.PNG
-[FILE]Prezentacja1.pptx
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Gr04
 [DIR]Grupa01
@@ -454,7 +434,6 @@
 [FILE]caco3_raw.sym
 [FILE]CaCO3_raw.xrdml
 [FILE]caco3_raw1.fst
-[FILE]Prezentacja1.pptx
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Gr04\Grupa01
 [FILE]aaaa.BGR
@@ -612,7 +591,6 @@
 [FILE]Magnetyt_oil_700+1000rpm_10+10min_long.xrdml
 [FILE]Magnetyt_oil_700rpm_10min.xrdml
 [FILE]Magnetyt_raw.new
-[FILE]notatki.pptx
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Gr04\Grupa03\Mielony
 [FILE]CFML_Restraints_1.tpcr
@@ -699,7 +677,6 @@
 [FILE]ni_raw_oil.sym
 [FILE]Ni_raw_oil.xrdml
 [FILE]ni_raw_oil1.fst
-[FILE]Prezentacja1.pptx
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Gr04\Grupa04\Temp
 [FILE]fort.33
@@ -717,7 +694,6 @@
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Gr04\Grupa05
 [FILE]aaa.BGR
 [FILE]background.xy
-[FILE]Prezentacja1.pptx
 [FILE]ZnO.zip
 [FILE]zno_800rpm_120min.bac
 [FILE]zno_800rpm_120min.hkl
@@ -759,7 +735,6 @@
 [FILE]zno_raw1.fst
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Gr05
-[FILE]Prezentacja1.pptx
 [FILE]tio2_800rpm_10min.bac
 [FILE]tio2_800rpm_10min.hkl
 [FILE]TiO2_800rpm_10min.new
@@ -849,7 +824,6 @@
 [FILE]ndo3h3_raw.sym
 [FILE]NdO3H3_raw.xrdml
 [FILE]ndo3h3_raw1.fst
-[FILE]Prezentacja1.pptx
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Gr06\Temp
 [FILE]ndo3h3_800rpm_60min.bac
@@ -875,7 +849,6 @@
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Grupa 1
 [FILE]CFML_Restraints_1.tpcr
-[FILE]Prezentacja1.pptx
 [FILE]TiO2_10min.xrdml
 [FILE]tio2_290min.new
 [FILE]tio2_290min_long.bac
@@ -973,7 +946,6 @@
 [FILE]CaCO3_raw.xrdml
 [FILE]caco3_raw1.fst
 [FILE]CaCO3_raw_fast.xrdml
-[FILE]Notatki.pptx
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Grupa 3
 [FILE]aaa.BGR
@@ -1044,7 +1016,6 @@
 [FILE]cr2o3_raw_long_1.dis
 [FILE]CrOx_test.xrdml
 [FILE]fort.33
-[FILE]Notatki.pptx
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Grupa 4
 [FILE]nacl_500rpm_120min.bac
@@ -1078,11 +1049,9 @@
 [FILE]NaCl_raw.xrdml
 [FILE]nacl_raw1.fst
 [FILE]nacl_raw1.hkl
-[FILE]notatki.pptx
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Grupa 5
 [FILE]aa.BGR
-[FILE]notatki.pptx
 [FILE]tio2_15min.bac
 [FILE]tio2_15min.hkl
 [FILE]tio2_15min.out
@@ -1284,7 +1253,6 @@
 [FILE]Magnetyt_oil_700+1000rpm_10+10min_long.xrdml
 [FILE]Magnetyt_oil_700rpm_10min.xrdml
 [FILE]Magnetyt_raw.new
-[FILE]notatki.pptx
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Grupa03\Mielony
 [FILE]CFML_Restraints_1.tpcr
@@ -1371,7 +1339,6 @@
 [FILE]ni_raw_oil.sym
 [FILE]Ni_raw_oil.xrdml
 [FILE]ni_raw_oil1.fst
-[FILE]Prezentacja1.pptx
 
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Grupa04\Temp
 [FILE]fort.33
@@ -1389,8 +1356,6 @@
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Grupa05
 [FILE]aaa.BGR
 [FILE]background.xy
-[FILE]Prezentacja1.pptx
-[FILE]ZnO.zip
 [FILE]zno_800rpm_120min.bac
 [FILE]zno_800rpm_120min.hkl
 [FILE]ZnO_800rpm_120min.new
