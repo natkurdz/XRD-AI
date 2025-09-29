@@ -1,6 +1,6 @@
 [
   {
-    "name": "Fe3O4_ref.xrdml",
+    "name": "Fe3O4_ref",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 1/Fe3O4_ref.xrdml",
       "kalpha1": [
@@ -35,7 +35,7 @@
     }
   },
   {
-    "name": "M3_Fe3O4.xrdml",
+    "name": "M3_Fe3O4",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 1/M3_Fe3O4.xrdml",
       "kalpha1": [
@@ -70,7 +70,7 @@
     }
   },
   {
-    "name": "Sample_S.xrdml",
+    "name": "Sample_S",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 1/Sample_S.xrdml",
       "kalpha1": [
@@ -92,7 +92,7 @@
     }
   },
   {
-    "name": "Sample_S_ZnO.xrdml",
+    "name": "Sample_S_ZnO",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 1/Sample_S_ZnO.xrdml",
       "kalpha1": [
@@ -114,7 +114,7 @@
     }
   },
   {
-    "name": "Fe3O4_ref.xrdml",
+    "name": "Fe3O4_ref",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 1/testy/Fe3O4_ref.xrdml",
       "kalpha1": [
@@ -149,7 +149,7 @@
     }
   },
   {
-    "name": "M3_Fe3O4.xrdml",
+    "name": "M3_Fe3O4",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 1/testy/M3_Fe3O4.xrdml",
       "kalpha1": [
@@ -184,7 +184,7 @@
     }
   },
   {
-    "name": "Sample_S.xrdml",
+    "name": "Sample_S",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 1/testy/Sample_S.xrdml",
       "kalpha1": [
@@ -206,7 +206,7 @@
     }
   },
   {
-    "name": "Sample_S_ZnO.xrdml",
+    "name": "Sample_S_ZnO",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 1/testy/Sample_S_ZnO.xrdml",
       "kalpha1": [
@@ -228,7 +228,7 @@
     }
   },
   {
-    "name": "Fe3O4_100micro.xrdml",
+    "name": "Fe3O4_100micro",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 2/Fe3O4_100micro.xrdml",
       "kalpha1": [
@@ -263,7 +263,7 @@
     }
   },
   {
-    "name": "Fe3O4_800RPM_50min_3mmZrO2.xrdml",
+    "name": "Fe3O4_800RPM_50min_3mmZrO2",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 2/Fe3O4_800RPM_50min_3mmZrO2.xrdml",
       "kalpha1": [
@@ -298,7 +298,7 @@
     }
   },
   {
-    "name": "FeCu3O4.xrdml",
+    "name": "FeCu3O4",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 2/FeCu3O4.xrdml",
       "kalpha1": [
@@ -320,7 +320,7 @@
     }
   },
   {
-    "name": "Fe3O4_50min_800rpm.xrdml",
+    "name": "Fe3O4_50min_800rpm",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 3/Fe3O4_50min_800rpm.xrdml",
       "kalpha1": [
@@ -355,7 +355,7 @@
     }
   },
   {
-    "name": "Fe3O4_E.xrdml",
+    "name": "Fe3O4_E",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 3/Fe3O4_E.xrdml",
       "kalpha1": [
@@ -377,7 +377,7 @@
     }
   },
   {
-    "name": "Fe3O4_E_fast.xrdml",
+    "name": "Fe3O4_E_fast",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 3/Fe3O4_E_fast.xrdml",
       "kalpha1": [
@@ -399,7 +399,7 @@
     }
   },
   {
-    "name": "Fe3O4_ref.xrdml",
+    "name": "Fe3O4_ref",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr 3/Fe3O4_ref.xrdml",
       "kalpha1": [
@@ -434,7 +434,7 @@
     }
   },
   {
-    "name": "WO3_600RPM_10min.xrdml",
+    "name": "WO3_600RPM_10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr01/WO3_600RPM_10min.xrdml",
       "kalpha1": [
@@ -469,7 +469,7 @@
     }
   },
   {
-    "name": "WO3_600RPM_120min.xrdml",
+    "name": "WO3_600RPM_120min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr01/WO3_600RPM_120min.xrdml",
       "kalpha1": [
@@ -504,7 +504,7 @@
     }
   },
   {
-    "name": "WO3_600RPM_20min.xrdml",
+    "name": "WO3_600RPM_20min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr01/WO3_600RPM_20min.xrdml",
       "kalpha1": [
@@ -539,7 +539,7 @@
     }
   },
   {
-    "name": "WO3_raw.xrdml",
+    "name": "WO3_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr01/WO3_raw.xrdml",
       "kalpha1": [
@@ -574,7 +574,7 @@
     }
   },
   {
-    "name": "ZrO2_800RPM_005min.xrdml",
+    "name": "ZrO2_800RPM_005min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/ZrO2_800RPM_005min.xrdml",
       "kalpha1": [
@@ -609,7 +609,7 @@
     }
   },
   {
-    "name": "ZrO2_800RPM_120min.xrdml",
+    "name": "ZrO2_800RPM_120min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/ZrO2_800RPM_120min.xrdml",
       "kalpha1": [
@@ -644,7 +644,7 @@
     }
   },
   {
-    "name": "ZrO2_raw.xrdml",
+    "name": "ZrO2_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/ZrO2_raw.xrdml",
       "kalpha1": [
@@ -679,7 +679,7 @@
     }
   },
   {
-    "name": "ZrO2_raw_test.xrdml",
+    "name": "ZrO2_raw_test",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/ZrO2_raw_test.xrdml",
       "kalpha1": [
@@ -701,7 +701,7 @@
     }
   },
   {
-    "name": "NaCl+KCl_12min_800rpm.xrdml",
+    "name": "NaCl+KCl_12min_800rpm",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/Grupa2/NaCl+KCl_12min_800rpm.xrdml",
       "kalpha1": [
@@ -736,7 +736,7 @@
     }
   },
   {
-    "name": "NaCl+KCl_15min_800rpm+3min_1000rpm.xrdml",
+    "name": "NaCl+KCl_15min_800rpm+3min_1000rpm",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/Grupa2/NaCl+KCl_15min_800rpm+3min_1000rpm.xrdml",
       "kalpha1": [
@@ -758,7 +758,7 @@
     }
   },
   {
-    "name": "NaCl+KCl_15min_800rpm.xrdml",
+    "name": "NaCl+KCl_15min_800rpm",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/Grupa2/NaCl+KCl_15min_800rpm.xrdml",
       "kalpha1": [
@@ -780,7 +780,7 @@
     }
   },
   {
-    "name": "NaCl+KCl_9min_800rpm.xrdml",
+    "name": "NaCl+KCl_9min_800rpm",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/Grupa2/NaCl+KCl_9min_800rpm.xrdml",
       "kalpha1": [
@@ -802,7 +802,7 @@
     }
   },
   {
-    "name": "NaCl+KCl_9min_800rpm.xrdml",
+    "name": "NaCl+KCl_9min_800rpm",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/Grupa2/9min/NaCl+KCl_9min_800rpm.xrdml",
       "kalpha1": [
@@ -837,7 +837,7 @@
     }
   },
   {
-    "name": "LaB6_ASS=05.xrdml",
+    "name": "LaB6_ASS=05",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/Grupa2/LaB6/LaB6_ASS=05.xrdml",
       "kalpha1": [
@@ -872,7 +872,7 @@
     }
   },
   {
-    "name": "NaCl+KCl_raw.xrdml",
+    "name": "NaCl+KCl_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02/Grupa2/raw/NaCl+KCl_raw.xrdml",
       "kalpha1": [
@@ -907,7 +907,7 @@
     }
   },
   {
-    "name": "fe3o4_10micro.xrdml",
+    "name": "fe3o4_10micro",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02 (1)/fe3o4_10micro.xrdml",
       "kalpha1": [
@@ -942,7 +942,7 @@
     }
   },
   {
-    "name": "k.xrdml",
+    "name": "k",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02 (1)/k.xrdml",
       "kalpha1": [
@@ -964,7 +964,7 @@
     }
   },
   {
-    "name": "L.xrdml",
+    "name": "L",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr02 (1)/L.xrdml",
       "kalpha1": [
@@ -999,7 +999,7 @@
     }
   },
   {
-    "name": "ZnO_800rpm_10min.xrdml",
+    "name": "ZnO_800rpm_10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr03/ZnO_800rpm_10min.xrdml",
       "kalpha1": [
@@ -1034,7 +1034,7 @@
     }
   },
   {
-    "name": "ZnO_800rpm_120min.xrdml",
+    "name": "ZnO_800rpm_120min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr03/ZnO_800rpm_120min.xrdml",
       "kalpha1": [
@@ -1069,7 +1069,7 @@
     }
   },
   {
-    "name": "ZnO_raw.xrdml",
+    "name": "ZnO_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr03/ZnO_raw.xrdml",
       "kalpha1": [
@@ -1104,7 +1104,7 @@
     }
   },
   {
-    "name": "Fe3O4-F.xrdml",
+    "name": "Fe3O4-F",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr03 (1)/Fe3O4-F.xrdml",
       "kalpha1": [
@@ -1139,7 +1139,7 @@
     }
   },
   {
-    "name": "Fe3O4-G.xrdml",
+    "name": "Fe3O4-G",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr03 (1)/Fe3O4-G.xrdml",
       "kalpha1": [
@@ -1161,7 +1161,7 @@
     }
   },
   {
-    "name": "Fe3O4_ref.xrdml",
+    "name": "Fe3O4_ref",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr03 (1)/Fe3O4_ref.xrdml",
       "kalpha1": [
@@ -1183,7 +1183,7 @@
     }
   },
   {
-    "name": "Fe3O4-F.xrdml",
+    "name": "Fe3O4-F",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr03 (1)/Temp/Fe3O4-F.xrdml",
       "kalpha1": [
@@ -1218,7 +1218,7 @@
     }
   },
   {
-    "name": "Fe3O4-G.xrdml",
+    "name": "Fe3O4-G",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr03 (1)/Temp/Fe3O4-G.xrdml",
       "kalpha1": [
@@ -1240,7 +1240,7 @@
     }
   },
   {
-    "name": "Fe3O4_ref.xrdml",
+    "name": "Fe3O4_ref",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr03 (1)/Temp/Fe3O4_ref.xrdml",
       "kalpha1": [
@@ -1275,7 +1275,7 @@
     }
   },
   {
-    "name": "CaCO3_666RPM_10min.xrdml",
+    "name": "CaCO3_666RPM_10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/CaCO3_666RPM_10min.xrdml",
       "kalpha1": [
@@ -1310,7 +1310,7 @@
     }
   },
   {
-    "name": "CaCO3_666RPM_60min.xrdml",
+    "name": "CaCO3_666RPM_60min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/CaCO3_666RPM_60min.xrdml",
       "kalpha1": [
@@ -1345,7 +1345,7 @@
     }
   },
   {
-    "name": "CaCO3_raw.xrdml",
+    "name": "CaCO3_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/CaCO3_raw.xrdml",
       "kalpha1": [
@@ -1380,7 +1380,7 @@
     }
   },
   {
-    "name": "Cr2O3_1000rpm_10min.xrdml",
+    "name": "Cr2O3_1000rpm_10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa01/Cr2O3_1000rpm_10min.xrdml",
       "kalpha1": [
@@ -1402,7 +1402,7 @@
     }
   },
   {
-    "name": "Cr2O3_1000rpm_15min.xrdml",
+    "name": "Cr2O3_1000rpm_15min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa01/Cr2O3_1000rpm_15min.xrdml",
       "kalpha1": [
@@ -1424,7 +1424,7 @@
     }
   },
   {
-    "name": "Cr2O3_1000rpm_5min.xrdml",
+    "name": "Cr2O3_1000rpm_5min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa01/Cr2O3_1000rpm_5min.xrdml",
       "kalpha1": [
@@ -1446,7 +1446,7 @@
     }
   },
   {
-    "name": "Cr2O3_raw.xrdml",
+    "name": "Cr2O3_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa01/Cr2O3_raw.xrdml",
       "kalpha1": [
@@ -1472,7 +1472,7 @@
     }
   },
   {
-    "name": "Fe2O3_1000rpm_05min.xrdml",
+    "name": "Fe2O3_1000rpm_05min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa02/Fe2O3_1000rpm_05min.xrdml",
       "kalpha1": [
@@ -1494,7 +1494,7 @@
     }
   },
   {
-    "name": "Fe2O3_1000rpm_10min.xrdml",
+    "name": "Fe2O3_1000rpm_10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa02/Fe2O3_1000rpm_10min.xrdml",
       "kalpha1": [
@@ -1516,7 +1516,7 @@
     }
   },
   {
-    "name": "Fe2O3_1000rpm_15min.xrdml",
+    "name": "Fe2O3_1000rpm_15min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa02/Fe2O3_1000rpm_15min.xrdml",
       "kalpha1": [
@@ -1538,7 +1538,7 @@
     }
   },
   {
-    "name": "Fe2O3_raw.xrdml",
+    "name": "Fe2O3_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa02/Fe2O3_raw.xrdml",
       "kalpha1": [
@@ -1560,7 +1560,7 @@
     }
   },
   {
-    "name": "Ochra_1000rpm_05min.xrdml",
+    "name": "Ochra_1000rpm_05min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa02/Ochra_1000rpm_05min.xrdml",
       "kalpha1": [
@@ -1586,7 +1586,7 @@
     }
   },
   {
-    "name": "Ochra_1000rpm_10min.xrdml",
+    "name": "Ochra_1000rpm_10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa02/Ochra_1000rpm_10min.xrdml",
       "kalpha1": [
@@ -1621,7 +1621,7 @@
     }
   },
   {
-    "name": "Ochra_1000rpm_15min.xrdml",
+    "name": "Ochra_1000rpm_15min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa02/Ochra_1000rpm_15min.xrdml",
       "kalpha1": [
@@ -1643,7 +1643,7 @@
     }
   },
   {
-    "name": "Ochra_raw.xrdml",
+    "name": "Ochra_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa02/Ochra_raw.xrdml",
       "kalpha1": [
@@ -1678,7 +1678,7 @@
     }
   },
   {
-    "name": "Magnetyt_oil_700+1000rpm_10+10min.xrdml",
+    "name": "Magnetyt_oil_700+1000rpm_10+10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa03/Magnetyt_oil_700+1000rpm_10+10min.xrdml",
       "kalpha1": [
@@ -1700,7 +1700,7 @@
     }
   },
   {
-    "name": "Magnetyt_oil_700+1000rpm_10+10min_long.xrdml",
+    "name": "Magnetyt_oil_700+1000rpm_10+10min_long",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa03/Magnetyt_oil_700+1000rpm_10+10min_long.xrdml",
       "kalpha1": [
@@ -1722,7 +1722,7 @@
     }
   },
   {
-    "name": "Magnetyt_oil_700rpm_10min.xrdml",
+    "name": "Magnetyt_oil_700rpm_10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa03/Magnetyt_oil_700rpm_10min.xrdml",
       "kalpha1": [
@@ -1744,7 +1744,7 @@
     }
   },
   {
-    "name": "Magnetyt_oil_700+1000+800rpm_10+10+170.min.xrdml",
+    "name": "Magnetyt_oil_700+1000+800rpm_10+10+170.min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa03/Mielony/Magnetyt_oil_700+1000+800rpm_10+10+170.min.xrdml",
       "kalpha1": [
@@ -1766,7 +1766,7 @@
     }
   },
   {
-    "name": "Magnetyt_raw.xrdml",
+    "name": "Magnetyt_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa03/Raw/Magnetyt_raw.xrdml",
       "kalpha1": [
@@ -1801,7 +1801,7 @@
     }
   },
   {
-    "name": "Ni_800rpm_20min.xrdml",
+    "name": "Ni_800rpm_20min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa04/Ni_800rpm_20min.xrdml",
       "kalpha1": [
@@ -1827,7 +1827,7 @@
     }
   },
   {
-    "name": "Ni_800rpm_280min.xrdml",
+    "name": "Ni_800rpm_280min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa04/Ni_800rpm_280min.xrdml",
       "kalpha1": [
@@ -1862,7 +1862,7 @@
     }
   },
   {
-    "name": "Ni_800rpm_40min.xrdml",
+    "name": "Ni_800rpm_40min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa04/Ni_800rpm_40min.xrdml",
       "kalpha1": [
@@ -1888,7 +1888,7 @@
     }
   },
   {
-    "name": "Ni_raw.xrdml",
+    "name": "Ni_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa04/Ni_raw.xrdml",
       "kalpha1": [
@@ -1914,7 +1914,7 @@
     }
   },
   {
-    "name": "Ni_raw_oil.xrdml",
+    "name": "Ni_raw_oil",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa04/Ni_raw_oil.xrdml",
       "kalpha1": [
@@ -1940,7 +1940,7 @@
     }
   },
   {
-    "name": "Ni_raw.xrdml",
+    "name": "Ni_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa04/Temp/Ni_raw.xrdml",
       "kalpha1": [
@@ -1975,7 +1975,7 @@
     }
   },
   {
-    "name": "ZnO_800rpm_120min.xrdml",
+    "name": "ZnO_800rpm_120min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa05/ZnO_800rpm_120min.xrdml",
       "kalpha1": [
@@ -2010,7 +2010,7 @@
     }
   },
   {
-    "name": "ZnO_800rpm_20min.xrdml",
+    "name": "ZnO_800rpm_20min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa05/ZnO_800rpm_20min.xrdml",
       "kalpha1": [
@@ -2036,7 +2036,7 @@
     }
   },
   {
-    "name": "ZnO_800rpm_5min.xrdml",
+    "name": "ZnO_800rpm_5min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa05/ZnO_800rpm_5min.xrdml",
       "kalpha1": [
@@ -2062,7 +2062,7 @@
     }
   },
   {
-    "name": "ZnO_raw.xrdml",
+    "name": "ZnO_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa05/ZnO_raw.xrdml",
       "kalpha1": [
@@ -2088,7 +2088,7 @@
     }
   },
   {
-    "name": "TiO2_800rpm_10min.xrdml",
+    "name": "TiO2_800rpm_10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr05/TiO2_800rpm_10min.xrdml",
       "kalpha1": [
@@ -2123,7 +2123,7 @@
     }
   },
   {
-    "name": "TiO2_800rpm_120min.xrdml",
+    "name": "TiO2_800rpm_120min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr05/TiO2_800rpm_120min.xrdml",
       "kalpha1": [
@@ -2145,7 +2145,7 @@
     }
   },
   {
-    "name": "TiO2_800rpm_60min.xrdml",
+    "name": "TiO2_800rpm_60min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr05/TiO2_800rpm_60min.xrdml",
       "kalpha1": [
@@ -2180,7 +2180,7 @@
     }
   },
   {
-    "name": "TiO2_raw.xrdml",
+    "name": "TiO2_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr05/TiO2_raw.xrdml",
       "kalpha1": [
@@ -2215,7 +2215,7 @@
     }
   },
   {
-    "name": "NdO3H3_800rpm_15min.xrdml",
+    "name": "NdO3H3_800rpm_15min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr06/NdO3H3_800rpm_15min.xrdml",
       "kalpha1": [
@@ -2237,7 +2237,7 @@
     }
   },
   {
-    "name": "NdO3H3_800rpm_5min.xrdml",
+    "name": "NdO3H3_800rpm_5min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr06/NdO3H3_800rpm_5min.xrdml",
       "kalpha1": [
@@ -2272,7 +2272,7 @@
     }
   },
   {
-    "name": "NdO3H3_800rpm_60min.xrdml",
+    "name": "NdO3H3_800rpm_60min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr06/NdO3H3_800rpm_60min.xrdml",
       "kalpha1": [
@@ -2294,7 +2294,7 @@
     }
   },
   {
-    "name": "NdO3H3_raw.xrdml",
+    "name": "NdO3H3_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr06/NdO3H3_raw.xrdml",
       "kalpha1": [
@@ -2329,7 +2329,7 @@
     }
   },
   {
-    "name": "NdO3H3_800rpm_60min.xrdml",
+    "name": "NdO3H3_800rpm_60min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr06/Temp/NdO3H3_800rpm_60min.xrdml",
       "kalpha1": [
@@ -2364,7 +2364,7 @@
     }
   },
   {
-    "name": "NdO3H3_raw.xrdml",
+    "name": "NdO3H3_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr06/Temp/NdO3H3_raw.xrdml",
       "kalpha1": [
@@ -2399,7 +2399,7 @@
     }
   },
   {
-    "name": "TiO2_10min.xrdml",
+    "name": "TiO2_10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 1/TiO2_10min.xrdml",
       "kalpha1": [
@@ -2421,7 +2421,7 @@
     }
   },
   {
-    "name": "TiO2_290min_long.xrdml",
+    "name": "TiO2_290min_long",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 1/TiO2_290min_long.xrdml",
       "kalpha1": [
@@ -2456,7 +2456,7 @@
     }
   },
   {
-    "name": "TiO2_30min.xrdml",
+    "name": "TiO2_30min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 1/TiO2_30min.xrdml",
       "kalpha1": [
@@ -2478,7 +2478,7 @@
     }
   },
   {
-    "name": "TiO2_50min.xrdml",
+    "name": "TiO2_50min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 1/TiO2_50min.xrdml",
       "kalpha1": [
@@ -2513,7 +2513,7 @@
     }
   },
   {
-    "name": "TiO2_raw.xrdml",
+    "name": "TiO2_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 1/TiO2_raw.xrdml",
       "kalpha1": [
@@ -2548,7 +2548,7 @@
     }
   },
   {
-    "name": "TiO2_raw_long.xrdml",
+    "name": "TiO2_raw_long",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 1/TiO2_raw_long.xrdml",
       "kalpha1": [
@@ -2583,7 +2583,7 @@
     }
   },
   {
-    "name": "CaCO3_15m.xrdml",
+    "name": "CaCO3_15m",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 2/CaCO3_15m.xrdml",
       "kalpha1": [
@@ -2618,7 +2618,7 @@
     }
   },
   {
-    "name": "CaCO3_30m.xrdml",
+    "name": "CaCO3_30m",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 2/CaCO3_30m.xrdml",
       "kalpha1": [
@@ -2653,7 +2653,7 @@
     }
   },
   {
-    "name": "CaCO3_30m_short.xrdml",
+    "name": "CaCO3_30m_short",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 2/CaCO3_30m_short.xrdml",
       "kalpha1": [
@@ -2675,7 +2675,7 @@
     }
   },
   {
-    "name": "CaCO3_5m.xrdml",
+    "name": "CaCO3_5m",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 2/CaCO3_5m.xrdml",
       "kalpha1": [
@@ -2710,7 +2710,7 @@
     }
   },
   {
-    "name": "CaCO3_raw.xrdml",
+    "name": "CaCO3_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 2/CaCO3_raw.xrdml",
       "kalpha1": [
@@ -2745,7 +2745,7 @@
     }
   },
   {
-    "name": "CaCO3_raw_fast.xrdml",
+    "name": "CaCO3_raw_fast",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 2/CaCO3_raw_fast.xrdml",
       "kalpha1": [
@@ -2767,7 +2767,7 @@
     }
   },
   {
-    "name": "Cr2O3_15min.xrdml",
+    "name": "Cr2O3_15min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 3/Cr2O3_15min.xrdml",
       "kalpha1": [
@@ -2802,7 +2802,7 @@
     }
   },
   {
-    "name": "Cr2O3_25min.xrdml",
+    "name": "Cr2O3_25min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 3/Cr2O3_25min.xrdml",
       "kalpha1": [
@@ -2828,7 +2828,7 @@
     }
   },
   {
-    "name": "Cr2O3_25min_long.xrdml",
+    "name": "Cr2O3_25min_long",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 3/Cr2O3_25min_long.xrdml",
       "kalpha1": [
@@ -2863,7 +2863,7 @@
     }
   },
   {
-    "name": "Cr2O3_5min.xrdml",
+    "name": "Cr2O3_5min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 3/Cr2O3_5min.xrdml",
       "kalpha1": [
@@ -2898,7 +2898,7 @@
     }
   },
   {
-    "name": "Cr2O3_raw_long.xrdml",
+    "name": "Cr2O3_raw_long",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 3/Cr2O3_raw_long.xrdml",
       "kalpha1": [
@@ -2933,7 +2933,7 @@
     }
   },
   {
-    "name": "CrOx_test.xrdml",
+    "name": "CrOx_test",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 3/CrOx_test.xrdml",
       "kalpha1": [
@@ -2955,7 +2955,7 @@
     }
   },
   {
-    "name": "NaCl_500rpm_120min.xrdml",
+    "name": "NaCl_500rpm_120min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 4/NaCl_500rpm_120min.xrdml",
       "kalpha1": [
@@ -2990,7 +2990,7 @@
     }
   },
   {
-    "name": "NaCl_500rpm_20min.xrdml",
+    "name": "NaCl_500rpm_20min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 4/NaCl_500rpm_20min.xrdml",
       "kalpha1": [
@@ -3025,7 +3025,7 @@
     }
   },
   {
-    "name": "NaCl_raw.xrdml",
+    "name": "NaCl_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 4/NaCl_raw.xrdml",
       "kalpha1": [
@@ -3060,7 +3060,7 @@
     }
   },
   {
-    "name": "TiO2_15min.xrdml",
+    "name": "TiO2_15min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 5/TiO2_15min.xrdml",
       "kalpha1": [
@@ -3086,7 +3086,7 @@
     }
   },
   {
-    "name": "TiO2_175min.xrdml",
+    "name": "TiO2_175min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 5/TiO2_175min.xrdml",
       "kalpha1": [
@@ -3108,7 +3108,7 @@
     }
   },
   {
-    "name": "TiO2_175min_long.xrdml",
+    "name": "TiO2_175min_long",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 5/TiO2_175min_long.xrdml",
       "kalpha1": [
@@ -3143,7 +3143,7 @@
     }
   },
   {
-    "name": "TiO2_5min.xrdml",
+    "name": "TiO2_5min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 5/TiO2_5min.xrdml",
       "kalpha1": [
@@ -3178,7 +3178,7 @@
     }
   },
   {
-    "name": "TiO2_raw.xrdml",
+    "name": "TiO2_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa 5/TiO2_raw.xrdml",
       "kalpha1": [
@@ -3213,7 +3213,7 @@
     }
   },
   {
-    "name": "Cr2O3_1000rpm_10min.xrdml",
+    "name": "Cr2O3_1000rpm_10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa01/Cr2O3_1000rpm_10min.xrdml",
       "kalpha1": [
@@ -3235,7 +3235,7 @@
     }
   },
   {
-    "name": "Cr2O3_1000rpm_15min.xrdml",
+    "name": "Cr2O3_1000rpm_15min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa01/Cr2O3_1000rpm_15min.xrdml",
       "kalpha1": [
@@ -3257,7 +3257,7 @@
     }
   },
   {
-    "name": "Cr2O3_1000rpm_5min.xrdml",
+    "name": "Cr2O3_1000rpm_5min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa01/Cr2O3_1000rpm_5min.xrdml",
       "kalpha1": [
@@ -3279,7 +3279,7 @@
     }
   },
   {
-    "name": "Cr2O3_raw.xrdml",
+    "name": "Cr2O3_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa01/Cr2O3_raw.xrdml",
       "kalpha1": [
@@ -3305,7 +3305,7 @@
     }
   },
   {
-    "name": "Fe2O3_1000rpm_05min.xrdml",
+    "name": "Fe2O3_1000rpm_05min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa02/Fe2O3_1000rpm_05min.xrdml",
       "kalpha1": [
@@ -3327,7 +3327,7 @@
     }
   },
   {
-    "name": "Fe2O3_1000rpm_10min.xrdml",
+    "name": "Fe2O3_1000rpm_10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa02/Fe2O3_1000rpm_10min.xrdml",
       "kalpha1": [
@@ -3349,7 +3349,7 @@
     }
   },
   {
-    "name": "Fe2O3_1000rpm_15min.xrdml",
+    "name": "Fe2O3_1000rpm_15min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa02/Fe2O3_1000rpm_15min.xrdml",
       "kalpha1": [
@@ -3371,7 +3371,7 @@
     }
   },
   {
-    "name": "Fe2O3_raw.xrdml",
+    "name": "Fe2O3_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa02/Fe2O3_raw.xrdml",
       "kalpha1": [
@@ -3393,7 +3393,7 @@
     }
   },
   {
-    "name": "Ochra_1000rpm_05min.xrdml",
+    "name": "Ochra_1000rpm_05min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa02/Ochra_1000rpm_05min.xrdml",
       "kalpha1": [
@@ -3419,7 +3419,7 @@
     }
   },
   {
-    "name": "Ochra_1000rpm_10min.xrdml",
+    "name": "Ochra_1000rpm_10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa02/Ochra_1000rpm_10min.xrdml",
       "kalpha1": [
@@ -3454,7 +3454,7 @@
     }
   },
   {
-    "name": "Ochra_1000rpm_15min.xrdml",
+    "name": "Ochra_1000rpm_15min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa02/Ochra_1000rpm_15min.xrdml",
       "kalpha1": [
@@ -3476,7 +3476,7 @@
     }
   },
   {
-    "name": "Ochra_raw.xrdml",
+    "name": "Ochra_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa02/Ochra_raw.xrdml",
       "kalpha1": [
@@ -3511,7 +3511,7 @@
     }
   },
   {
-    "name": "Magnetyt_oil_700+1000rpm_10+10min.xrdml",
+    "name": "Magnetyt_oil_700+1000rpm_10+10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa03/Magnetyt_oil_700+1000rpm_10+10min.xrdml",
       "kalpha1": [
@@ -3533,7 +3533,7 @@
     }
   },
   {
-    "name": "Magnetyt_oil_700+1000rpm_10+10min_long.xrdml",
+    "name": "Magnetyt_oil_700+1000rpm_10+10min_long",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa03/Magnetyt_oil_700+1000rpm_10+10min_long.xrdml",
       "kalpha1": [
@@ -3555,7 +3555,7 @@
     }
   },
   {
-    "name": "Magnetyt_oil_700rpm_10min.xrdml",
+    "name": "Magnetyt_oil_700rpm_10min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa03/Magnetyt_oil_700rpm_10min.xrdml",
       "kalpha1": [
@@ -3577,7 +3577,7 @@
     }
   },
   {
-    "name": "Magnetyt_oil_700+1000+800rpm_10+10+170.min.xrdml",
+    "name": "Magnetyt_oil_700+1000+800rpm_10+10+170.min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa03/Mielony/Magnetyt_oil_700+1000+800rpm_10+10+170.min.xrdml",
       "kalpha1": [
@@ -3599,7 +3599,7 @@
     }
   },
   {
-    "name": "Magnetyt_raw.xrdml",
+    "name": "Magnetyt_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa03/Raw/Magnetyt_raw.xrdml",
       "kalpha1": [
@@ -3634,7 +3634,7 @@
     }
   },
   {
-    "name": "Ni_800rpm_20min.xrdml",
+    "name": "Ni_800rpm_20min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa04/Ni_800rpm_20min.xrdml",
       "kalpha1": [
@@ -3660,7 +3660,7 @@
     }
   },
   {
-    "name": "Ni_800rpm_280min.xrdml",
+    "name": "Ni_800rpm_280min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa04/Ni_800rpm_280min.xrdml",
       "kalpha1": [
@@ -3695,7 +3695,7 @@
     }
   },
   {
-    "name": "Ni_800rpm_40min.xrdml",
+    "name": "Ni_800rpm_40min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa04/Ni_800rpm_40min.xrdml",
       "kalpha1": [
@@ -3721,7 +3721,7 @@
     }
   },
   {
-    "name": "Ni_raw.xrdml",
+    "name": "Ni_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa04/Ni_raw.xrdml",
       "kalpha1": [
@@ -3747,7 +3747,7 @@
     }
   },
   {
-    "name": "Ni_raw_oil.xrdml",
+    "name": "Ni_raw_oil",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa04/Ni_raw_oil.xrdml",
       "kalpha1": [
@@ -3773,7 +3773,7 @@
     }
   },
   {
-    "name": "Ni_raw.xrdml",
+    "name": "Ni_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa04/Temp/Ni_raw.xrdml",
       "kalpha1": [
@@ -3808,7 +3808,7 @@
     }
   },
   {
-    "name": "ZnO_800rpm_120min.xrdml",
+    "name": "ZnO_800rpm_120min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa05/ZnO_800rpm_120min.xrdml",
       "kalpha1": [
@@ -3843,7 +3843,7 @@
     }
   },
   {
-    "name": "ZnO_800rpm_20min.xrdml",
+    "name": "ZnO_800rpm_20min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa05/ZnO_800rpm_20min.xrdml",
       "kalpha1": [
@@ -3869,7 +3869,7 @@
     }
   },
   {
-    "name": "ZnO_800rpm_5min.xrdml",
+    "name": "ZnO_800rpm_5min",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa05/ZnO_800rpm_5min.xrdml",
       "kalpha1": [
@@ -3895,7 +3895,7 @@
     }
   },
   {
-    "name": "ZnO_raw.xrdml",
+    "name": "ZnO_raw",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Grupa05/ZnO_raw.xrdml",
       "kalpha1": [
@@ -3921,7 +3921,7 @@
     }
   },
   {
-    "name": "NIST660_XCEL_3.xrdml",
+    "name": "NIST660_XCEL_3",
     "data": {
       "path": "D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/NIST660/NIST660_XCEL_3.xrdml",
       "kalpha1": [
