@@ -10,7 +10,7 @@ import numba as nb
 class Data_file:
     def __init__(self,index):
         self.index = index
-
+        
     def read_data(self,filename="data_storage.json"):
         ''' reading data function but without hkl and everything of hkl file'''
         with open(filename, "r", encoding="utf-8") as file:
@@ -27,8 +27,13 @@ class Data_file:
             self.counts = json.loads(sample["data"]["counts"] )
             self.counts_bac = json.loads(sample["data"]["counts_bac"])
         nr_of_step = len(self.counts)
-        self.step = ((self.theta_stop - self.theta_start)/nr_of_step)
-        self.x = np.arange(self.theta_start, self.theta_stop, self.step)        
+        # self.step = ((self.theta_stop - self.theta_start)/nr_of_step)
+        self.x = np.linspace(self.theta_start, self.theta_stop, nr_of_step)
+        # # i przy okazji zdefiniuj step (używane później)
+        if nr_of_step > 1:
+            self.step = (self.theta_stop - self.theta_start) / (nr_of_step - 1)
+        else:
+            self.step = 0.0
 
     def read_data_of_hkl(self,filename="data_storage.json"):
         '''function reading data hkl and everything of hkl file and reducing doubled two theta peaks '''
@@ -137,6 +142,7 @@ def part_of_plot(counts,peak_index,x,a=150):
     plt.show()
     return peak_count   
 
+@nb.njit
 def delete_bac(counts,counts_bac):
     """ function to subtract background """
     only_counts=np.zeros(len(counts))
@@ -217,40 +223,138 @@ def plot_gauss(popt,peaks,count,fit_y,x,two_theta):
         plt.tight_layout()
         plt.show()
 
-def peak_detect(count,x,heigh,dist,prom,two_theta,eps,theta_start,step,plotting = False):
-    peaks, props = find_peaks(count, height=heigh, distance= dist , prominence= prom)
-    # --- Przygotowanie zgadywań do dopasowania ---
-    guesses = []
-    bounds_lower = []
-    bounds_upper = []
+# def peak_detect(count,x,heigh,dist,prom,two_theta,eps,theta_start,step,plotting = False):
+#     peaks, props = find_peaks(count, height=heigh, distance= dist , prominence= prom)
+#     # --- Przygotowanie zgadywań do dopasowania ---
+#     guesses = []
+#     bounds_lower = []
+#     bounds_upper = []
+#     for pk in peaks:
+#         A_guess = props['peak_heights'][np.where(peaks == pk)][0]
+#         x0_guess = x[pk]
+#         sigma_guess = 1.0
+#         guesses += [A_guess, x0_guess, sigma_guess]
+#         bounds_lower += [0.0, x0_guess - 5.0, 0.01]
+#         bounds_upper += [np.max(count) * 5, x0_guess + 5.0, 10.0]
+#     if len(peaks) == 0:
+#         return False
+#         # print("Nie znaleziono pików - spróbuj obniżyć progu 'height' lub 'prominence'.")
+#     else:
+#         # --- Dopasowanie sumy Gaussów ---
+#         popt, pcov = curve_fit(
+#             multi_gaussian, x, count,
+#             p0=guesses, bounds=(bounds_lower, bounds_upper), maxfev=20000
+#         )
+#         fit_y = multi_gaussian(x, *popt)
+#         residuals = count - fit_y
+#         ss_res = np.sum(residuals ** 2)
+#         ss_tot = np.sum((count - np.mean(count)) ** 2)
+#         r2 = 1 - ss_res / ss_tot
+#         # print(f"Znaleziono {len(peaks)} pików. R^2 dopasowania: {r2:.4f},wydajność = {len(peaks)/len(two_theta)}")
+#     correct_peaks = []
+#     for i in range(len(two_theta)):
+#         for j in range(len(peaks)):
+#             if abs(peaks[j] - ((two_theta[i]-theta_start)/step))<eps:
+#                 correct_peaks.append(peaks[j])
+#     print(f"Znaleziono {len(peaks)} pików. R^2 dopasowania: {r2:.4f},wydajność = {len(correct_peaks)/len(two_theta)}, eps = {eps}, h = {heigh}, d = {dist}, p = {prom}")
+#     if plotting == True:
+#         plot_gauss(popt,peaks,count,fit_y,x,two_theta)
+
+
+def gaussian(x, A, x0, sigma):
+    return A * np.exp(-((x - x0) ** 2) / (2 * sigma ** 2))
+
+def peak_detect(count, x, heigh, dist, prom, two_theta, eps, theta_start, step, plotting=False):
+    # --- Znajdowanie pików ---
+    peaks, props = find_peaks(count, height=heigh, distance=dist, prominence=prom)
+
+    if len(peaks) == 0:
+        print(" Nie znaleziono pików - spróbuj obniżyć progu 'height' lub 'prominence'.")
+        return False
+
+    fitted_params = []  # (A, x0, sigma) dla każdego dopasowanego piku
+    r2_list = []
+
+    # --- Dopasowanie pojedynczego Gaussa do każdego piku ---
     for pk in peaks:
-        A_guess = props['peak_heights'][np.where(peaks == pk)][0]
+        # ogranicz dane do małego okna wokół piku
+        fit_range = 10
+        left = max(0, pk - fit_range)
+        right = min(len(x), pk + fit_range)
+        x_fit = x[left:right]
+        y_fit = count[left:right]
+
+        # zgadywanie parametrów
+        A_guess = count[pk]
         x0_guess = x[pk]
         sigma_guess = 1.0
-        guesses += [A_guess, x0_guess, sigma_guess]
-        bounds_lower += [0.0, x0_guess - 5.0, 0.01]
-        bounds_upper += [np.max(count) * 5, x0_guess + 5.0, 10.0]
-    if len(guesses) == 0:
-        return False
-        # print("Nie znaleziono pików - spróbuj obniżyć progu 'height' lub 'prominence'.")
-    else:
-        # --- Dopasowanie sumy Gaussów ---
-        popt, pcov = curve_fit(
-            multi_gaussian, x, count,
-            p0=guesses, bounds=(bounds_lower, bounds_upper), maxfev=20000
-        )
-        fit_y = multi_gaussian(x, *popt)
-        residuals = count - fit_y
-        ss_res = np.sum(residuals ** 2)
-        ss_tot = np.sum((count - np.mean(count)) ** 2)
-        r2 = 1 - ss_res / ss_tot
-        print(f"Znaleziono {len(peaks)} pików. R^2 dopasowania: {r2:.4f},wydajność = {len(peaks)/len(two_theta)}")
+
+        try:
+            popt, _ = curve_fit(
+                gaussian, x_fit, y_fit,
+                p0=[A_guess, x0_guess, sigma_guess],
+                bounds=([0.0, x0_guess - 5.0, 0.01],
+                        [np.max(count) * 5, x0_guess + 5.0, 10.0])
+            )
+            fitted_params.append(popt)
+
+            # oblicz R² lokalnie
+            fit_y = gaussian(x_fit, *popt)
+            ss_res = np.sum((y_fit - fit_y) ** 2)
+            ss_tot = np.sum((y_fit - np.mean(y_fit)) ** 2)
+            r2 = 1 - ss_res / ss_tot
+            r2_list.append(r2)
+        except RuntimeError:
+            print(f" Nie udało się dopasować Gaussa do piku przy x = {x[pk]:.2f}")
+            fitted_params.append((np.nan, np.nan, np.nan))
+            r2_list.append(np.nan)
+
+    # --- Analiza poprawności względem two_theta ---
     correct_peaks = []
     for i in range(len(two_theta)):
         for j in range(len(peaks)):
-            if abs(peaks[j] - ((two_theta[i]-theta_start)/step))<eps:
+            if abs(peaks[j] - ((two_theta[i] - theta_start) / step)) < eps:
                 correct_peaks.append(peaks[j])
-    print(f"Znaleziono {len(peaks)} pików. R^2 dopasowania: {r2:.4f},wydajność = {len(correct_peaks)/len(two_theta)},eps = {eps}")
+
+    mean_r2 = np.nanmean(r2_list)
+    # print(f"Znaleziono {len(peaks)} pików. Średnie R² dopasowań: {mean_r2:.4f},wydajność = {len(correct_peaks)/len(two_theta)}, eps = {eps}, h = {heigh}, d = {dist}, p = {prom}")
     if plotting == True:
         plot_gauss(popt,peaks,count,fit_y,x,two_theta)
+    return len(peaks),len(correct_peaks)/len(two_theta),heigh,dist,prom
      
+# def peak_detect(count, x, heigh, dist, prom, two_theta, eps, theta_start, step, plotting=False):
+#     from scipy.signal import find_peaks
+#     from scipy.optimize import curve_fit
+#     from scipy.ndimage import gaussian_filter1d
+
+#     count_smooth = gaussian_filter1d(count, sigma=1)
+#     peaks, props = find_peaks(count_smooth, height=heigh, distance=dist, prominence=prom)
+#     if not len(peaks):
+#         print("Brak pików.")
+#         return None
+
+#     guesses = []
+#     bounds_lower = []
+#     bounds_upper = []
+#     max_c = np.max(count)
+#     for i, pk in enumerate(peaks):
+#         A = props['peak_heights'][i]
+#         x0 = x[pk]
+#         guesses += [A, x0, 1.0]
+#         bounds_lower += [0.0, x0 - 5.0, 0.01]
+#         bounds_upper += [max_c * 5, x0 + 5.0, 10.0]
+
+#     popt, _ = curve_fit(multi_gaussian, x, count, p0=guesses,
+#                         bounds=(bounds_lower, bounds_upper), maxfev=20000)
+#     fit_y = multi_gaussian(x, *popt)
+
+#     r2 = 1 - np.sum((count - fit_y)**2) / np.sum((count - np.mean(count))**2)
+
+#     theta_indices = (two_theta - theta_start) / step
+#     correct_mask = np.any(np.abs(peaks[:, None] - theta_indices[None, :]) < eps, axis=1)
+#     correct_peaks = peaks[correct_mask]
+
+#     print(f"Znaleziono {len(peaks)} pików. R²={r2:.4f}, skuteczność={len(correct_peaks)/len(two_theta):.3f}")
+
+#     if plotting:
+#         plot_gauss(popt, peaks, count, fit_y, x, two_theta)
