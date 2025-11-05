@@ -8,10 +8,8 @@ import numba as nb
 
 
 class Data_file:
-    def __init__(self,index):
+    def __init__(self,index,filename="data_storage.json"):
         self.index = index
-        
-    def read_data(self,filename="data_storage.json"):
         ''' reading data function but without hkl and everything of hkl file'''
         with open(filename, "r", encoding="utf-8") as file:
             data = json.load(file)
@@ -26,6 +24,7 @@ class Data_file:
             self.start_step_end = sample["data"]["start_step_end"] 
             self.counts = json.loads(sample["data"]["counts"] )
             self.counts_bac = json.loads(sample["data"]["counts_bac"])
+            self.xy_and_u_fitted = sample["data"]["x_y_fitted"]
         nr_of_step = len(self.counts)
         # self.step = ((self.theta_stop - self.theta_start)/nr_of_step)
         self.x = np.linspace(self.theta_start, self.theta_stop, nr_of_step)
@@ -34,6 +33,9 @@ class Data_file:
             self.step = (self.theta_stop - self.theta_start) / (nr_of_step - 1)
         else:
             self.step = 0.0
+        
+    # def read_data(self,filename="data_storage.json"):
+        
 
     def read_data_of_hkl(self,filename="data_storage.json"):
         '''function reading data hkl and everything of hkl file and reducing doubled two theta peaks '''
