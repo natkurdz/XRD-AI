@@ -7,6 +7,17 @@ import math
 import numba as nb
 from numba import njit
 
+def del_duplicates(variable,eps):
+    temp = []
+    for i in range(len(variable)-1):
+        if abs(variable[i]-variable[i+1])<eps:
+            continue
+        else:
+            temp.append(variable[i])
+    if variable[-1] not in temp:
+        temp.append(variable[-1]) 
+    return np.asarray(temp, dtype=np.float64)
+
 class Data_file:
     def __init__(self,index,filename="data_storage.json"):
         self.index = index
@@ -31,7 +42,7 @@ class Data_file:
             self.step = (self.theta_stop - self.theta_start) / (nr_of_step - 1)
         else:
             self.step = 0.0
-            
+
     def read_data_of_hkl(self,filename="data_storage.json"):
         '''function reading data hkl and everything of hkl file and reducing doubled two theta peaks '''
         with open(filename, "r", encoding="utf-8") as file:
@@ -47,15 +58,8 @@ class Data_file:
         self.fwhm = self.hkl_plus['fwhm']
         self.f2 = self.hkl_plus['f2']
         self.sf2 = self.hkl_plus['sf2']
-        theta = []
-        for i in range(len(self.two_theta)-1):
-            if abs(self.two_theta[i]-self.two_theta[i+1])<0.001:
-                continue
-            else:
-                theta.append(self.two_theta[i])
-        if self.two_theta[-1] not in theta:
-            theta.append(self.two_theta[-1]) 
-        self.two_theta = np.asarray(theta, dtype=np.float64)
+        self.fwhm = del_duplicates(self.fwhm,0.001)
+        self.two_theta = del_duplicates(self.two_theta,0.001)
 
     def without_ap(self,without_ap_counts):
         self.without_aparature_counts =  np.asarray(without_ap_counts, dtype=float )
@@ -342,3 +346,48 @@ def peak_detect(count, x, heigh, dist, prom, two_theta,theta_start, step, eps = 
 
 
 
+
+
+
+# popt, pcov = curve_fit(gauss,f.x, f.without_aparature_counts, p0=[max(f.counts), f.x[np.argmax(f.counts)], 1])
+# A, mu, sigma = popt
+
+# # print("A =", A)
+# # print("mu =", mu)
+# # print("sigma =", sigma)
+
+# # wykres
+# plt.scatter(f.x, f.counts, s=10, label="dane")
+# plt.plot(f.x, gauss(f.x, *popt), label="dopasowany Gauss", linewidth=2,color = 'red')
+# plt.axvline(mu)
+# plt.legend()
+# plt.xlim(mu-sigma-1,mu+sigma+1)
+# plt.axhline(A/2, color='r', linestyle='--', label='Pozioma linia')
+
+# print(max(A * np.exp(-(f.x - mu)**2 / (2*sigma**2))))
+# print(A/2)
+# print(f.step)
+# print((mu-f.theta_start)/f.step )
+
+# print(f.x[int((mu-f.theta_start)/f.step)])
+
+# for i in range(598,611):
+#     # print(f.counts[i])
+#     if abs(f.counts[i]-(A/2))<100:
+#         print(f.counts[i]-(A/2))
+#         print(i)
+# for i in range(611,626):
+#     # print(f.counts[i])
+#     if abs(f.counts[i]-(A/2))<100:
+#         print(f.counts[i]-(A/2))
+#         print(i)
+# print((616-606)*f.step)
+# print(f.step)
+# dd = [f.x[606],f.x[616]]
+# kk = [f.counts[606],f.counts[616]]
+# # # for i in range(len(f.counts)):
+# # #     if f.counts[i]
+# # for i in range(len(f.counts)):
+# #     if (mu-f.theta_start)/f.step 
+# plt.scatter(dd,kk,color ='green')
+# plt.show()
