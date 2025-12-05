@@ -79,7 +79,7 @@ def delete_aparature(counts,counts_bac,x,ap_counts,ap_x,ap_step):
     for i in range(len(ap_counts)):
         for j in range(len(counts)):
             if abs(ap_x[i] - x[j])<eps:
-                a = int(counts[j]-counts_bac[j]-ap_counts[i])
+                a = int(counts[j]-ap_counts[i])
                 if a < 0 :
                     a = 0
                 end_counts[j] = a
@@ -100,52 +100,106 @@ def find_index_of_two_theta(two_theta,theta_start,step):
 
 def plot_sample__bac(counts,counts_bac,name,x,on):
     plt.figure(figsize=(10, 5))
-    plt.plot(x, counts, label="Counts (sample)", color="blue")
-    plt.xlabel("2Theta")
-    plt.ylabel("Counts")
-    plt.title(f"Sample of {name} ")
+    plt.plot(x, counts, label="Dane próbki", color="blue")
+    plt.xlabel(r"2$\theta$")
+    plt.ylabel("Liczba zliczeń")
+    plt.title(f"Widmo próbki \"{name}\" ")
     if on:
-        plt.plot(x, counts_bac, label="Counts (background)", color="orange")
+        plt.plot(x, counts_bac, label="Dane tła", color="orange")
     plt.legend()
     plt.show()
 
 def plot_with_theta_sample(counts,name,two_theta,x):
-    plt.plot(x, counts, label="Counts (sample)", color="blue")
+    plt.plot(x, counts, label="Dane próbki", color="blue")
     for i in range(len(two_theta)):
         plt.axvline(two_theta[i], color='red', linestyle='--', linewidth=0.5)
-    plt.xlabel("2Theta")
-    plt.ylabel("Counts")
-    plt.title(f"Sample of {name} with marked existing peaks")
+    plt.xlabel(r"2$\theta$")
+    plt.ylabel("Liczba zliczeń")
+    plt.title(f"Widmo próbki \"{name}\" z zaznaczeniem istniejących pików")
     plt.legend()
     plt.show()
 
-def checking_part_of_plot(counts,counts_without_bac,counts_without_aparature, two_theta,x,a=150):
+# def checking_part_of_plot(counts,counts_without_bac,counts_without_aparature, two_theta,x,a=150):
+#     range_of_part = [0]
+#     k = 1
+#     while range_of_part[-1]<len(x)-a:
+#         range_of_part.append(k*a)
+#         k+=1
+#     for j in range(len(range_of_part)-1):
+#         for i in range(len(two_theta)):
+#             if two_theta[i] < x[range_of_part[j+1]] and two_theta[i] > x[range_of_part[j]]:
+#                 plt.axvline(x=two_theta[i], color='red', linestyle='--', linewidth=0.5)
+#         plt.plot(x[range_of_part[j]:range_of_part[j+1]],counts[range_of_part[j]:range_of_part[j+1]],color='green',label = 'Dane próbki')
+#         plt.plot(x[range_of_part[j]:range_of_part[j+1]],counts_without_bac[range_of_part[j]:range_of_part[j+1]],color='red',label ='Dane próbki z odjętym tłem')
+#         plt.plot(x[range_of_part[j]:range_of_part[j+1]],counts_without_aparature[range_of_part[j]:range_of_part[j+1]],color='blue',label ='Dane próbki z odjętym tłem i aparaturą')
+#         # plt.plot(x[range_of_part[j]:range_of_part[j+1]:2],counts[range_of_part[j]:range_of_part[j+1]:2])
+#         # plt.scatter(x[range_of_part[j]:range_of_part[j+1]],counts[range_of_part[j]:range_of_part[j+1]],color='orange', linestyle='--', linewidth=0.5)
+#         plt.legend()
+#         plt.show()
+
+#     for i in range(len(two_theta)):
+#             if two_theta[i] < x[range_of_part[-1]] and two_theta[i] > x[range_of_part[-2]]:
+#                 plt.axvline(x=two_theta[i], color='red', linestyle='--', linewidth=0.5)
+#     plt.plot(x[range_of_part[-2]:],counts[range_of_part[-2]:],color= 'green',label = 'Dane próbki')
+#     plt.plot(x[range_of_part[-2]:],counts_without_bac[range_of_part[-2]:],color= 'red',label ='Dane próbki z odjętym tłem')
+#     plt.plot(x[range_of_part[-2]:],counts_without_aparature[range_of_part[-2]:],color= 'blue',label ='Dane próbki z odjętym tłem i aparaturą')
+#     plt.scatter(x[range_of_part[-2]:],counts[range_of_part[-2]:],color='orange', linestyle='--', linewidth=0.5)
+#     plt.legend()
+#     plt.show()
+def checking_part_of_plot(counts, counts_without_bac, counts_without_aparature, two_theta, x, a=150):
     range_of_part = [0]
     k = 1
-    while range_of_part[-1]<len(x)-a:
-        range_of_part.append(k*a)
-        k+=1
-    for j in range(len(range_of_part)-1):
+    while range_of_part[-1] < len(x) - a:
+        range_of_part.append(k * a)
+        k += 1
+    print(range_of_part)
+    print(range_of_part[-1])
+    print(range_of_part[-2])
+    # --- wykresy środkowych segmentów ---
+    for j in range(len(range_of_part) - 1):
+        x_start = x[range_of_part[j]]
+        x_end = x[range_of_part[j+1]]
+
         for i in range(len(two_theta)):
-            if two_theta[i] < x[range_of_part[j+1]] and two_theta[i] > x[range_of_part[j]]:
+            if x_start < two_theta[i] < x_end:
                 plt.axvline(x=two_theta[i], color='red', linestyle='--', linewidth=0.5)
-        plt.plot(x[range_of_part[j]:range_of_part[j+1]],counts[range_of_part[j]:range_of_part[j+1]],color='green',label = 'Counts')
-        plt.plot(x[range_of_part[j]:range_of_part[j+1]],counts_without_bac[range_of_part[j]:range_of_part[j+1]],color='red',label ='Counts without background')
-        plt.plot(x[range_of_part[j]:range_of_part[j+1]],counts_without_aparature[range_of_part[j]:range_of_part[j+1]],color='blue',label ='Counts without aparature and background')
-        # plt.plot(x[range_of_part[j]:range_of_part[j+1]:2],counts[range_of_part[j]:range_of_part[j+1]:2])
+        plt.plot(x[range_of_part[j]:range_of_part[j+1]], counts[range_of_part[j]:range_of_part[j+1]],
+                 color='green', label='Dane próbki')
+        plt.plot(x[range_of_part[j]:range_of_part[j+1]], counts_without_bac[range_of_part[j]:range_of_part[j+1]],
+                 color='red', label='Dane próbki z odjętym tłem')
+        plt.plot(x[range_of_part[j]:range_of_part[j+1]], counts_without_aparature[range_of_part[j]:range_of_part[j+1]],
+                 color='blue', label='Dane próbki z odjętym tłem i aparaturą')
         plt.scatter(x[range_of_part[j]:range_of_part[j+1]],counts[range_of_part[j]:range_of_part[j+1]],color='orange', linestyle='--', linewidth=0.5)
+
+        # --- Tytuł segmentu ---
+        plt.title(f"Fragment widma: {x_start:.2f}° – {x_end:.2f}° 2θ")
+
         plt.legend()
+        plt.xlabel("2θ [°]")
+        plt.ylabel("Intensywność")
+        plt.tight_layout()
         plt.show()
 
+    # --- ostatni segment ---
+    x_start = x[range_of_part[-2]]
+    x_end = x[-1]
     for i in range(len(two_theta)):
-            if two_theta[i] < x[range_of_part[-1]] and two_theta[i] > x[range_of_part[-2]]:
-                plt.axvline(x=two_theta[i], color='red', linestyle='--', linewidth=0.5)
-    plt.plot(x[range_of_part[-2]:],counts[range_of_part[-2]:],color= 'green',label ='Counts')
-    plt.plot(x[range_of_part[-2]:],counts_without_bac[range_of_part[-2]:],color= 'red',label ='Counts without background')
-    plt.plot(x[range_of_part[-2]:],counts_without_aparature[range_of_part[-2]:],color= 'blue',label ='Counts without aparature and background')
-    plt.scatter(x[range_of_part[-2]:],counts[range_of_part[-2]:],color='orange', linestyle='--', linewidth=0.5)
+        if x_start < two_theta[i] < x_end:
+            plt.axvline(x=two_theta[i], color='red', linestyle='--', linewidth=0.5)
+            print(two_theta[i])
+    plt.plot(x[range_of_part[-2]:], counts[range_of_part[-2]:], color='green', label='Dane próbki')
+    plt.plot(x[range_of_part[-2]:], counts_without_bac[range_of_part[-2]:], color='red',
+             label='Dane próbki z odjętym tłem')
+    plt.plot(x[range_of_part[-2]:], counts_without_aparature[range_of_part[-2]:], color='blue',
+             label='Dane próbki z odjętym tłem i aparaturą')
+    plt.scatter(x[range_of_part[-2]:], counts[range_of_part[-2]:], color='orange', linestyle='--', linewidth=0.5)
+    plt.title(f"Fragment widma: {x_start:.2f}° – {x_end:.2f}° 2θ")
     plt.legend()
+    plt.xlabel("2θ [°]")
+    plt.ylabel("Intensywność")
+    plt.tight_layout()
     plt.show()
+
 
 @nb.njit
 def counts_of_peak_in_index(counts,peak_index):
