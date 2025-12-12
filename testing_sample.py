@@ -18,6 +18,14 @@ def del_duplicates(variable,eps):
         temp.append(variable[-1]) 
     return np.asarray(temp, dtype=np.float64)
 
+def del_low_intense_peaks(two_theta,f2):
+    temp = []
+    for i in range(len(f2)):
+        if f2[i]>100:
+            temp.append(two_theta[i])
+    return np.asanyarray(temp,dtype=np.float64)
+    
+
 class Data_file:
     def __init__(self,index,filename="data_storage.json"):
         self.index = index
@@ -42,6 +50,7 @@ class Data_file:
             self.step = (self.theta_stop - self.theta_start) / (nr_of_step - 1)
         else:
             self.step = 0.0
+        
 
     def read_data_of_hkl(self,filename="data_storage.json"):
         '''function reading data hkl and everything of hkl file and reducing doubled two theta peaks '''
@@ -58,6 +67,7 @@ class Data_file:
         self.fwhm = self.hkl_plus['fwhm']
         self.f2 = self.hkl_plus['f2']
         self.sf2 = self.hkl_plus['sf2']
+        self.two_theta = del_low_intense_peaks(self.two_theta,self.f2)
         self.fwhm = del_duplicates(self.fwhm,0.001)
         self.two_theta = del_duplicates(self.two_theta,0.001)
 
@@ -70,6 +80,9 @@ class Data_file:
 
     def del_bac_counts(self,only_counts):
         self.without_bac_counts = np.asarray(only_counts, dtype=float )
+
+
+    
 
 @njit
 def delete_aparature(counts,counts_bac,x,ap_counts,ap_x,ap_step):
