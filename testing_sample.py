@@ -7,23 +7,8 @@ import math
 import numba as nb
 from numba import njit
 
-def del_duplicates(variable,eps):
-    temp = []
-    for i in range(len(variable)-1):
-        if abs(variable[i]-variable[i+1])<eps:
-            continue
-        else:
-            temp.append(variable[i])
-    if variable[-1] not in temp:
-        temp.append(variable[-1]) 
-    return np.asarray(temp, dtype=np.float64)
 
-def del_low_intense_peaks(two_theta,f2):
-    temp = []
-    for i in range(len(f2)):
-        if f2[i]>100:
-            temp.append(two_theta[i])
-    return np.asanyarray(temp,dtype=np.float64)
+
     
 
 class Data_file:
@@ -50,7 +35,35 @@ class Data_file:
             self.step = (self.theta_stop - self.theta_start) / (nr_of_step - 1)
         else:
             self.step = 0.0
+    def r(self):
+        print("a")
         
+    def del_low_intense_peaks(self):
+        index = []
+        for i in range(len(self.f2)):
+            if self.f2[i]<100:
+                index.append(i)
+        return index
+    
+    def del_duplicates(self,variable,eps=0.001):
+        index = self.del_low_intense_peaks()
+        temp,temp0,temp_fwhm,temp_fwhm0 = [],[],[],[]
+        for i in range(len(variable)):
+            if i in index:
+                continue
+            else:
+                temp0.append(variable[i])
+                temp_fwhm0.append(variable[i])
+        for i in range(len(temp0)-1):
+            if abs(temp0[i]-temp0[i+1])<eps:
+                continue
+            else:
+                temp.append(temp0[i])
+                temp_fwhm.append(temp_fwhm0[i])
+        if temp0[-1] not in temp:
+            temp.append(temp0[-1])
+            temp_fwhm.append(temp_fwhm0[-1]) 
+        return np.asarray(temp, dtype=np.float64),np.asarray(temp_fwhm, dtype=np.float64)
 
     def read_data_of_hkl(self,filename="data_storage.json"):
         '''function reading data hkl and everything of hkl file and reducing doubled two theta peaks '''
@@ -67,9 +80,7 @@ class Data_file:
         self.fwhm = self.hkl_plus['fwhm']
         self.f2 = self.hkl_plus['f2']
         self.sf2 = self.hkl_plus['sf2']
-        self.two_theta = del_low_intense_peaks(self.two_theta,self.f2)
-        self.fwhm = del_duplicates(self.fwhm,0.001)
-        self.two_theta = del_duplicates(self.two_theta,0.001)
+        self.two_theta,self.fwhm = self.del_duplicates(self.two_theta,0.001)
 
     def without_ap(self,without_ap_counts):
         self.without_aparature_counts =  np.asarray(without_ap_counts, dtype=float )
@@ -80,6 +91,9 @@ class Data_file:
 
     def del_bac_counts(self,only_counts):
         self.without_bac_counts = np.asarray(only_counts, dtype=float )
+    
+    def set_calibration(self,calibration_ap_fit):
+        self.calibration_ap_fit = calibration_ap_fit
 
 
     
