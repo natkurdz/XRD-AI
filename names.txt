@@ -694,6 +694,9 @@
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane\Gr04\Grupa05
 [FILE]aaa.BGR
 [FILE]background.xy
+[FILE]obs_calc.xy
+[FILE]peaks.xy
+[FILE]wpl_fit.cal
 [FILE]ZnO.zip
 [FILE]zno_800rpm_120min.bac
 [FILE]zno_800rpm_120min.hkl
@@ -723,6 +726,11 @@
 [FILE]zno_800rpm_5min.sym
 [FILE]ZnO_800rpm_5min.xrdml
 [FILE]zno_800rpm_5min1.fst
+[FILE]zno_800rpm_5min_PF.new
+[FILE]zno_800rpm_5min_PF.OUT
+[FILE]zno_800rpm_5min_PF.REF
+[FILE]zno_800rpm_5min_PF.RST
+[FILE]zno_800rpm_5min_PF.XRF
 [FILE]zno_komercyjne.xy
 [FILE]zno_raw.bac
 [FILE]zno_raw.hkl

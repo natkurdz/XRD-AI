@@ -1,0 +1,22 @@
+ => TITLE: zno_800rpm_5min.xrdml
+! Ang_init   Ang_fin  Nbac Npeak  Ncyc  Inte  Inst  Jobt  Cont Weight Corr Constr  Percent   IRF
+   31.2799   32.1823     2     1    30     1    13     1     0     0    50      0        0     0
+    1.540598    1.540598  <=  Lambda1 & Lambda2
+!  Global Profile Parameters:
+        1.000000     0      <= Kalph2/Kalph1 ratio      &  Flag 
+        0.000000     0      <= Asymmetry parameter(S_L) &    "  
+        0.000000     0      <= Asymmetry parameter(D_L) &    "  
+        0.000000     0      <= Parameter  U             &    "  
+        0.000000     0      <= Parameter  V             &    "  
+        0.000000     0      <= Parameter  W             &    "  
+        0.000000     0      <= Parameter  Z             &    "  
+        0.559710     1      <= Parameter Eta0           &    "  
+        0.000000     0      <= Parameter  X             &    "  
+!  Background Parameters:
+!    2Theta/TOF/Energy   Background    Flag
+       31.2799       27.6919     1
+       32.1823       25.5736     1
+!  Reflection Parameters:
+!       2Theta     Intensity    Shift-FWHM     Shift-Eta    Flags 
+     31.724108        226.30      0.171625      0.000000  1  1  1  0
+!  Chi2 =    1.85953    

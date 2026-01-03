@@ -67,6 +67,7 @@
 [FILE]Ni_raw.new
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr04/Grupa05
 [FILE]ZnO_800rpm_120min.new
+[FILE]zno_800rpm_5min_PF.new
 [PATH]D:/nai/Nati/studia/inzynierka/github/XRD-AI/Dane/Gr05
 [FILE]TiO2_800rpm_10min.new
 [FILE]TiO2_800rpm_120.new
