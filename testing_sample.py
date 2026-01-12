@@ -5,11 +5,7 @@ from scipy.signal import find_peaks
 from scipy.optimize import curve_fit
 import math
 import numba as nb
-from numba import njit
-
-
-
-    
+from numba import njit  
 
 class Data_file:
     def __init__(self,index,filename="data_storage.json"):
@@ -24,11 +20,10 @@ class Data_file:
             self.kalpha2 = np.asarray(sample["data"]["kalpha2"][0])
             self.theta_start = np.asarray(sample["data"]["theta_start"][0])
             self.theta_stop = np.asarray(sample["data"]["theta_stop"][0])
-            self.uvw_xy = np.asarray(sample["data"]["uvw_xy"] )
             self.start_step_end = np.asarray(sample["data"]["start_step_end"] )
             self.counts = np.asarray(json.loads(sample["data"]["counts"]), dtype=float )
-            self.counts_bac = np.asarray(json.loads(sample["data"]["counts_bac"] ),dtype=float)
-            self.xy_and_u_fitted = sample["data"]["x_y_fitted"]
+            # self.counts_bac = np.asarray(json.loads(sample["data"]["counts_bac"] ),dtype=float)
+            # self.xy_and_u_fitted = sample["data"]["x_y_fitted"]
         nr_of_step = len(self.counts)
         self.x = np.linspace(self.theta_start, self.theta_stop, nr_of_step)
         if nr_of_step > 1:
@@ -70,7 +65,10 @@ class Data_file:
         with open(filename, "r", encoding="utf-8") as file:
             data = json.load(file)
             sample = data[self.index]
+            self.uvw_xy = np.asarray(sample["data"]["uvw_xy"] )
             self.hkl_plus = sample["data"]["hkl"][0]
+            self.counts_bac = np.asarray(json.loads(sample["data"]["counts_bac"] ),dtype=float)
+            self.xy_and_u_fitted = sample["data"]["x_y_fitted"]
         self.h = self.hkl_plus['h']
         self.k = self.hkl_plus['k']
         self.l = self.hkl_plus['l']
